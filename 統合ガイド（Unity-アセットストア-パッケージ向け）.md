@@ -60,18 +60,12 @@ if(Advertisement.IsReady("pictureZone")) {
 
 On Android and iOS the communication between C# and native Android/iOS happens via communication bridge, which is internally called "UnityAds". If one of your scenes includes a GameObject called "UnityAds" this will mess up the communication between your game and the advertisement.
 
-AndroidとiOSにおける C# と、ネイティブな Android/iOS のやりとりの橋渡しには、内部で "UnityAds" が呼び出されています。もしゲームオブジェクトに "UnityAds" が含まれていた場合、ゲームと広告の間のやりとりが失敗する可能性があります。
+AndroidとiOSにおける C# と、ネイティブな Android/iOS のやりとりのブリッジには、内部で "UnityAds" が呼び出されています。もしゲームオブジェクトに "UnityAds" が含まれていた場合、ゲームと広告の間のやりとりが失敗する可能性があります。
 
 
 #### More information in Unity forums Unity forums
 
-You can probably find a lot of answers and questions in Unity forums dedicated to Unity Ads. We also try to answer questions in forums.
-
-http://forum.unity3d.com/forums/unity-ads.67/
-
-Unity forums では、Unity Ads について、多くの疑問と解決法を見ることができます。また我々もこのフォーラムの疑問を解決しようとしています。
-
-
+Unity forums では、Unity Ads について、多くの疑問と解決法を見ることができます。また我々もこのフォーラムの疑問を解決しようとしています。http://forum.unity3d.com/forums/unity-ads.67/
 
 
 ## Unity Ads アセットストアパッケージ API リファレンス
@@ -103,8 +97,6 @@ Unity Ads におけるログの総量をコントロールする。デフォル�
 広告パッケージの初期化に成功している場合は true を返し、そうでない場合は false を返す。
 
 **static public void Initialize(string appId, bool testMode = false)**
-
-Initializes advertisement framework. Initialization may fail due to no network being available. You can initialize the framework only once and currently there is no support for reinitialization after failed initialization. You can use the `testMode` parameter to enable the test mode, which allows you to receive test advertisements regardless of server side filtering.
 
 広告フレームワークを初期化する。利用できるネットワークがないと初期化が失敗する場合がある。初期化は一度だけで、現在は初期化失敗後の再初期化についてはサポート対象外である。`testMode` パラメータを使用することでテストモードが使用可能となる。これを使うことでサーバー側の広告フィルタリングの受信テストができる。
 
