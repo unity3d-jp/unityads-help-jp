@@ -1,0 +1,29 @@
+# スタートガイド
+
+## Unity Ads をダウンロードしていただき、ありがとうございます。
+
+**Unity Ads** は既存のユーザー層を簡単に収益化できる、モバイルゲーム広告ネットワークです。使い方はとても簡単です。
+
+
+#### iOS/Android の場合:
+
+1. [SDK をダウンロード](http://unityads.unity3d.com/help/Documentation%20for%20Publishers/Downloads)
+2. http://UnityAds.unity3d.com にアクセスし、Sign Up をクリックしてアカウントを登録
+3. プロフィールにあなたのゲームを追加し、Game ID を取得
+4. SDK をゲームに統合
+
+#### Unity の場合:
+
+1. [Unity アセットストア](https://www.assetstore.unity3d.com/en/#!/content/21027) からパッケージをダウンロードして [Unity](www.unity3d.com) にインポート 
+2. http://UnityAds.unity3d.com にアクセスし、Sign Up をクリックしてアカウントを登録
+3. プロフィールにあなたのゲームを追加し、Game ID を取得
+4. 以下をスクリプトのトップに加える:```using UnityEngine.Advertisements;```
+    
+4. 以下のコマンドを使ってゲームを起動:```Advertisement.Initialize ("<YOUR GAME ID HERE>");```
+5. 実際に広告を表示するには以下のコードを使用:``` if(Advertisement.isReady()){ Advertisement.Show();
+}``` 
+
+以上です！
+
+
+

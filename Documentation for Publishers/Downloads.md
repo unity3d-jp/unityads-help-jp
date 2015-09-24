@@ -1,0 +1,37 @@
+# ダウンロード
+
+## iOS ネイティブ SDK と Android ネイティブ SDK 
+
+ビルド済みの iOS バンドルと Android ライブラリ: https://github.com/Applifier/unity-ads-sdk/archive/master.zip
+
+ネイティブ SDK のソースコード: https://github.com/Applifier/unity-ads
+
+広告統合のサンプルアプリケーションについては、まず git ソースコードリポジトリをクローンしてから、以下を参照してください。
+
+1. git clone https://github.com/Applifier/unity-ads.git
+2. iOS: Xcode で ios ディレクトリ内の UnityAds.xcworkspace を開く ⇒ UnityAds Example を選択。このサンプルをビルドしてデバイスにインストールする
+3. Android: Eclipse で「import」→「Existing Android Code into workspace」を使って、 1）SDK 用に「android/sources」を 2）サンプルアプリ用に「android/example」をへインポート。このサンプルをビルドしてデバイスにインストールする
+
+## Unity パッケージ
+
+Unity Ads は Unity アセットストアからパッケージで入手できます。
+
+https://www.assetstore.unity3d.com/en/#!/content/21027
+
+
+## Unity Example game (Space Ads) Unity Ads の使用例
+
+You can also checkout our example game that showcases different use-cases how you might use ads:
+
+広告を出すシチュエーションの例
+
+* House ads immediately in the game start 
+* 自社広告（ゲームスタート時に自社広告を見せる）
+* Incentivized ads (Watch video to get more coins)
+* インセンティブ型広告（ゲーム中のコインなどを得るために動画を視聴してもらう）
+* Interstitial video ads (Showing ads between the levels)
+* インタースティシャル動画広告（ページ移動の間に広告を見せる）
+
+上記のような広告がついたゲームの例を[こちら](https://github.com/Applifier/unity-ads-demo)からダウンロード、プレイすることができます。
+
+
