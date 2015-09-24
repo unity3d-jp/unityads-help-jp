@@ -1,8 +1,3 @@
-/*
-Title: Statistics API for monetisation
-Sort: 8
-*/
-
 # 収益化のための統計 API
 Unity Ads では、パブリッシャーは収益化の、広告主はユーザー獲得の、統計データをそれぞれ CSV 形式で直接取得できる API を提供しています。この Unity Ads 統計 API を使うと、ゲームやキャンペーンのデータを取得して、定期的に提携レポートシステムに読み込ませることができます。実質、統計 API は [Unity Ads 管理パネル][1] で取得できるのと同じ統計ファイルを、自動的にフェッチするためのマシン間インターフェイスです。
 
@@ -46,7 +41,6 @@ Unity Ads 統計 API を使用するには、[Unity Ads 管理パネル][1] か�
 
 ### 収益化統計（あなたのゲームによるマネタイズの統計データを得る API）
 
-The monetization statistics API supports the following request format:
 収益化統計 API は以下のリクエストフォーマットをサポートしています。
 
 ```
@@ -57,21 +51,19 @@ where:
 
 - `<apikey>` は [Unity Ads 管理パネル][1] から取得した API キーです。 
 - `<fields>` には使用可能なフィールドのカンマ区切りリストが入ります。
-  - adrequests – number of campaign queries to the server サーバに送られたキャンペーンクエリの数
-  - available – how many times there were inventory どのくらいの回数在庫として表示されたか
-  - offers – how many times the offer screen was opened どのくらいの回数スクリーンに表示されたか
-  - started – how many times the user started the video どのくらいの回数ユーザーが動画を再生開始したか
-  - views – how many times the user completed the video view どのくらいの回数ユーザーが動画を完全視聴したか
-  - revenue – how much money was earned いくらの収益になったか
+  - adrequests – サーバに送られたキャンペーンクエリの数
+  - available – どのくらいの回数在庫として表示されたか
+  - offers – どのくらいの回数スクリーンに表示されたか
+  - started – どのくらいの回数ユーザーが動画を再生開始したか
+  - views – どのくらいの回数ユーザーが動画を完全視聴したか
+  - revenue – いくらの収益になったか
   
-The default format is `all`.
-
 デフォルトのフィールドセットは上記すべてが含まれています。
 
-- `<splitbyfields>` contains a comma-separated list of dimension in which to split the data: には、データを分割するディメンションのカンマ区切りリストが入ります。
- - `source` – the data is split by source game データはソースゲームで分割されます
- - `zone` – the data is split by source game's zones データはゲームゾーンで分割されます
- - `country` – the data is split by users’ country データはユーザーの国/地域別に分割されます
+- `<splitbyfields>` には、データを分割するディメンションのカンマ区切りリストが入ります。
+ - `source` – データはソースゲームで分割されます
+ - `zone` – データはゲームゾーンで分割されます
+ - `country` – データはユーザーの国/地域別に分割されます
 
 デフォルト設定は `country` です。データを一切分割したくない場合は `splitBy=none` と記述します。ターゲットとキャンペーンの両方で同時に分割することもできます。どちらも国での分割あり/なしの両方で使用可能です。
 
