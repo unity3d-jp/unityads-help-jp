@@ -1,0 +1,1 @@
+# Applifier Impact および Everyplay GameAds からの移行
