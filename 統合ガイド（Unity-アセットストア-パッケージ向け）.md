@@ -56,9 +56,7 @@ if(Advertisement.IsReady("pictureZone")) {
 }
 ```
 
-#### Do not use GameObject called "UnityAds"  "UnityAds" と呼ばれるGameObjectを使わないで下さい
-
-On Android and iOS the communication between C# and native Android/iOS happens via communication bridge, which is internally called "UnityAds". If one of your scenes includes a GameObject called "UnityAds" this will mess up the communication between your game and the advertisement.
+####  "UnityAds" という名前の GameObject を使わないで下さい
 
 AndroidとiOSにおける C# と、ネイティブな Android/iOS のやりとりのブリッジには、内部で "UnityAds" が呼び出されています。もしゲームオブジェクトに "UnityAds" が含まれていた場合、ゲームと広告の間のやりとりが失敗する可能性があります。
 
