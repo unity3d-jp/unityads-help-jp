@@ -1,5 +1,3 @@
-/* Title: Integration Guide for Unity Asset Store */
-
 # 統合ガイド（Unity アセットストア パッケージ向け）
 
 ## クイックスタートガイド
