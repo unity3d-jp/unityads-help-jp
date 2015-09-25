@@ -35,8 +35,8 @@
 ## リーガル情報
 
 * [Privacy policy](Privacy policy)
-* [Terms of service - Ads publishers](TOS)
-* [Terms of service - Ads publishers](TOS Advertisers)
+* [Terms of service - Advertisers](TOS Advertisers)
+* [Terms of service - Ads publishers](TOS Ads publishers)
 * [Dataregister](dataregister)
 
 
