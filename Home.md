@@ -20,6 +20,8 @@
 
 ## よくあるご質問（FAQ）
 
+* [収益化に関する FAQ](収益化に関する FAQ)
+
 ## その他
 
 * [Applifier Impact および Everyplay GameAds からの移行](./transition-from-applifier-impact-and-everyplay-game-ads)
