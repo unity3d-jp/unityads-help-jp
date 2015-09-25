@@ -2,7 +2,7 @@
 
 Unity Ads は収益化ツールです。他のゲームのトレイラー動画をあなたのゲームのユーザーに表示することで、再生 1 回ごとにあなたは報酬を受け取り、ユーザーはゲーム内アイテムを受け取ります。Unity Ads でユーザー層の収益化を始めるには、まずこの製品をあなたのゲームに統合する必要があります。本ドキュメントではその方法を手順を追って説明します。
 
-> 注意: このインストラクションは、Unity Ads を Unity 製でないゲームに統合するためのものです。 Unity をお使いの場合は[こちら](./Integration-Guide-for-Unity-Asset-Store)を参照してください。
+> 注意: このインストラクションは、Unity Ads を Unity 製でないゲームに統合するためのものです。 Unity をお使いの場合は[こちら](統合ガイド（Unity アセットストア パッケージ向け）)を参照してください。
 
 
 Unity Ads の統合は以下の作業から成ります。
@@ -49,14 +49,9 @@ UnityAds.init((Activity)this, "11001", (UnityAdsListener)this);
 ```
 
 ##### Unity Ads をテストするためのデバックモードとテストモード
-You can turn on **debug mode** on get a more verbose print of what happens in UnityAds while integration. You will need to recompile the SDK in order to get debug mode working properly as the production libs do not include debug print code at all. The **test mode** will ensure a limitless supply of test ads for integration test purposes. 
-
 **デバックモード**に切り替えることで、UnityAds統合の際に何が起きているかをより詳細に見ることができます。何も出ない場合には、デバックモードを正常に動かすためにSDKをリコンパイルしてください。
 
 **テストモード**では、統合のテストのために無制限に広告が提供されます。
-
-
->**NOTE: Remember to remove both debug and test mode and do a final smoke test before compilation & submitting to Store**
 
 >注意：コンパイルやストアへの提出の前に、デバックモードとテストモードを取り除き、最後の動作確認を行ってください。
 
@@ -101,7 +96,7 @@ if(UnityAds.canShow()) {
 }
 ```
 
-###### 広告配置を使用する（ゾーン）
+###### 広告表示を使用する（ゾーン）
 この機能は、複数の広告セットアップを可能にします。[Unity Ads 管理パネル][1]の "ゲーム" から設定するゲームを選択し、 "開発者用設定" にて設定します。例えば、1 つのゲームにインセンティブ型広告（動画を最後まで見たら 100 コイン獲得）とインターステイシャル広告の両方を表示させることができます。通常、広告スキップはインセンティブ型広告では無効、インターステイシャル広告では有効にします。
 
 ```java
@@ -121,7 +116,7 @@ if(UnityAds.canShow()) {
 }
 ```
 
-`zoneId` は広告配置を定義するときに 、`rewardItemKey` は報酬アイテムを定義するときに [Unity Ads 管理パネル][1] で定義します。
+`zoneId` は広告表示を定義するときに 、`rewardItemKey` は報酬アイテムを定義するときに [Unity Ads 管理パネル][1] で定義します。
 
 You can get the currently active zone with `getZone` method that returns the currently active zoneId as a String.
 
@@ -129,7 +124,7 @@ You can get the currently active zone with `getZone` method that returns the cur
 
 >**Note:** The way this API works is that you either don't call `setZone` at all and use the default ad placement settings everywhere, or you explicitly call `setZone` always before calling `show`.
 >
->注意：このAPIが動作する方法は、`setZone`を呼び出さず、デフォルトの広告配置の設定を使用します。`show`を呼び出す前には常に`setZone` で場所を明示してください。
+>注意：このAPIが動作する方法は、`setZone`を呼び出さず、デフォルトの広告表示の設定を使用します。`show`を呼び出す前には常に`setZone` で場所を明示してください。
 
 
 #### サーバーサイドのアイテム授受コールバックのためにユーザー ID を渡す
