@@ -38,4 +38,4 @@ Unity Ads はサーバーサイドのインストールトラッキングも提�
 
 [3]: https://unityads.unity3d.com/admin
 [4]: https://github.com/Applifier/unity-ads-sdk
-[5]: ./Server-to-Server-Install-Tracking
+[5]: サーバー間のインストールトラッキング
