@@ -6,7 +6,7 @@ Applifier Impact および Everyplay GameAds からの移行はとても簡単�
 
 Android では、Unity Ads を Android のライブラリプロジェクトとして利用することを推奨します。jar ファイルをインポートする従来の方法も利用可能です。
 
-* [Unity Ads 統合ガイド（Android向け）](統合ガイド（Android 向け）)
+* [統合ガイド（Android向け）](統合ガイド（Android 向け）)
 
 ## Android ライブラリプロジェクトとしてインポートする
 
@@ -25,7 +25,7 @@ Android では、Unity Ads を Android のライブラリプロジェクトと�
 * プロジェクトから ApplifierImpact.framework と ApplifierImpact.bundle を削除する
 * プロジェクトに UnityAds.framework と UnityAds.bundle を追加する
 * #importを`<ApplifierImpact/ApplifierImpact.h>` から `<UnityAds/UnityAds.h>`に変更する
-* [Unity Ads 統合ガイド（iOS 向け）](統合ガイド（iOS 向け）)
+* [統合ガイド（iOS 向け）](統合ガイド（iOS 向け）)
 
 # Unity プラグイン
 
