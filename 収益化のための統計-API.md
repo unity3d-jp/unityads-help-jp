@@ -37,8 +37,6 @@ Unity Ads 統計 API を使用するには、[Unity Ads 管理パネル][1] か�
 
 ### リクエストフォーマット
 
-#### Monetization statistics (Use this API to get statistics from your monetising games) 
-
 ### 収益化統計（あなたのゲームによるマネタイズの統計データを得る API）
 
 収益化統計 API は以下のリクエストフォーマットをサポートしています。
