@@ -61,7 +61,7 @@ AndroidとiOSにおける C# と、ネイティブな Android/iOS のやりと�
 
 #### Unity forums について　
 
-Unity forums では、Unity Ads について多くの疑問と解決法を見ることができます。また我々もこのフォーラムの疑問を解決しようとしています。http://forum.unity3d.com/forums/unity-ads.67/
+[Unity forums](http://forum.unity3d.com/forums/unity-ads.67/) では、Unity Ads について多くの疑問と解決法を見ることができます。また我々もこのフォーラムに挙がっている疑問を解決しようとしています。
 
 
 ## Unity Ads アセットストアパッケージ API リファレンス
