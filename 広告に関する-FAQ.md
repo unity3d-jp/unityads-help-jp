@@ -1,8 +1,3 @@
-/*
-Title: Advertising FAQ
-Sort: 4
-*/
-
 # 広告に関する FAQ
 
 ## Unity Ads に関するよくある質問を一覧にしました
