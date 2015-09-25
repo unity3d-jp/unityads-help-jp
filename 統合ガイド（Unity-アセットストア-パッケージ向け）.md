@@ -38,11 +38,9 @@ public class AdvertisementTest : MonoBehaviour {
 }
 ```
 
-### Notes 注意
+### 注意
 
-#### Is ready and zones ゾーンの準備
-
-This example code is using the default zone by calling `Advertisement.IsReady()` and `Advertisement.Show(null, ...)`. If you are using a different ad placement, you **must** use the correct zoneId for both the `IsReady` and the `Show` methods.
+#### ゾーンの準備
 
 以下のコードでデフォルトのゾーンを呼び出します。`Advertisement.IsReady()`および`Advertisement.Show(null, ...)`
 
@@ -61,9 +59,9 @@ if(Advertisement.IsReady("pictureZone")) {
 AndroidとiOSにおける C# と、ネイティブな Android/iOS のやりとりのブリッジには、内部で "UnityAds" が呼び出されています。もしゲームオブジェクトに "UnityAds" が含まれていた場合、ゲームと広告の間のやりとりが失敗する可能性があります。
 
 
-#### More information in Unity forums Unity forums
+#### Unity forums について　
 
-Unity forums では、Unity Ads について、多くの疑問と解決法を見ることができます。また我々もこのフォーラムの疑問を解決しようとしています。http://forum.unity3d.com/forums/unity-ads.67/
+Unity forums では、Unity Ads について多くの疑問と解決法を見ることができます。また我々もこのフォーラムの疑問を解決しようとしています。http://forum.unity3d.com/forums/unity-ads.67/
 
 
 ## Unity Ads アセットストアパッケージ API リファレンス
@@ -81,8 +79,6 @@ Unity forums では、Unity Ads について、多くの疑問と解決法を見
   Info = 4,
   Debug = 8
 }`
-
-Controls the amount of logging Unity Ads does. Defaults to Error, Warning and Info. For debug builds the default is Error, Warning, Info and Debug.
 
 Unity Ads におけるログの総量をコントロールする。デフォルトではError, Warning, Infoである。デバッグビルドのためのデフォルトは、Error, Warning, Info, Debugである。
 
