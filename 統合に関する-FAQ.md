@@ -1,8 +1,3 @@
-/*
-Title: Integration FAQ
-Sort: 3
-*/
-
 # 統合に関する FAQ
 
 ## Unity Ads の統合に関するよくある質問
