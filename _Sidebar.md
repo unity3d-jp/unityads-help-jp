@@ -39,7 +39,7 @@
 * [Privacy policy](Privacy policy)
 * [Terms of service - Advertisers](TOS Advertisers)
 * [Terms of service - Ads publishers](TOS Ads publishers)
-* [Dataregister](dataregister)
+
 
 
 ## お問い合わせ
