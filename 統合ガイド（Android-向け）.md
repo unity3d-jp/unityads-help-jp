@@ -122,7 +122,6 @@ You can get the currently active zone with `getZone` method that returns the cur
 
 `getZone` メソッドで現在のアクティブゾーンを zoneID の文字列として受け取ることができます。
 
->**Note:** The way this API works is that you either don't call `setZone` at all and use the default ad placement settings everywhere, or you explicitly call `setZone` always before calling `show`.
 >
 >注意：このAPIが動作する方法は、`setZone`を呼び出さず、デフォルトの広告表示の設定を使用します。`show`を呼び出す前には常に`setZone` で場所を明示してください。
 
