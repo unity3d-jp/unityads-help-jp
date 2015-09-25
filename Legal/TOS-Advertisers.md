@@ -1,7 +1,3 @@
-/*
-Title: Terms of service - Advertisers
-*/
-
 **UNITY ADS**
 
 **STANDARD TERMS AND CONDITIONS**
