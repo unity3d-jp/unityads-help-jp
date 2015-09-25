@@ -1,7 +1,3 @@
-/*
-Title: Terms of service - Ads publishers
-*/
-
 # UNITY ADS - PUBLISHER TERMS of SERVICE
 
 
