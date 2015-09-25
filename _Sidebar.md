@@ -31,7 +31,7 @@
 
 ## その他
 
-* [Applifier Impact および Everyplay GameAds からの移行](./transition-from-applifier-impact-and-everyplay-game-ads)
+* [Applifier Impact および Everyplay GameAds からの移行](Applifier Impact および Everyplay GameAds からの移行)
 
 
 ## リーガル情報
