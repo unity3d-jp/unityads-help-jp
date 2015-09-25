@@ -118,6 +118,4 @@ Unity Ads におけるログの総量をコントロールする。デフォル�
 
 **public string gamerSid**
 
-Using this property, you can pass an user identifier for server-to-server item redeem callbacks.
-
 このプロパティを使うとクライアントなしでサーバー側に閲覧したユーザーのIDを明らかにすることができます。
