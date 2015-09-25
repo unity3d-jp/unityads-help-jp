@@ -1,8 +1,3 @@
-/*
-Title: General monetisation FAQ
-Sort: 1
-*/
-
 # 収益化に関する FAQ
 
 ### Q: Unity Ads の対応プラットフォームは？
