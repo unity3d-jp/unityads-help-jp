@@ -34,7 +34,10 @@
 
 ## リーガル情報
 
-* 翻訳待ち
+* [Privacy policy](Privacy policy)
+* [Terms of service - Ads publishers](TOS)
+* [Terms of service - Ads publishers](TOS Advertisers)
+* [Dataregister](dataregister)
 
 
 ## お問い合わせ
