@@ -111,8 +111,6 @@ if ([[UnityAds sharedInstance] canShow])
 [[UnityAds sharedInstance] hide]
 ```
 
->**Note:** The way this API works is that you either don't call `setZone` at all and use the default ad placement settings everywhere, or you explicitly call `setZone` always before calling `show`.
-
 >注意：このAPIが動作する方法は、`setZone`を呼び出さず、デフォルトの広告配置の設定を使用します。`show`を呼び出す前には常に`setZone` で場所を明示してください。
 
 #### サーバーサイドのアイテム授受コールバックのためにユーザー ID を渡す
