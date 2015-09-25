@@ -16,7 +16,7 @@ Date,Target campaign id,Target name,clicks
 ```
 
 ### 認証
-Unity Ads 統計 API を使用するには、[Unity Ads 管理パネル][1] から API キーを取得する必要があります。API は 'アカウント' の 'ユーザーアカウント' 下部で確認できます。
+Unity Ads 統計 API を使用するには、[Unity Ads 管理パネル][1] から API キーを取得する必要があります。API は "アカウント" の "ユーザーアカウント" 下部で確認できます。
 
 この API キーを `apikey` HTTP GET パラメータへの認証リクエストに含めます。
 
