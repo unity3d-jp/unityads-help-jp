@@ -226,7 +226,7 @@ for (id itemKey in items) {
 [[UnityAds sharedInstance] startWithGameId:@"YOUR_GAME_ID_HERE" andWithViewController:myViewController];
 ```
 ### Unity Ads を Unity Ads 管理パネル で設定する
-Unity Ads をあなたの iOS ゲーム用に設定するには、[Unity Ads 管理パネル][2]（https://unityads.unity3d.com/admin/）にログインします。
+Unity Ads をあなたの iOS ゲーム用に設定するには、[Unity Ads 管理パネル][2]にログインします。
 
 #### ゲームを追加する
 まず、ゲームを [Unity Ads 管理パネル][2] に登録します。iOS App ID か iTunes URL が必要です。
