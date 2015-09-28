@@ -23,7 +23,7 @@ Unity Ads を統合する手順はごくシンプルで、煩雑な作業は不�
 
 > 注意: プロジェクトをコンパイルするには ``StoreKit.framework`` , ``AdSupport.framework`` , ``CoreTelephony.framework``  の３つをプロジェクトに入れておく必要があります。
 
-コードレベルでの統合作業については後のセクションで説明します。統合の際に問題が起きた場合は、チケット登録のため [unityads-support@unity3d.com [en]](unityads-support@unity3d.com) にメールでご一報ください。
+コードレベルでの統合作業については後のセクションで説明します。統合の際に問題が起きた場合は、チケット登録のため [unityads-support@unity3d.com [en]](mailto:unityads-support@unity3d.com) にメールでご一報ください。
 
 #### AppDelegate 内で UnityAds を初期化する
 最初のステップは UnityAds クラスを AppDelegate に追加することです。まず、必要なヘッダーを含める必要があります。
