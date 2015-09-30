@@ -21,7 +21,7 @@ Unity Ads を統合する手順はごくシンプルで、煩雑な作業は不�
 - Unity Ads をユーザーに表示する
 - ユーザーが動画を見終わるのを待つ（オプションで報酬アイテムをユーザーに渡すことも可能）
 
-コードレベルでの統合作業については後のセクションで説明します。統合の際に問題が起きた場合は、チケット登録のため unityads-support@unity3d.com にメールでご一報ください。
+コードレベルでの統合作業については後のセクションで説明します。統合の際に問題が起きた場合は、チケット登録のため unityads-support@unity3d.com[en] にメールでご一報ください。
 
 #### Unity Ads SDK をプロジェクトに追加する
 
@@ -153,7 +153,7 @@ UnityAds.show(properties);
 現在デフォルトに設定されている報酬アイテムは、 `getCurrentRewardItemKey()` メソッド経由で取得できます。これを使って、どの報酬アイテムがユーザーに渡されるのかをチェックできます。`show` 呼び出しの前にアイテムを変更したい場合は、`setRewardItemKey(String)` メソッドを呼び出します。デフォルトアイテムのアイテムキーは、`getDefaultRewardItemKey()`を呼び出せばいつでも取得できます。
 
 #### 統合サポート
-統合の際に問題が起きた場合は、チケット登録のため unityads-support@unity3d.com にメールでご一報ください。
+統合の際に問題が起きた場合は、チケット登録のため unityads-support@unity3d.com[en] にメールでご一報ください。
 
 [1]: https://unityads.unity3d.com/admin
 [2]: https://github.com/Applifier/unity-ads-sdk
