@@ -33,6 +33,7 @@
 ## その他
 
 * [Applifier Impact および Everyplay GameAds からの移行](Applifier Impact および Everyplay GameAds からの移行)
+* [Unity Developer Network アカウントへの移行](Unity Developer Network アカウントへの移行)
 
 
 ## リーガル情報
