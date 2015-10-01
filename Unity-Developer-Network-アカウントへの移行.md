@@ -1,4 +1,4 @@
-# Unity Developer Net work アカウントへの移行
+# Unity Developer Network アカウントへの移行
 
 2015年10月1日から、Unity Ads にサインインするためにはUnity Developer Network (UDN) アカウントが必要となります。
 
