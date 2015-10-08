@@ -1,6 +1,7 @@
 ## [Home](Home)
 
 ## 最近更新のあったページ
+* [パブリッシャー向けスタートガイド](パブリッシャー向けスタートガイド)
 * [Unity Developer Network アカウントへの移行](Unity Developer Network アカウントへの移行)
 
 ## パブリッシャー向けドキュメント
