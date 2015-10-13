@@ -23,15 +23,16 @@ Unity Ads を統合する手順はごくシンプルで、煩雑な作業は不�
 
 コードレベルでの統合作業については後のセクションで説明します。統合の際に問題が起きた場合は、チケット登録のため [unityads-support@unity3d.com[en]](mailto:unityads-support@unity3d.com) にメールでご一報ください。
 
-#### Add the Unity Ads SDK to Your Project (Android Studio)
+#### Android Studio を使って Unity Ads SDK をプロジェクトに追加する
 
-Download unity-ads.aar from SDK repository. This package contains all binaries and configuration files for Unity Ads SDK.
+SDK レポジトリから unity-ads.aar をダウンロードします。このパッケージには、Unity Ads SDK の全てのバイナリとファイルが含まれています。
 
-You start importing Unity Ads by selecting 'File' > 'New' > 'New Module' and choosing 'Import .JAR/.AAR Package'. Select the downloaded aar file from your computer and import the file.
+SDK ライブラリプロジェクトをインポートするには、File > New > New Module から Import .JAR/.AAR Package を選択します。
 
-Now you need to add the imported Unity Ads module as a dependency to your own module. Right click your app module, select 'Open Module Settings' and open 'Dependencies' tab. Add a new dependency as 'Module Dependency' and select Unity Ads module.
+Unity Ads モジュールは、お使いになっているモジュールに依存します。お使いになっている app モジュールを右クリックし、Open Module Settings から Dependencies タブを開いて、 Module Dependency から Unity Ads module を選択してください。
 
-#### Unity Ads SDK をプロジェクトに追加する (Eclipse)
+
+#### Eclipse を使って Unity Ads SDK をプロジェクトに追加する
 
 SDK 内にある `unity-ads` ディレクトリが SDK プロジェクト本体です。
 
