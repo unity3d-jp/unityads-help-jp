@@ -1,4 +1,5 @@
 ## 最近更新のあったページ
+* [統合ガイド（Android 向け）](統合ガイド（Android 向け）)
 * [パブリッシャーのためのスタートガイド](パブリッシャーのためのスタートガイド)
 * [Unity Developer Network アカウントへの移行](Unity Developer Network アカウントへの移行)
 
