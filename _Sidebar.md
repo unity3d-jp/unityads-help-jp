@@ -1,10 +1,10 @@
 ## [Home](Home)
 
 ## 最近更新のあったページ
+* [Unity Developer Network アカウントへの移行](Unity Developer Network アカウントへの移行)
 * [サーバー間のアイテム授受コールバック](サーバー間のアイテム授受コールバック)
 * [統合ガイド（Android 向け）](統合ガイド（Android 向け）)
 * [パブリッシャーのためのスタートガイド](パブリッシャーのためのスタートガイド)
-* [Unity Developer Network アカウントへの移行](Unity Developer Network アカウントへの移行)
 
 ## パブリッシャー向けドキュメント
 
