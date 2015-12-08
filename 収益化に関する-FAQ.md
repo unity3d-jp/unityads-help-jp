@@ -10,11 +10,11 @@ A: Unity Ads は Amazon マーケットプレイスからダウンロードで�
 
 Amazon 向けのキャンペーンは現在検討中です。
 
-### Web Player をサポートする予定はありますか？
+### Q: Web Player をサポートする予定はありますか？
 
 A: Unity は常に機能の追加や対応プラットフォームの拡大を模索していますが、当面は iOS および Android のネイティブアプリ向けの開発に専念する予定です。
 
-###  Windows Phone のサポート予定は？
+### Q: Windows Phone のサポート予定は？
 
 A: Windows Phone は現在 Unity Ads のサポート対象外です。
 
