@@ -16,11 +16,11 @@
 広告出稿時には下記事項が必要となります。
 
 - 出稿アプリのストア URL （ iOS / Android ）
-- [クリエイティブ](https://github.com/unity3d-jp/unityads-help-jp/wiki/%E5%BA%83%E5%91%8A%E5%87%BA%E7%A8%BF%E6%99%82%E3%81%AB%E3%82%88%E3%81%8F%E3%81%82%E3%82%8B%E3%81%94%E8%B3%AA%E5%95%8F#%E3%82%AF%E3%83%AA%E3%82%A8%E3%82%A4%E3%83%86%E3%82%A3%E3%83%96%E3%81%AE%E5%BF%85%E8%A6%81%E4%BA%8B%E9%A0%85%E3%82%92%E6%95%99%E3%81%88%E3%81%A6)（動画 1 種類, 静止画 2 種類）
-- [発注書（ IO )](https://github.com/unity3d-jp/unityads-help-jp/wiki/%E5%BA%83%E5%91%8A%E5%87%BA%E7%A8%BF%E6%99%82%E3%81%AB%E3%82%88%E3%81%8F%E3%81%82%E3%82%8B%E3%81%94%E8%B3%AA%E5%95%8F#%E7%99%BA%E6%B3%A8%E6%9B%B8-io-%E3%81%A3%E3%81%A6%E4%BD%95)
-- [トラッキング URL](https://github.com/unity3d-jp/unityads-help-jp/wiki/%E5%BA%83%E5%91%8A%E5%87%BA%E7%A8%BF%E6%99%82%E3%81%AB%E3%82%88%E3%81%8F%E3%81%82%E3%82%8B%E3%81%94%E8%B3%AA%E5%95%8F#%E3%83%88%E3%83%A9%E3%83%83%E3%82%AD%E3%83%B3%E3%82%B0%E3%83%84%E3%83%BC%E3%83%AB%E3%81%A8%E3%81%AE%E9%80%A3%E6%90%BA%E3%81%A3%E3%81%A6%E4%BD%95)
-- [ポストバック URL の設定](https://github.com/unity3d-jp/unityads-help-jp/wiki/%E5%BA%83%E5%91%8A%E5%87%BA%E7%A8%BF%E6%99%82%E3%81%AB%E3%82%88%E3%81%8F%E3%81%82%E3%82%8B%E3%81%94%E8%B3%AA%E5%95%8F#%E3%83%88%E3%83%A9%E3%83%83%E3%82%AD%E3%83%B3%E3%82%B0%E3%83%84%E3%83%BC%E3%83%AB%E3%81%A8%E3%81%AE%E9%80%A3%E6%90%BA%E3%81%A3%E3%81%A6%E4%BD%95)
-- [トラッキングツール連携テスト](https://github.com/unity3d-jp/unityads-help-jp/wiki/%E5%BA%83%E5%91%8A%E5%87%BA%E7%A8%BF%E6%99%82%E3%81%AB%E3%82%88%E3%81%8F%E3%81%82%E3%82%8B%E3%81%94%E8%B3%AA%E5%95%8F#%E3%83%88%E3%83%A9%E3%83%83%E3%82%AD%E3%83%B3%E3%82%B0%E3%83%84%E3%83%BC%E3%83%AB%E3%81%A8%E3%81%AE%E9%80%A3%E6%90%BA%E3%81%A3%E3%81%A6%E4%BD%95) 
+- [クリエイティブ]()（動画 1 種類, 静止画 2 種類）
+- [発注書（ IO )]()
+- [トラッキング URL]()
+- [ポストバック URL の設定]()
+- [トラッキングツール連携テスト]() 
 
 ## 広告出稿の流れを教えて？
 以下の 3 Step で出稿が可能です。
