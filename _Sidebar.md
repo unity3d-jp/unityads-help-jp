@@ -1,7 +1,7 @@
 ## [Home](Home)
 
 ## 最近更新のあったページ
-* [広告出稿時によくあるご質問（ Japan ）](広告出稿時によくあるご質問（ Japan ）)
+* [広告出稿時に関する FAQ（Japan）](広告出稿時に関する FAQ（Japan）)
 * [Unity Developer Network アカウントへの移行](Unity Developer Network アカウントへの移行)
 * [サーバー間のアイテム授受コールバック](サーバー間のアイテム授受コールバック)
 * [統合ガイド（Android 向け）](統合ガイド（Android 向け）)
