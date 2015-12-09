@@ -167,11 +167,15 @@ Unity Ads では、15 秒程度の動画 1 種類と静止画 2 種類が必要�
 - 容量 300kb まで
 
 ### リジェクト対策
-1. リジェクト対策のため、以下のように他社プラットフォームに関する情報が掲載されているクリエイティブは Unity Ads で配信することができません
-- iOS 向けクリエイティブに「 Google Play ロゴ」
-- Android 向けクリエイティブに「 App Store ロゴ」
-
-2. **「 iOS 以外の端末が画面に表示されるとリジェクトされる」**ケースが報告されておりますため、iOS 向けの広告では動画、静止画ともにご対策ください（※ 詳細は Apple の [review guideline](https://developer.apple.com/app-store/review/guidelines/#metadata) をご参照下さい）
+リジェクト対策のため、以下のようなクリエイティブは Unity Ads で配信することができません
+<dl>
+  <dt>他社プラットフォームに関する情報が掲載されている</dt>
+  <dd>iOS 向けクリエイティブに「 Google Play ロゴ」, Android 向けクリエイティブに「 App Store ロゴ」など</dd>
+  <dt>iOS 向けの広告で、他社の端末が画面に表示されている</dt>
+  <dd>iOS 以外の端末が画面に表示されるとリジェクトされるケースが報告されているため、iOS 向けの広告では動画、静止画ともにご対策ください</dd>
+</dl>
+（※ 詳細は Apple の [review guideline](https://developer.apple.com/app-store/review/guidelines/#metadata) をご参照下さい）
+2. 
 
 ## 動画制作はサポートしてくれる？
 動画についてのコメント、アドバイスはさせていただきますが制作は行っておりません。海外への出稿の場合には、本社側でサポートを承ります。
