@@ -22,7 +22,7 @@ Unity Ads 統計 API を使用するには、[Unity Ads 管理パネル][1] か�
 
 認証に成功すれば、サーバーは 302 HTTP リダイレクトメッセージで応答します。この応答の Location HTTP ヘッダに、統計サーバーのデータへの URL が含まれています。実際のデータはこのリダイレクト URL から取得することになります。これは標準的な HTTP の動作であり、すべての HTTP クライアントでサポートされています。例えば
 
-`curl -L "http://gameads-admin.applifier.com/stats/acquisition-api?apikey=APIKEY"` 
+`curl -L "http://gameads-admin.applifier.com/stats/monetization-api?apikey=APIKEY"` 
 
 はファイルを直接コンソールに出力します。
 
