@@ -138,7 +138,7 @@ Buget expiredに✓を入れると予算が無くなったタイミングで終�
 ####Advertiser
 <dl>
   <dt>By</dt>
-  <dd>担当者様の手書きサインをお願い致します。（英語）</dd>
+  <dd>お手数ですが印刷の上、担当者様の手書きサインをお願い致します。（英語）</dd>
     <dt>Print Name</dt>
   <dd>Word 上でお名前をご記入下さい。</dd>
       <dt>Title</dt>
