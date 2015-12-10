@@ -4,8 +4,8 @@
 下記 3 つの手順で記入が完了します。
 
 - [手順 1（お客様情報）](https://github.com/unity3d-jp/unityads-help-jp/wiki/%E7%99%BA%E6%B3%A8%E6%9B%B8%EF%BC%88-IO-%EF%BC%89%E3%81%AE%E6%9B%B8%E3%81%8D%E6%96%B9#%E6%89%8B%E9%A0%86-1%E3%81%8A%E5%AE%A2%E6%A7%98%E6%83%85%E5%A0%B1)
-- 手順 2（キャンペーン情報）
-- 手順 3（お客様のサイン）
+- [手順 2（キャンペーン情報）](https://github.com/unity3d-jp/unityads-help-jp/wiki/%E7%99%BA%E6%B3%A8%E6%9B%B8%EF%BC%88-IO-%EF%BC%89%E3%81%AE%E6%9B%B8%E3%81%8D%E6%96%B9#%E6%89%8B%E9%A0%86-2%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%B3%E6%83%85%E5%A0%B1)
+- [手順 3（お客様のサイン）](https://github.com/unity3d-jp/unityads-help-jp/wiki/%E7%99%BA%E6%B3%A8%E6%9B%B8%EF%BC%88-IO-%EF%BC%89%E3%81%AE%E6%9B%B8%E3%81%8D%E6%96%B9#%E6%89%8B%E9%A0%86-3%E3%81%8A%E5%AE%A2%E6%A7%98%E3%81%AE%E3%82%B5%E3%82%A4%E3%83%B3)
 
 > ※項目の記入は全て**英語**でお願い致します。
 
@@ -102,8 +102,8 @@
   <dd>開始希望日付をご記入下さい。最短の場合は ASAP 、開始日未決定の場合は TBD とご記入下さい。</dd>
         <dt>End Date</dt>
   <dd>配信終了希望日時をご記入ください。
-Buget~ は、予算消化のタイミングで終了となります。
-下のブランクの部分には、指定時間をご記入ください。
+Buget expiredに✓を入れると予算が無くなったタイミングで終了となります。
+下の空欄には指定時間をご記入ください。
 </dd>
           <dt>Budget</dt>
   <dd>USD 表記で予算をご記入ください。予算上限がない場合は OPEN
