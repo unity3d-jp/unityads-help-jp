@@ -31,7 +31,7 @@
 --
 ###ステータスの入力
 
-![](https://www.evernote.com/l/AEBMkTx3jJpCgIR4AIRcPxozxYc6qb_kLRQB/image.png "status")
+![](https://t.gyazo.com/teams/unity/26c78a0639ac50f27fe75d1ae1fc3388.png "status")
 
 <dl>
   <dt>Advertiser / Company</dt>
@@ -52,7 +52,7 @@
 
 ###Payment terms / invoice requirements
 
-![](https://www.evernote.com/l/AEB2ESBQ1fFNYIrYDlLegQeIGdMeWtdxkhAB/image.png "invoice requirements")
+![](https://t.gyazo.com/teams/unity/c8b471e72f73ad4ba7e58b5c33c41edb.png "invoice requirements")
 
 <dl>
   <dt>Contact on invoices</dt>
@@ -71,7 +71,7 @@
 
 --
 
-![](https://www.evernote.com/l/AEB3MftKa0xEdaKyMtg-xloldTDg7zI-GuIB/image.png "payment terms")
+![](https://t.gyazo.com/teams/unity/14b7ee28b1e0c0eeed95483aad6db2fc.png "payment terms")
 
 <dl>
   <dt>Payment terms</dt>
@@ -92,7 +92,7 @@
 
 ###CAMPAIGN DETAILS
 
-![](https://www.evernote.com/l/AEDgP6yJ4-FDL4sRvacemw2wOavK-EFFyDoB/image.png "campaign details")
+![](https://t.gyazo.com/teams/unity/95b91d2f9dac37c1c1982928c706f631.png "campaign details")
 
 <dl>
   <dt>Game / Platform</dt>
@@ -120,7 +120,7 @@ Buget expiredに✓を入れると予算が無くなったタイミングで終�
 
 --
 
-![](https://www.evernote.com/l/AEAXMHupDihNkJtSpr3f_hgDAG-qfzyvwyIB/image.png "ad model & tracking")
+![](https://t.gyazo.com/teams/unity/07f02f5a9d1ae0d4521e72bc30706ab2.png "ad model & tracking")
 
 <dl>
   <dt>Ad model</dt>
@@ -135,7 +135,7 @@ Buget expiredに✓を入れると予算が無くなったタイミングで終�
 
 ###CAMPAIGN SPECIFIC TERMS
 
-![](https://www.evernote.com/l/AEBVCOidf-tBS47VVjC2NfTmth4u9htAUDgB/image.png "signature")
+![](https://t.gyazo.com/teams/unity/d6b9d7491ccb4d0dcd84615a907ade09.png "signature")
 
 ####Advertiser
 <dl>
