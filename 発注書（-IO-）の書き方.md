@@ -133,7 +133,7 @@ Buget expiredに✓を入れると予算が無くなったタイミングで終�
 
 ###CAMPAIGN SPECIFIC TERMS
 
-![](https://www.evernote.com/l/AEC0sVvfdZZG7ZBtt2rJw5TdunobKgXLT-sB/image.png "signature")
+![](https://www.evernote.com/l/AEBVCOidf-tBS47VVjC2NfTmth4u9htAUDgB/image.png "signature")
 
 ####Advertiser
 <dl>
