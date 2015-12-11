@@ -14,7 +14,7 @@
 
 ###Insertion Order ＃
 
-![](https://t.gyazo.com/teams/unity/52e0ed86f604962aa91172dff57e621b.png)
+![](https://t.gyazo.com/teams/unity/52e0ed86f604962aa91172dff57e621b.png "Insertion Order ＃")
 
 1 ページ目左上の **Insertion Order ＃**に日付と末尾番号などをご記入ください。こちらの番号はお客様が自由につけていただくことが可能です。
 
@@ -26,7 +26,8 @@
 
 ###日付
 1ページ目右上に日付を記入してください。
-![](https://www.evernote.com/l/AEBeQhDaVVtO0YS8B6hUk0l3ShLnMvqDHwoB/image.png "date")
+![](https://t.gyazo.com/teams/unity/317f1c082cfba191d21f5d09f10cdd76.png "date")
+
 --
 ###ステータスの入力
 
