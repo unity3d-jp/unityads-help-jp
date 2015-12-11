@@ -14,7 +14,7 @@
 
 ###Insertion Order ＃
 
-<IMG src="https://www.evernote.com/l/AEDFtWoJm25BIrJbmmnLPFaDSm_gctbZ-ugB/image.png" border="2">
+<IMG src="https://www.evernote.com/l/AEDFtWoJm25BIrJbmmnLPFaDSm_gctbZ-ugB/image.png" border="5px">
 
 ![](https://www.evernote.com/l/AEDFtWoJm25BIrJbmmnLPFaDSm_gctbZ-ugB/image.png "Insertion Order ＃")
 
