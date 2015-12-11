@@ -135,7 +135,7 @@ Buget expiredに✓を入れると予算が無くなったタイミングで終�
 
 ###CAMPAIGN SPECIFIC TERMS
 
-![](https://t.gyazo.com/teams/unity/d6b9d7491ccb4d0dcd84615a907ade09.png "signature")
+![](https://t.gyazo.com/teams/unity/bb9e8ff364a645eb91fe97401786fc49.png "signature")
 
 ####Advertiser
 <dl>
