@@ -14,6 +14,8 @@
 
 ###Insertion Order ＃
 
+<IMG src="https://www.evernote.com/l/AEDFtWoJm25BIrJbmmnLPFaDSm_gctbZ-ugB/image.png" border="2">
+
 ![](https://www.evernote.com/l/AEDFtWoJm25BIrJbmmnLPFaDSm_gctbZ-ugB/image.png "Insertion Order ＃")
 
 1 ページ目左上の **Insertion Order ＃**に日付と末尾番号などをご記入ください。こちらの番号はお客様が自由につけていただくことが可能です。
