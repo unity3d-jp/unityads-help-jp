@@ -14,7 +14,6 @@
 
 ###Insertion Order ＃
 
-![](https://www.evernote.com/l/AEDFtWoJm25BIrJbmmnLPFaDSm_gctbZ-ugB/image.png "Insertion Order ＃")
 [![https://unity.gyazo.com/52e0ed86f604962aa91172dff57e621b](https://t.gyazo.com/teams/unity/52e0ed86f604962aa91172dff57e621b.png)](https://unity.gyazo.com/52e0ed86f604962aa91172dff57e621b)
 
 1 ページ目左上の **Insertion Order ＃**に日付と末尾番号などをご記入ください。こちらの番号はお客様が自由につけていただくことが可能です。
