@@ -149,4 +149,3 @@ Buget expiredに✓を入れると予算が無くなったタイミングで終�
   <dd>日付をご記入下さい。</dd>
 </dl>
 
-$ curl -i http://git.io -F "url=https://github.com/unity3d-jp/unityads-help-jp/wiki/%E7%99%BA%E6%B3%A8%E6%9B%B8%EF%BC%88%20IO%20%EF%BC%89%E3%81%AE%E6%9B%B8%E3%81%8D%E6%96%B9" -F "code=io"
