@@ -26,7 +26,7 @@ A: source game id を指定してゲームをブロックすることができ�
 
 ### Q: 自分の広告が特定のゲームから配信されるような指定はできますか？
 
-A: source game id を指定して特定のゲームから広告を配信させることができます。[ads-support@unity3d.co.jp[en]](mailto:ads-support@unity3d.co.jp) までお問い合わせください。
+A: source game id を指定して特定のゲームから広告を配信させることができます。[ads-support@unity3d.co.jp](mailto:ads-support@unity3d.co.jp) までお問い合わせください。
 
 ### Q: 特定のゲームに対する入札額を上げることはできますか？
 
