@@ -34,7 +34,7 @@ Unity Ads はクライアントサイドとサーバサイド、どちらでも�
 ### サーバーサイドのインストールトラッキング
 Unity Ads はサーバーサイドのインストールトラッキングも提供しています。詳しくは[こちらのドキュメント][5]を参照してください。
 
-サードパーティのインストールトラッキングサービス（HasOffers など）を利用される場合は、support@applifier.zendesk.com までメールで対応状況をお問い合わせください。
+サードパーティのインストールトラッキングサービス（HasOffers など）を利用される場合は、[ads-support@unity3d.co.jp](mailto:ads-support@unity3d.co.jp) までメールで対応状況をお問い合わせください。
 
 [3]: https://unityads.unity3d.com/admin
 [4]: https://github.com/Applifier/unity-ads-sdk
