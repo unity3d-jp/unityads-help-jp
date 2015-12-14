@@ -3,13 +3,13 @@
 ##書き方の手順
 下記 3 つの手順で記入が完了します。
 
-- [手順 1（お客様情報）](https://github.com/unity3d-jp/unityads-help-jp/wiki/%E7%99%BA%E6%B3%A8%E6%9B%B8%EF%BC%88-IO-%EF%BC%89%E3%81%AE%E6%9B%B8%E3%81%8D%E6%96%B9#%E6%89%8B%E9%A0%86-1%E3%81%8A%E5%AE%A2%E6%A7%98%E6%83%85%E5%A0%B1)
+- [手順 1（ご発注者様情報）](https://github.com/unity3d-jp/unityads-help-jp/wiki/%E7%99%BA%E6%B3%A8%E6%9B%B8%EF%BC%88-IO-%EF%BC%89%E3%81%AE%E6%9B%B8%E3%81%8D%E6%96%B9#%E6%89%8B%E9%A0%86-1%E3%81%8A%E5%AE%A2%E6%A7%98%E6%83%85%E5%A0%B1)
 - [手順 2（キャンペーン情報）](https://github.com/unity3d-jp/unityads-help-jp/wiki/%E7%99%BA%E6%B3%A8%E6%9B%B8%EF%BC%88-IO-%EF%BC%89%E3%81%AE%E6%9B%B8%E3%81%8D%E6%96%B9#%E6%89%8B%E9%A0%86-2%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%B3%E6%83%85%E5%A0%B1)
-- [手順 3（お客様のサイン）](https://github.com/unity3d-jp/unityads-help-jp/wiki/%E7%99%BA%E6%B3%A8%E6%9B%B8%EF%BC%88-IO-%EF%BC%89%E3%81%AE%E6%9B%B8%E3%81%8D%E6%96%B9#%E6%89%8B%E9%A0%86-3%E3%81%8A%E5%AE%A2%E6%A7%98%E3%81%AE%E3%82%B5%E3%82%A4%E3%83%B3)
+- [手順 3（ご担当者様のサイン）](https://github.com/unity3d-jp/unityads-help-jp/wiki/%E7%99%BA%E6%B3%A8%E6%9B%B8%EF%BC%88-IO-%EF%BC%89%E3%81%AE%E6%9B%B8%E3%81%8D%E6%96%B9#%E6%89%8B%E9%A0%86-3%E3%81%8A%E5%AE%A2%E6%A7%98%E3%81%AE%E3%82%B5%E3%82%A4%E3%83%B3)
 
 > ※項目の記入は全て**英語**でお願い致します。
 
-##手順 1（お客様情報）
+##手順 1（ご発注者様情報）
 > ※項目の記入は全て**英語**でお願い致します。
 
 ###Insertion Order ＃
@@ -43,7 +43,7 @@
         <dt>EU VAT</dt>
   <dd>無記入でお願い致します。</dd>
           <dt>Contact person</dt>
-  <dd>ご担当者さまのお名前をご記入下さい。</dd>
+  <dd>ご担当者様のお名前をご記入下さい。</dd>
 </dl>
 
 
@@ -64,7 +64,7 @@
         <dt>EU VAT</dt>
   <dd>無記入でお願い致します。</dd>
           <dt>Contact person</dt>
-  <dd>ご担当者さまのお名前をご記入下さい。</dd>
+  <dd>ご担当者様のお名前をご記入下さい。</dd>
             <dt>Reference number</dt>
   <dd>無記入で結構です。</dd>
 </dl>
@@ -129,7 +129,7 @@ Buget expiredに✓を入れると予算が無くなったタイミングで終�
   <dd>ご使用のトラッキングサービスにチェックをいれてください。その他の場合は最下部にチェックをいれ、サービス名称をご記入ください。</dd>
 </dl>
 
-##手順 3（お客様のサイン）
+##手順 3（ご担当様のサイン）
 手順 3 の対象ページは印刷、手書きでサインを記入後にスキャンし再度PDF化してください。
 > ※項目の記入は全て**英語**でお願い致します。
 
@@ -140,7 +140,7 @@ Buget expiredに✓を入れると予算が無くなったタイミングで終�
 ####Advertiser
 <dl>
   <dt>By</dt>
-  <dd>お手数ですが印刷の上、担当者様の手書きサインをお願い致します。（英語）</dd>
+  <dd>お手数ですが印刷の上、ご担当者様の手書きサインをお願い致します。（英語）</dd>
     <dt>Print Name</dt>
   <dd>Word 上でお名前をご記入下さい。</dd>
       <dt>Title</dt>
