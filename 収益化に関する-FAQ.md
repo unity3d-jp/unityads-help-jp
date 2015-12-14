@@ -18,7 +18,7 @@ A: Unity は常に機能の追加や対応プラットフォームの拡大を�
 
 A: Windows Phone は現在 Unity Ads のサポート対象外です。
 
-現在は市場の可能性を前向きに探っている段階です。もし Windows Phone ゲームでの広告掲載にご関心をお持ちでしたら、sales@unityads.jp までお知らせください。
+現在は市場の可能性を前向きに探っている段階です。もし Windows Phone ゲームでの広告掲載にご関心をお持ちでしたら、[ads-support@unity3d.co.jp](mailto:ads-support@unity3d.co.jp) までお知らせください。
 
 ### Q: Unity Ads を導入したゲームの実物を見てみたいのですが。
 
