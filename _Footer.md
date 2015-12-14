@@ -1,1 +1,0 @@
-![](https://t.gyazo.com/teams/unity/cc72ecbb6fd9e32ede0e4936c9003713.png)
