@@ -1,5 +1,3 @@
-![](https://t.gyazo.com/teams/unity/cc72ecbb6fd9e32ede0e4936c9003713.png)
-
 ## 最近更新のあったページ
 * [発注書（ IO ）の書き方](発注書（ IO ）の書き方)
 * [広告出稿時に関する FAQ（Japan）](広告出稿時に関する FAQ（Japan）)
@@ -51,8 +49,8 @@
 * [Terms of service - Advertisers](TOS Advertisers)
 * [Terms of service - Ads publishers](TOS Ads publishers)
 
-
-
 ## お問い合わせ
 
 * [お問い合わせ先](お問い合わせ先)
+
+![](https://t.gyazo.com/teams/unity/cc72ecbb6fd9e32ede0e4936c9003713.png)
