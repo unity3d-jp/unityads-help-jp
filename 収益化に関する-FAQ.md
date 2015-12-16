@@ -24,6 +24,7 @@ A: Windows Phone は現在 Unity Ads のサポート対象外です。
 
 A: Unity Ads はすでに多数のゲームに導入されています。事例として参考になりそうなものを以下にご紹介しましょう。
 
+* Crossy Road (Unity で制作。 iOS: https://itunes.apple.com/en/app/crossy-road-endless-arcade/id924373886?mt=8, Android: https://play.google.com/store/apps/details?id=com.yodo1.crossyroad&hl=en)
 * Sonic Dash (Unity で制作。iOS: https://itunes.apple.com/us/app/sonic-dash/id582654048?mt=8, Android: https://play.google.com/store/apps/details?id=com.sega.sonicdash)
 * 4 Pics 1 Word (ネイティブ SDK 統合。 iOS:  https://itunes.apple.com/us/app/4-pics-1-word/id595558452?mt=8 Android: https://play.google.com/store/apps/details?id=de.lotum.whatsinthefoto.us )
 * Dumb Ways to Die (Adobe Air ゲームでネイティブ SDK 統合。 iOS: https://itunes.apple.com/fi/app/dumb-ways-to-die/id639930688?mt=8 Android: https://play.google.com/store/apps/details?id=air.au.com.metro.DumbWaysToDie&hl=fi)
