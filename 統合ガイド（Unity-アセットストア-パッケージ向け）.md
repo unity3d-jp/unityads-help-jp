@@ -49,8 +49,8 @@ public class AdvertisementTest : MonoBehaviour {
 例:
 
 ```
-if(Advertisement.IsReady("pictureZone")) {
-	Advertisement.Show("pictureZone", ...);
+if(Advertisement.IsReady("rewardedVideo")) {
+    Advertisement.Show("rewardedVideo", ...);
 }
 ```
 
