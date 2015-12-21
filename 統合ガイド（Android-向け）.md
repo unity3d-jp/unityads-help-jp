@@ -162,7 +162,7 @@ UnityAds.show(properties);
 現在デフォルトに設定されている報酬アイテムは、 `getCurrentRewardItemKey()` メソッド経由で取得できます。これを使って、どの報酬アイテムがユーザーに渡されるのかをチェックできます。`show` 呼び出しの前にアイテムを変更したい場合は、`setRewardItemKey(String)` メソッドを呼び出します。デフォルトアイテムのアイテムキーは、`getDefaultRewardItemKey()`を呼び出せばいつでも取得できます。
 
 #### 統合サポート
-統合の際に問題が起きた場合は、チケット登録のため [unityads-support@unity3d.com[en]](mailto:unityads-support@unity3d.com) にメールでご一報ください。
+統合の際に問題が起きた場合は、チケット登録のため [ads-support@unity3d.co.jp](mailto:ads-support@unity3d.co.jp) にメールでご一報ください。
 
 [1]: https://unityads.unity3d.com/admin
 [2]: https://github.com/Applifier/unity-ads-sdk
