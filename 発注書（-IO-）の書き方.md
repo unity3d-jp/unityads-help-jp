@@ -92,7 +92,7 @@
 
 ###CAMPAIGN DETAILS
 
-![](https://t.gyazo.com/teams/unity/95b91d2f9dac37c1c1982928c706f631.png "campaign details")
+![](https://t.gyazo.com/teams/unity/99006d81df0f92bbb93ecfa5b5aaefc4.png "campaign details")
 
 <dl>
   <dt>Game / Platform</dt>
