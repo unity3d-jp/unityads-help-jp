@@ -92,6 +92,8 @@ where:
 
 例:
 
+> 注意： sourceIds パラメータをあなたのゲームIDと入れ替えるとそのゲームの統計情報、URLから sourceIds パラメータを取り除くと、あなたの全てのゲームの統計情報を得ることができます。
+
 ```
 curl -L "http://gameads-admin.applifier.com/stats/monetization-api?apikey=c4ca4238a0b923820dcc509a6f75849bc81e728d9d4c2f636f067f89cc14862c&splitBy=zone,country&fields=adrequests,available,offers,views&start=2013-02-01T00:00:00.000Z&end=2013-03-01T00:00:00.000Z&scale=day&sourceIds=7162"
 ```
