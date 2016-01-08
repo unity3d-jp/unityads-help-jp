@@ -15,6 +15,7 @@
 ## 広告出稿に必要なものは？
 広告出稿時には下記事項が必要となります。
 
+- UDN アカウントの作成
 - 出稿アプリのストア URL （ iOS / Android ）
 - [クリエイティブ](https://github.com/unity3d-jp/unityads-help-jp/wiki/%E5%BA%83%E5%91%8A%E5%87%BA%E7%A8%BF%E6%99%82%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B-FAQ%EF%BC%88Japan%EF%BC%89#%E3%82%AF%E3%83%AA%E3%82%A8%E3%82%A4%E3%83%86%E3%82%A3%E3%83%96%E3%81%AE%E5%BF%85%E8%A6%81%E4%BA%8B%E9%A0%85%E3%82%92%E6%95%99%E3%81%88%E3%81%A6)（動画 1 種類, 静止画 2 種類）
 - [発注書（ IO )](https://github.com/unity3d-jp/unityads-help-jp/wiki/%E5%BA%83%E5%91%8A%E5%87%BA%E7%A8%BF%E6%99%82%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B-FAQ%EF%BC%88Japan%EF%BC%89#%E7%99%BA%E6%B3%A8%E6%9B%B8-io-%E3%81%A3%E3%81%A6%E4%BD%95
