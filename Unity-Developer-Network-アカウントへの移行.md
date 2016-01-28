@@ -1,9 +1,8 @@
 # Unity Developer Network アカウントへの移行
 
-As of January 25th 2016, you will be required to use your Unity Developer Network (UDN) account to sign into the Unity Ads admin.
 **2016年1月25日**から、Unity Ads にサインインするためには Unity Developer Network (UDN) アカウントが必要となります。
 
-##　いままでのアカウントは？
+## いままでのアカウントは？
 もし Unity Ads のアカウントをお持ちだった場合、UDN アカウントに移行しても、引き続き旧ダッシュボードお使いいただくことができます。
 
 ## 今までのメールアドレスでログインできないのですが？
