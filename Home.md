@@ -6,9 +6,7 @@
 * [発注書（ IO ）の書き方](発注書（ IO ）の書き方)
 
 ## ようこそ Unity Ads へ！
-
 * [ようこそ Unity Ads へ！](ようこそ Unity Ads へ！)
-* [Unity Developer Network アカウントへの移行](Unity Developer Network アカウントへの移行)
 
 ## パブリッシャー向けドキュメント
 
