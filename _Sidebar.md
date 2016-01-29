@@ -3,11 +3,6 @@
 ## 最近更新のあったページ
 * [Unity Developer Network アカウントへの移行](Unity Developer Network アカウントへの移行)
 * [発注書（ IO ）の書き方](発注書（ IO ）の書き方)
-* [広告出稿時に関する FAQ（Japan）](広告出稿時に関する FAQ（Japan）)
-* [Unity Developer Network アカウントへの移行](Unity Developer Network アカウントへの移行)
-
-
-
 
 ## パブリッシャー向けドキュメント
 
