@@ -3,9 +3,9 @@
 Unity Ads はゲームに特化した、iOS, Android用アドネットワークです。あなたのゲームに Unity Ads を導入してマネタイズしたり、あなたのゲームの広告を出稿してより優良なユーザーを集めましょう。導入はとても簡単です！
 
 ## アカウント
-現在 Unity Ads では全ての Unity Ads ユーザーのアカウントを Unity Developer Network (UDN) アカウントに統合しています。2016年1月25日以降も引き続き旧ダッシュボードをお使いいただくには、UDN アカウントでのログインが必要となります。
+現在 Unity Ads では全ての Unity Ads ユーザーのアカウントを Unity Developer Network (UDN) アカウントに統合しています。[こちら](https://accounts.unity3d.com/sign-up)からご登録いただけます。2016年1月25日以降も引き続き旧ダッシュボードをお使いいただくには、UDN アカウントでのログインが必要となります。
 
-アカウント統合の詳細は[こちら](Unity Developer Network アカウントへの移行)をご参照下さい。
+詳しくは[Unity Developer Network アカウントへの移行](Unity Developer Network アカウントへの移行)をご参照下さい。
 
 ## ダッシュボード 
 Unity Ads には、新・旧2種類のダッシュボードが存在しております。
