@@ -1,5 +1,7 @@
 # Unity Developer Network アカウントへの移行
 
+Unity Ads ではこれまで **Unity Ads アカウント** と **Unity Developer Network (UDN)** アカウント の2種類をお使いいただいておりましたが、UDN アカウント一つに統合される形となりました。
+
 **2016年1月25日**から、Unity Ads にサインインするためには Unity Developer Network (UDN) アカウントが必要となります。
 
 ## いままでのアカウントは？
