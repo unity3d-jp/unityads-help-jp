@@ -5,7 +5,7 @@ Unity Ads はゲームに特化した、iOS, Android用アドネットワーク�
 ## アカウント
 現在 Unity Ads では全ての Unity Ads ユーザーのアカウントを Unity Developer Network (UDN) アカウントに統合しています。2016年1月25日以降も引き続き旧ダッシュボードをお使いいただくには、UDN アカウントでのログインが必要となります。
 
-詳しくは [こちら](Unity Developer Network アカウントへの移行)をご参照下さい。
+詳しくは[こちら](Unity Developer Network アカウントへの移行)をご参照下さい。
 
 ## ダッシュボード 
 現在 Unity Ads には、新・旧2種類のダッシュボードが存在しております。
