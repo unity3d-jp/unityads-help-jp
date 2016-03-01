@@ -6,7 +6,7 @@
 * [発注書（ IO ）の書き方](発注書（ IO ）の書き方)
 
 ## ようこそ Unity Ads へ！
-* [ようこそ Unity Ads へ！](ようこそ Unity Ads へ！)
+* [ようこそ Unity Ads へ！](https://github.com/unity3d-jp/unityads-help-jp/wiki/Welcome-to-Unity-Ads)
 
 ## パブリッシャー向けドキュメント
 
