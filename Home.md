@@ -1,8 +1,8 @@
 ![](https://t.gyazo.com/teams/unity/cc72ecbb6fd9e32ede0e4936c9003713.png)
 
 ## 最近更新のあったページ
-* [ようこそ Unity Ads へ！](ようこそ Unity Ads へ！)
-* [Unity Developer Network アカウントへの移行](Unity Developer Network アカウントへの移行)
+* [ようこそ Unity Ads へ！](https://github.com/unity3d-jp/unityads-help-jp/wiki/Welcome-to-Unity-Ads)
+* [Unity Developer Network アカウントへの移行](https://github.com/unity3d-jp/unityads-help-jp/wiki/account-migration-notice)
 * [発注書（ IO ）の書き方](発注書（ IO ）の書き方)
 
 ## ようこそ Unity Ads へ！
@@ -54,4 +54,3 @@
 ## お問い合わせ
 
 * [お問い合わせ先](お問い合わせ先)
-
