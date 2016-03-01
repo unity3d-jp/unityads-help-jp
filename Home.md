@@ -36,7 +36,7 @@
 * [収益化に関する FAQ](収益化に関する FAQ)
 * [支払いに関する FAQ](支払いに関する FAQ)
 * [広告に関する FAQ](広告に関する FAQ)
-* [広告出稿時に関する FAQ（Japan）](広告出稿時に関する FAQ（Japan）)
+* [広告出稿時に関する FAQ（Japan）](https://github.com/unity3d-jp/unityads-help-jp/wiki/general-faq-jp)
 
 
 ## その他
