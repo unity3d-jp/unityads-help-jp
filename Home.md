@@ -8,7 +8,7 @@
 ## ようこそ Unity Ads へ！
 * [ようこそ Unity Ads へ！](https://github.com/unity3d-jp/unityads-help-jp/wiki/Welcome-to-Unity-Ads)
 
-## パブリッシャー
+## MONETIZE
 
 * [マネタイズを始める](https://github.com/unity3d-jp/unityads-help-jp/wiki/start-monetizetion)
 * [Unity Ads導入の成功例](https://github.com/unity3d-jp/unityads-help-jp/wiki/Designing-for-Video-Ads)
@@ -19,7 +19,7 @@
 * [サーバー間のアイテム授受コールバック](https://github.com/unity3d-jp/unityads-help-jp/wiki/s2s-redeem-callbacks)
 * [収益化のための統計 API](https://github.com/unity3d-jp/unityads-help-jp/wiki/stats-api)
 
-## アドバタイザー
+## ADVERTISING
 
 * [広告出稿を始める](https://github.com/unity3d-jp/unityads-help-jp/wiki/start-advertising)
 * [必要なキャンペーン素材](https://github.com/unity3d-jp/unityads-help-jp/wiki/campaign-design-guide)
