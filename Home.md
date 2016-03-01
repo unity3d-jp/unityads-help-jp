@@ -21,12 +21,12 @@
 
 ## 広告主向けドキュメント
 
-* [ユーザー獲得のためのスタートガイド](ユーザー獲得のためのスタートガイド)
-* [キャンペーン素材（動画広告用）](キャンペーン素材（動画広告用）)
-* [キャンペーンの最適化](キャンペーンの最適化)
-* [サーバー間のインストールトラッキング](サーバー間のインストールトラッキング)
-* [SDK によるインストールトラッキング](SDK によるインストールトラッキング)
-* [広告主のための統計 API](広告主のための統計 API)
+* [広告出稿を始める](https://github.com/unity3d-jp/unityads-help-jp/wiki/start-advertising)
+* [必要なキャンペーン素材](https://github.com/unity3d-jp/unityads-help-jp/wiki/campaign-design-guide)
+* [キャンペーンを改善しよう](https://github.com/unity3d-jp/unityads-help-jp/wiki/campaign-optomization)
+* [サーバー間のインストールトラッキング](https://github.com/unity3d-jp/unityads-help-jp/wiki/s2s-install-tracking)
+* [SDK によるインストールトラッキング](https://github.com/unity3d-jp/unityads-help-jp/wiki/sdk-install-tracking)
+* [広告の統計 API](https://github.com/unity3d-jp/unityads-help-jp/wiki/adv-stats-api)
 * [広告出稿時に関する FAQ（Japan）](広告出稿時に関する FAQ（Japan）)
 
 ## よくあるご質問（FAQ）
