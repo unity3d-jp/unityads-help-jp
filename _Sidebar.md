@@ -1,12 +1,12 @@
 ## [Home](Home)
 
 ## 最近更新のあったページ
-* [ようこそ Unity Ads へ！](ようこそ Unity Ads へ！)
-* [Unity Developer Network アカウントへの移行](Unity Developer Network アカウントへの移行)
-* [発注書（ IO ）の書き方](発注書（ IO ）の書き方)
+* [ようこそ Unity Ads へ！](https://github.com/unity3d-jp/unityads-help-jp/wiki/Welcome-to-Unity-Ads)
+* [Unity Developer Network アカウントへの移行](https://github.com/unity3d-jp/unityads-help-jp/wiki/account-migration-notice)
+* [発注書（ IO ）の書き方](https://github.com/unity3d-jp/unityads-help-jp/wiki/IO)
 
 ## ようこそ Unity Ads へ！
-* [ようこそ Unity Ads へ！](ようこそ Unity Ads へ！)
+* [ようこそ Unity Ads へ！](https://github.com/unity3d-jp/unityads-help-jp/wiki/Welcome-to-Unity-Ads)
 
 ## パブリッシャー向けドキュメント
 
@@ -28,7 +28,7 @@
 * [サーバー間のインストールトラッキング](https://github.com/unity3d-jp/unityads-help-jp/wiki/s2s-install-tracking)
 * [広告の統計 API](https://github.com/unity3d-jp/unityads-help-jp/wiki/adv-stats-api)
 * [広告出稿時に関する FAQ（Japan）](広告出稿時に関する FAQ（Japan）)
-* [発注書（ IO ）の書き方](発注書（ IO ）の書き方)
+* [発注書（ IO ）の書き方](https://github.com/unity3d-jp/unityads-help-jp/wiki/IO)
 
 ## よくあるご質問（FAQ）
 
@@ -36,7 +36,7 @@
 * [収益化に関する FAQ](収益化に関する FAQ)
 * [支払いに関する FAQ](支払いに関する FAQ)
 * [広告に関する FAQ](広告に関する FAQ)
-* [広告出稿時に関する FAQ（Japan）](広告出稿時に関する FAQ（Japan）)
+* [広告出稿時に関する FAQ（Japan）](https://github.com/unity3d-jp/unityads-help-jp/wiki/general-faq-jp)
 
 
 ## その他
@@ -50,8 +50,6 @@
 * [Privacy policy](Privacy policy)
 * [Terms of service - Advertisers](TOS Advertisers)
 * [Terms of service - Ads publishers](TOS Ads publishers)
-
-
 
 ## お問い合わせ
 
