@@ -10,15 +10,14 @@
 
 ## パブリッシャー向けドキュメント
 
-* [マネタイズを始める](マネタイズを始める)
-* [ダウンロード](ダウンロード)
-* [統合ガイド（Unity アセットストア パッケージ向け）](統合ガイド（Unity アセットストア パッケージ向け）)
-* [統合ガイド（iOS 向け）](統合ガイド（iOS 向け）)
-* [統合ガイド（Android 向け）](統合ガイド（Android 向け）)
-* [サーバー間のアイテム授受コールバック](サーバー間のアイテム授受コールバック)
-* [収益化のための統計 API](収益化のための統計 API)
-* [広告表示について](広告表示について)
-* [導入手法のベストプラクティス](導入手法のベストプラクティス)
+* [マネタイズを始める](https://github.com/unity3d-jp/unityads-help-jp/wiki/start-monetizetion)
+* [Unity Ads導入の成功例](https://github.com/unity3d-jp/unityads-help-jp/wiki/Designing-for-Video-Ads)
+* [広告表示について](https://github.com/unity3d-jp/unityads-help-jp/wiki/Intro-to-Ad-Placements)
+* [iOSのゲームに組み込む](https://github.com/unity3d-jp/unityads-help-jp/wiki/Integration-Guide-for-iOS)
+* [Androidのゲームに組み込む](https://github.com/unity3d-jp/unityads-help-jp/wiki/Integration-Guide-for-Android)
+* [Unityのゲームに組み込む](https://github.com/unity3d-jp/unityads-help-jp/wiki/Integration-Guide-for-Unity)
+* [サーバー間のアイテム授受コールバック](https://github.com/unity3d-jp/unityads-help-jp/wiki/s2s-redeem-callbacks)
+* [収益化のための統計 API](https://github.com/unity3d-jp/unityads-help-jp/wiki/stats-api)
 
 ## 広告主向けドキュメント
 
