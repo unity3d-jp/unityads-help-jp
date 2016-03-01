@@ -8,7 +8,7 @@
 ## ようこそ Unity Ads へ！
 * [ようこそ Unity Ads へ！](https://github.com/unity3d-jp/unityads-help-jp/wiki/Welcome-to-Unity-Ads)
 
-## MONETIZE
+## MONETIZATION
 
 * [マネタイズを始める](https://github.com/unity3d-jp/unityads-help-jp/wiki/start-monetizetion)
 * [Unity Ads導入の成功例](https://github.com/unity3d-jp/unityads-help-jp/wiki/Designing-for-Video-Ads)
