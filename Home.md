@@ -3,7 +3,7 @@
 ## 最近更新のあったページ
 * [ようこそ Unity Ads へ！](https://github.com/unity3d-jp/unityads-help-jp/wiki/Welcome-to-Unity-Ads)
 * [Unity Developer Network アカウントへの移行](https://github.com/unity3d-jp/unityads-help-jp/wiki/account-migration-notice)
-* [発注書（ IO ）の書き方](発注書（ IO ）の書き方)
+* [発注書（ IO ）の書き方](https://github.com/unity3d-jp/unityads-help-jp/wiki/IO)
 
 ## ようこそ Unity Ads へ！
 * [ようこそ Unity Ads へ！](https://github.com/unity3d-jp/unityads-help-jp/wiki/Welcome-to-Unity-Ads)
@@ -28,7 +28,7 @@
 * [サーバー間のインストールトラッキング](https://github.com/unity3d-jp/unityads-help-jp/wiki/s2s-install-tracking)
 * [広告の統計 API](https://github.com/unity3d-jp/unityads-help-jp/wiki/adv-stats-api)
 * [広告出稿時に関する FAQ（Japan）](広告出稿時に関する FAQ（Japan）)
-* [発注書（ IO ）の書き方](発注書（ IO ）の書き方)
+* [発注書（ IO ）の書き方](https://github.com/unity3d-jp/unityads-help-jp/wiki/IO)
 
 ## よくあるご質問（FAQ）
 
