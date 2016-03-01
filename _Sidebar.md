@@ -21,13 +21,13 @@
 
 ## ADVERTISING
 
-* [管理画面の操作](https://github.com/unity3d-jp/unityads-help-jp/wiki/start-advertising)
+* [広告出稿を始める](https://oc.unity3d.com/index.php/s/ocI17JeNycP68Ll)
 * [必要なキャンペーン素材](https://github.com/unity3d-jp/unityads-help-jp/wiki/campaign-design-guide)
 * [キャンペーンを改善しよう](https://github.com/unity3d-jp/unityads-help-jp/wiki/campaign-optomization)
 * [SDK によるインストールトラッキング](https://github.com/unity3d-jp/unityads-help-jp/wiki/sdk-install-tracking)
 * [サーバー間のインストールトラッキング](https://github.com/unity3d-jp/unityads-help-jp/wiki/s2s-install-tracking)
 * [広告の統計 API](https://github.com/unity3d-jp/unityads-help-jp/wiki/adv-stats-api)
-* [広告出稿時に関する FAQ（Japan）](広告出稿時に関する FAQ（Japan）)
+* [広告出稿時に関する FAQ（Japan）](https://github.com/unity3d-jp/unityads-help-jp/wiki/general-faq-jp)
 * [発注書（ IO ）の書き方](https://github.com/unity3d-jp/unityads-help-jp/wiki/IO)
 
 ## よくあるご質問（FAQ）
