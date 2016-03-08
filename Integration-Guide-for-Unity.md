@@ -230,7 +230,7 @@ Step 6：GameObject を選択し、Inspector window に Game ID を入力
 >Game ID がわからない場合、Unity Ads dashboard の プラットフォームリストよりご確認いただけます。
 >旧式の Unity Ads dashboard をお使いの場合には、左側メニューの "ゲーム" のリストよりご確認いただけます。 
 
-##UnityAdsExample の拡張
+###UnityAdsExample の拡張
 
 以下の項目にも対応できるように機能を拡張します。
 
