@@ -8,7 +8,7 @@
 - テストモードで広告が表示されるか試す
 - 広告を見せる
 - ゲーム内リワード広告を見せる
-- Server-to-Server Redeem Callbacks を使う
+- サーバー間のアイテム授受コールバックを使う
 - Unity Ads で使える Scripting API
 
 ##組み込みの概要
@@ -368,8 +368,8 @@ public class UnityAdsRewardedButton : MonoBehaviour
 }
 ```
 
-##Server-to-Server Redeem Callbacks を使う
-詳細は Server-to-Server Redeem Callbacks のページをご覧ください。
+##サーバー間のアイテム授受コールバックを使う
+詳細は[こちら](https://github.com/unity3d-jp/unityads-help-jp/wiki/s2s-redeem-callbacks)をご覧ください。
 
 
 ##Unity Ads で使える Scripting API
