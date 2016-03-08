@@ -22,13 +22,11 @@
 
 ご出稿の前には、弊社にて審査があります。以下の項目に注意してください。
 
-- 規則に則ったフォーマット（フォーマットについては[こちら]()）
+- 規則に則ったフォーマット（フォーマットについては[こちら](https://github.com/unity3d-jp/unityads-help-jp/wiki/campaign-design-guide)）
 - 性的に露骨な表現でない
 - 予算が最低出稿金額以上ある
 - Google play その他のバッヂやアイコンが iOS のキャンペーンに無い
 - トラッキング連携テストの完了
-
-詳細なキャンペーン要件は [こちら](https://github.com/unity3d-jp/unityads-help-jp/wiki/campaign-design-guide)をご覧ください。
 
 ##自動でレポートを受け取りたいのですが？
 
