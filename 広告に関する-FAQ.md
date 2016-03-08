@@ -28,7 +28,7 @@
 - Google play その他のバッヂやアイコンが iOS のキャンペーンに無い
 - トラッキング連携テストの完了
 
-詳細なキャンペーン要件は [Campaign Design Guide]()をご覧ください。
+詳細なキャンペーン要件は [こちら](https://github.com/unity3d-jp/unityads-help-jp/wiki/campaign-design-guide)をご覧ください。
 
 ##自動でレポートを受け取りたいのですが？
 
