@@ -11,7 +11,7 @@ Unity Ads の統合は以下の作業から成ります。
 - [Unity Ads 管理パネル][2] で Unity Ads を設定する
 
 ### Unity Ads を自分の iOS ゲームに統合する
-> 注意：作業を始める前に、Unity Ads SDK を GitHub からダウンロードしておいてください。 [Unity Ads SDK from GitHub][1].
+> 注意：作業を始める前に、Unity Ads SDK を GitHub からダウンロードしておいてください。（iOS8以降に対応）ソースコードを公開しておりますので、詳しくはそれぞれの設定ファイルをご参照ください。 [Unity Ads SDK from GitHub][1].
 
 Unity Ads を統合する手順はごくシンプルで、煩雑な作業は不要です。概要をまとめると以下のようになります。
 
