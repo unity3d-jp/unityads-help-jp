@@ -39,8 +39,6 @@
 
 
 ## その他
-
-* [Applifier Impact および Everyplay GameAds からの移行](Applifier Impact および Everyplay GameAds からの移行)
 * [Unity Developer Network アカウントへの移行](https://github.com/unity3d-jp/unityads-help-jp/wiki/account-migration-notice)
 
 
