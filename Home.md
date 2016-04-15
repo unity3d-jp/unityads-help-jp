@@ -10,14 +10,15 @@
 
 ## Unity Ads を導入する
 
-1.[マネタイズを始める](https://github.com/unity3d-jp/unityads-help-jp/wiki/start-monetizetion)
-* [Unity Ads導入の成功例](https://github.com/unity3d-jp/unityads-help-jp/wiki/Designing-for-Video-Ads)
-* [広告表示について](https://github.com/unity3d-jp/unityads-help-jp/wiki/Intro-to-Ad-Placements)
-* [iOSのゲームに組み込む](https://github.com/unity3d-jp/unityads-help-jp/wiki/Integration-Guide-for-iOS)
-* [Androidのゲームに組み込む](https://github.com/unity3d-jp/unityads-help-jp/wiki/Integration-Guide-for-Android)
-* [Unityのゲームに組み込む](https://github.com/unity3d-jp/unityads-help-jp/wiki/Integration-Guide-for-Unity)
-* [サーバー間のアイテム授受コールバック](https://github.com/unity3d-jp/unityads-help-jp/wiki/s2s-redeem-callbacks)
-* [収益化のための統計 API](https://github.com/unity3d-jp/unityads-help-jp/wiki/stats-api)
+1. [マネタイズを始める](https://github.com/unity3d-jp/unityads-help-jp/wiki/start-monetizetion)
+2. [Unity Ads導入の成功例](https://github.com/unity3d-jp/unityads-help-jp/wiki/Designing-for-Video-Ads)
+3. [広告表示について](https://github.com/unity3d-jp/unityads-help-jp/wiki/Intro-to-Ad-Placements)
+4. Unity Ads の組み込み
+ [iOSのゲームに組み込む](https://github.com/unity3d-jp/unityads-help-jp/wiki/Integration-Guide-for-iOS)
+ [Androidのゲームに組み込む](https://github.com/unity3d-jp/unityads-help-jp/wiki/Integration-Guide-for-Android)
+ [Unityのゲームに組み込む](https://github.com/unity3d-jp/unityads-help-jp/wiki/Integration-Guide-for-Unity)
+5. [サーバー間のアイテム授受コールバック](https://github.com/unity3d-jp/unityads-help-jp/wiki/s2s-redeem-callbacks)
+6. [収益化のための統計 API](https://github.com/unity3d-jp/unityads-help-jp/wiki/stats-api)
 
 ## Unity Ads に広告を出す
 
