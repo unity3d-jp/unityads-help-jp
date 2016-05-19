@@ -61,17 +61,11 @@ http://hastrk1.com/serve?action=click&publisher_id=XYZ&site_id=XYZ&offer_id=XYZ&
 ユーザーのコンバージョン、つまりキャンペーンで新しいインストールがあったことのレポートは、ポストバック URL を通して行います。インストールは HTTP GET リクエストで報告されます。URL は iOS の場合、以下のようになります。
 
 ```
-https://impact.applifier.com/games/GAME_ID/install?advertisingTrackingId=[YOUR_MACRO_FOR_IDFA]
-```
-```
 https://postback.unityads.unity3d.com/games/[GAME_ID]/install?advertisingTrackingId=[YOUR_MACRO_FOR_IDFA]
 ```
 
 Android の場合は以下のようになります。
 
-```
-https://impact.applifier.com/games/GAME_ID/install?advertisingTrackingId=[YOUR_MACRO_FOR_GOOGLE_AD_ID]&androidId=[YOUR_MACRO_FOR_ANDROID_ID_MD5_HASH]
-```
 ```
 https://postback.unityads.unity3d.com/games/[GAME_ID]/install?advertisingTrackingId=[YOUR_MACRO_FOR_GOOGLE_AD_ID]
 ```
