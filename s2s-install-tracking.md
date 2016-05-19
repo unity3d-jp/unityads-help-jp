@@ -63,11 +63,17 @@ http://hastrk1.com/serve?action=click&publisher_id=XYZ&site_id=XYZ&offer_id=XYZ&
 ```
 https://impact.applifier.com/games/GAME_ID/install?advertisingTrackingId=[YOUR_MACRO_FOR_IDFA]
 ```
+```
+https://postback.unityads.unity3d.com/games/[GAME_ID]/install?advertisingTrackingId=[YOUR_MACRO_FOR_IDFA]
+```
 
 Android の場合は以下のようになります。
 
 ```
 https://impact.applifier.com/games/GAME_ID/install?advertisingTrackingId=[YOUR_MACRO_FOR_GOOGLE_AD_ID]&androidId=[YOUR_MACRO_FOR_ANDROID_ID_MD5_HASH]
+```
+```
+https://postback.unityads.unity3d.com/games/[GAME_ID]/install?advertisingTrackingId=[YOUR_MACRO_FOR_GOOGLE_AD_ID]
 ```
 
 `GAME_ID` のところにあなたの Unity Ads Game ID が入ります。ID は[Unity Ads 管理パネル][2] にログインし、 "ゲーム" にある "登録済みゲーム" 内の "ゲームID" 欄で確認することが出来ます。この ID は現在、1000～20000 の範囲の整数となっています。なお現時点では、Unity Ads Game ID の代わりにあなたのゲームの iTunes ID/Google Play ID を使うべきではありません。
