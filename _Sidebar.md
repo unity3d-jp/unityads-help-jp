@@ -15,7 +15,7 @@
 * [広告表示について](https://github.com/unity3d-jp/unityads-help-jp/wiki/Intro-to-Ad-Placements)
 * [iOSのゲームに組み込む](https://github.com/unity3d-jp/unityads-help-jp/wiki/Integration-Guide-for-iOS)
 * [Androidのゲームに組み込む](https://github.com/unity3d-jp/unityads-help-jp/wiki/Integration-Guide-for-Android)
-* [Unityのゲームに組み込む](https://github.com/unity3d-jp/unityads-help-jp/wiki/Integration-Guide-for-Unity)
+* [Unity製のゲームに組み込む](https://github.com/unity3d-jp/unityads-help-jp/wiki/Integration-Guide-for-Unity)
 * [サーバー間のアイテム授受コールバック](https://github.com/unity3d-jp/unityads-help-jp/wiki/s2s-redeem-callbacks)
 * [収益化のための統計 API](https://github.com/unity3d-jp/unityads-help-jp/wiki/stats-api)
 
