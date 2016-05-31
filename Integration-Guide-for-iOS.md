@@ -7,8 +7,26 @@ Unity Ads は収益化ツールです。他のゲームのトレイラー動画�
 
 Unity Ads の統合は以下の作業から成ります。
 
-- Unity Ads を自分の iOS ゲームに統合する
 - [Unity Ads 管理パネル][2] で Unity Ads を設定する
+- Unity Ads を自分の iOS ゲームに統合する
+
+### Unity Ads を Unity Ads 管理パネル で設定する
+Unity Ads をあなたの iOS ゲーム用に設定するには、[Unity Ads 管理パネル][2]にログインします。
+
+#### ゲームを追加する
+まず、ゲームを [Unity Ads 管理パネル][2] に登録します。iOS App ID か iTunes URL が必要です。
+
+例:
+
+> #### https://itunes.apple.com/us/app/fatcat-rush/id457251993?mt=8
+または
+> #### 457251993
+
+ゲームを登録するには、[Unity Ads 管理パネル][2] から "+Add new project"をクリックします。
+
+追加したゲームは一覧に表示されます。ゲームをクリックすると詳細オプションにアクセスできます。このページに記載されている`GAME ID`が、`startWithGameId` 呼び出しに必要となります。
+
+さらに、対象のOSをクリックし、から "Ad placements" にて、ゲーム内での広告配置を変更することも可能です。配置枠を追加作成して動画と画像の広告コンテナを別々に配置したり、広告にインセンティブを設定したり、様々な組み合わせを試行したりできます。各配置の設定は個別に変更可能です。
 
 ### Unity Ads を自分の iOS ゲームに統合する
 > 注意：作業を始める前に、Unity Ads SDK を GitHub からダウンロードしておいてください。（iOS8以降に対応）ソースコードを公開しておりますので、詳しくはそれぞれの設定ファイルをご参照ください。 [Unity Ads SDK from GitHub][1].
@@ -225,23 +243,5 @@ for (id itemKey in items) {
 
 [[UnityAds sharedInstance] startWithGameId:@"YOUR_GAME_ID_HERE" andWithViewController:myViewController];
 ```
-### Unity Ads を Unity Ads 管理パネル で設定する
-Unity Ads をあなたの iOS ゲーム用に設定するには、[Unity Ads 管理パネル][2]にログインします。
-
-#### ゲームを追加する
-まず、ゲームを [Unity Ads 管理パネル][2] に登録します。iOS App ID か iTunes URL が必要です。
-
-例:
-
-> #### https://itunes.apple.com/us/app/fatcat-rush/id457251993?mt=8
-または
-> #### 457251993
-
-ゲームを登録するには、[Unity Ads 管理パネル][2] のメニューから "ゲーム" ページを開き、"新しいゲームを追加" をクリックします。
-
-追加したゲームは一覧に表示されます。ゲームをクリックすると詳細オプションにアクセスできます。"開発者用設定" をクリックしてゲームの統合の詳細を開きます。このページに記載されている Unity Ads gameId が、`startWithGameId` 呼び出しに必要となります。
-
-ここで "高度な設定" から "広告の表示手法" にて、ゲーム内での広告配置を変更することも可能です。配置枠を追加作成して動画と画像の広告コンテナを別々に配置したり、広告にインセンティブを設定したり、様々な組み合わせを試行したりできます。各配置の設定は個別に変更可能です。
-
 [1]: https://github.com/Applifier/unity-ads-sdk
 [2]: https://unityads.unity3d.com/admin/
