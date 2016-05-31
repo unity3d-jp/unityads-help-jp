@@ -12,8 +12,8 @@ Unity Ads でマネタイズを始めるには、UDN アカウントが必要と
 ## Unity Ads SDKs
 Unity 以外のフレームワークを使ってモバイルゲームを制作されている場合は、以下を参照して下さい。
 
-- iOS のゲームに Unity Ads を組み込む
-- Android のゲームに Unity Ads を組み込む
+- [iOS のゲームに Unity Ads を組み込む](https://github.com/unity3d-jp/unityads-help-jp/wiki/Integration-Guide-for-iOS)
+- [Android のゲームに Unity Ads を組み込む](https://github.com/unity3d-jp/unityads-help-jp/wiki/Integration-Guide-for-Android)
 
 ## Unity Ads in Unity
 Unity でモバイルゲームを制作されている場合には、お使いのバージョンによって Unity Ads を組み込む方法が異なります。
