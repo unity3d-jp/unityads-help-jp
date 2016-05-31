@@ -1,4 +1,4 @@
-#Unityのゲームに組み込む
+#Unity製のゲームに組み込む
 
 ## 概要
 - [組み込みの概要](https://github.com/unity3d-jp/unityads-help-jp/wiki/Integration-Guide-for-Unity#%E7%B5%84%E3%81%BF%E8%BE%BC%E3%81%BF%E3%81%AE%E6%A6%82%E8%A6%81)
