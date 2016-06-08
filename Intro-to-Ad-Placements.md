@@ -22,7 +22,8 @@
 
 新ダッシュボードでは "対象のプロジェクト" > "プラットフォームの選択" > "Ad placements" から設定することができます。
 
-参考として、有用な広告表示の例を[こちら](https://github.com/Applifier/unity-ads/wiki/Downloads)でご覧いただけます。
+参考として、有用な広告表示の例を下記のリンクよりご覧いただけます。
+>#####https://github.com/Applifier/unity-ads/wiki/Downloads
 
 ## Unity Ads package のコード例
 
@@ -71,4 +72,3 @@ if(UnityAds.canShow()){
     UnityAds.show(options);
 }
 ```
-
