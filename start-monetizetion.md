@@ -18,8 +18,8 @@ Unity 以外のフレームワークを使ってモバイルゲームを制作�
 ## Unity Ads in Unity
 Unity でモバイルゲームを制作されている場合には、お使いのバージョンによって Unity Ads を組み込む方法が異なります。
 
-- Services Window を使う（Unity 5.2 以降）
-- Asset Package を使う （Unity 4.3 以降）
+- [Services Window を使う（Unity 5.2 以降）](https://github.com/unity3d-jp/unityads-help-jp/wiki/Integration-Guide-for-Unity#services-window-%E3%82%92%E4%BD%BF%E3%81%86)
+- [Asset Package を使う （Unity 4.3 以降）](https://github.com/unity3d-jp/unityads-help-jp/wiki/Integration-Guide-for-Unity#asset-package-%E3%82%92%E4%BD%BF%E3%81%86)
 
 Unity 5.2 のリリースに伴って、Unity Ads の API は Unity エンジンに組み込まれました。これにより、セットアップが非常に簡単になりました。もちろん、Unity 5.2 以降でも Service window を使わずに Asset Package から Unity Ads を組み込むことも可能です。
 
