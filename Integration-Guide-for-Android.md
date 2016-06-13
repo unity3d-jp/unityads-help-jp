@@ -156,8 +156,6 @@ Note: Current functionality for the SDK requires you to implement the API using 
 
 Note: The way this API works is that you either don't call setZone at all and use the default ad placement settings everywhere, or you explicitly call setZone always before calling show.
 
-##アイテムキーの機能は SDK 2.0 以降削除される予定です
-
 ###サーバーサイドのアイテム授受コールバックのためにユーザー ID を渡す
 
 Unity Ads にオプション パラメータを渡すには、`show` メソッド に、要求されたプロパティを定義する `Map` オブジェクトを渡します。
