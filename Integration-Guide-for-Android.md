@@ -150,9 +150,9 @@ zoneId は広告表示を定義するときに 、rewardItemKey は報酬アイ�
 
 Note: Current functionality for the SDK requires you to implement the API using one of two use cases:
 
-Never call the setZone method, and use the default zone instead. During initialization, the default zone is assigned as the current zone.
+1. Never call the setZone method, and use the default zone instead. During initialization, the default zone is assigned as the current zone.
 
-Call the setZone method each time you call canShow, or before you call show in order to set the current zone.
+2. Call the setZone method each time you call canShow, or before you call show in order to set the current zone.
 
 Note: The way this API works is that you either don't call setZone at all and use the default ad placement settings everywhere, or you explicitly call setZone always before calling show.
 
