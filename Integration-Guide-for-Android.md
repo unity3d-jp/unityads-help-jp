@@ -156,8 +156,6 @@ Note: Current functionality for the SDK requires you to implement the API using 
 
 Note: The way this API works is that you either don't call setZone at all and use the default ad placement settings everywhere, or you explicitly call setZone always before calling show.
 
->注意：この API が動作する方法は、setZone を呼び出さず、デフォルトの広告表示の設定を使用します。show を呼び出す前には常に setZone で場所を明示してください。
-
 ##アイテムキーの機能は SDK 2.0 以降削除される予定です
 
 ###サーバーサイドのアイテム授受コールバックのためにユーザー ID を渡す
