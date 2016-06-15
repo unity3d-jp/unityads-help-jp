@@ -4,7 +4,7 @@
 
 ユーザーが動画を見終わると、Unity Ads サーバーはパブリッシャーが指定したバーチャルアイテムのコールバック URL へコールバックを実行します。これは動画が実際に終了する前に行われるため、報酬の授受サイクルはユーザーがゲームに復帰する前に完了します。なおクライアントは、Unity Ads ダイアログが閉じられた旨のコールバックを受け取るまで、ユーザーに通知を表示するべきではありません。動画が実際に終了するまで、ユーザーの邪魔にならないようにするためです。
 
-Depending on the traffic, it can take some time for the callbacks to arrive. To ensure a smooth gameplay experience, reward the players immediately and use the S2S callbacks for sanity checks against cheating.
+トラフィックに依存するため、コールバックが届くまでに時間がかかる場合があります。スムースなゲームプレイとリワードの付与を確実にするため、チートとの区別をつけるために S2S コールバックを使うことは有用です。
 
 #### コールバック発信元
 コールバックは下記のリストにある IP アドレス/ネットワークから発信されます。
