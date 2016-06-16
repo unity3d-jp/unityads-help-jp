@@ -30,29 +30,40 @@ Unity Ads で外部インストールトラッキングを行う方法は、大�
 
 |トークン|内容|
 |-----|-----------|
-|`{android_id_md5}`|MD5 ハッシュされた、Android デバイスの [Android ID][8]。現在はこれが Android における主流の識別情報ですが、近い将来 Google Advertising ID に取って代わられることになります。現在、Android ID をオリジナルの形でトラッキングリンクに含めて渡すことはできません。MD5 ハッシュされた状態でのみ渡すことができます。例: MD5 ("dc57ba135d7521d8") = "5e0572516f9657268ae0a7ef4f7a5bd1"|
 |`{ifa}` (iOSの場合)|iOS の広告識別子 [Identifier for Advertising (IDFA)][6] です。平文で、次のようにオリジナルの（大文字の）形のまま表されます。「XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX」|
 |`{ifa}` (Androidの場合)|[Google Advertising ID][7] です。次のようにオリジナルの（小文字の）形のまま表されます。「xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx」これは将来、Android ID に換わり Android における主要な識別手段となります。移行期間中は両方の識別子を併用する必要があります。|
-|`{ifa_md5}` (in iOS)|iOSの広告識別子 [Identifier for Advertising (IDFA)][6] の mb5 ハッシュ、全て大文字です。"XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX"|
-|`{ifa_md5}` (in Android)|[Google Advertising ID][7]の mb5 ハッシュ、全て小文字です。"xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"|
+|`{ifa_md5}` (iOSの場合)|iOSの広告識別子 [Identifier for Advertising (IDFA)][6] の mb5 ハッシュ、全て大文字です。"XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX"|
+|`{ifa_md5}` (Androidの場合)|[Google Advertising ID][7]の mb5 ハッシュ、全て小文字です。"xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"|
+|`{android_id_md5}`|MD5 ハッシュされた、Android デバイスの [Android ID][8]。これは Google Advertising ID {ifa} が使えない（Google Play サービスのインストールされていない Android 端末）にのみ使用して下さい。MD5 ハッシュされた状態でのみ渡すことができます。例: MD5 ("dc57ba135d7521d8") = "5e0572516f9657268ae0a7ef4f7a5bd1"|
 |`{ip}`|ユーザーのIP アドレスです。例えば "123.123.123.123" といった形式で表されます。これはあくまで参考として提供されるものです。インストールトラッキングにおけるユーザー識別には適切ではありません。|
 |`{country_code}`|ユーザーの ISO 3166-1 alpha-2 国名コードです。小文字で表します（注: 英国（グレートブリテン及び北アイルランド連合王国）は gb で表します）。|
 |`{campaign_id}`|Unity Ads キャンペーン ID。例: "546b9257365339e0031572bd"|
 |`{campaign_name}`|Unity Ads キャンペーン名。|
 |`{game_id}`|宣伝されるゲームの Unity Ads gameId。例："11004"|
 |`{source_game_id}`|パブリッシャーがユーザーに広告を見せるゲームの Unity Ads gameId。例: "11017"|
+|`{device_type}`|端末情報。例えば "iPad4", "motorola XT1254" など。|
+|`{creative_pack}`|クリエイティブパックの名称。例えば "Video Creatives Pack - 15s" など|
+
+##Unity Ads トラッキングURLのルール
+
+- HTTPS以外のURLは使用できません
+- URLには少なくとも{ifa}のダイナミックカスタムトークンが必要です
+- HTTPSのリダイレクトはHTTP 3XX codesを通してのみ可能で、HTML/Javascriptを介してリダイレクトすることはできません
+- App Store, Google Playにリダイレクトすることはできません
 
 
-例えば、以下のモバイルアプリ トラッキング URL
+例えば、AppsFlyer の Tracking URL は
 
 ```
-http://hastrk1.com/serve?action=click&publisher_id=XYZ&site_id=XYZ&offer_id=XYZ&ios_ifa={ifa}&response_format=json
+https://app.appsflyer.com/id1063631875?idfa={ifa}&c={campaign_name}&af_sub2={source_game_id}&redirect=false
 ```
-は以下のように表されます。
+
+以下のように表されます。
 
 ```
-http://hastrk1.com/serve?action=click&publisher_id=XYZ&site_id=XYZ&offer_id=XYZ&ios_ifa=9C528B70-E96D-4590-8766-2A40ED2B3573&response_format=json
+https://app.appsflyer.com/id1063631875?idfa=9C528B70-E96D-4590-8766-2A40ED2B3573&c=Unity_Android_USA_Target&af_sub2=33333&redirect=false
 ```
+
 
 #### インプレッション （ started ）またはクリックに反応する
 トラッキング URL は、インプレッション（ユーザーがキャンペーンを見た）またはクリック（ユーザーが動画再生終了時に表示されるダウンロードリンクをクリックした）の、どちらの時点でも起動させることができます。いずれの場合でも、URL は App Store や Google Play にリダイレクトしてはいけません。この URL は HTTP 200 OK を返します。
@@ -83,6 +94,7 @@ https://postback.unityads.unity3d.com/games/[GAME_ID]/install?advertisingTrackin
 |`advertisingTrackingIdMD5` (in Android)|[Google Advertising ID][7] の mb5 ハッシュ形式。小文字で表される。「xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxx」該当するすべてのインストールに必須。（必ず raw もしくは mb5 形式を使用して下さい）|
 |`androidId`| [Android ID][8]（オリジナルの小文字の形、またはオリジナルから生成した MD5 ハッシュ）。Android インストールのうち Google Advertising ID を持たないものには必須。|
 |`attributed`|このインストールが UnityAds に帰属していて課金対象になるかどうかを示すフラグ（1 または 0）。デフォルトは attributed=1。attributed=0 の場合、インストールはプレイヤーに関連付けられるが、課金対象にはならない。注: このパラメータはブランケット トランスミッション方式（帰属するものだけでなく、すべてのインストールを通知する）の場合のみ使う。|
+|`rawAndroidId`| [Android ID][8]（オリジナルの小文字の形）。*非推奨です。* このパラメータは、Google Play サービスのインストールされた Android 端末には不要。Google Play サービスがインストールされておらず、Google Advertising ID を持たない端末の場合に Android IDを取得するためのもの。|
 
 ### ポストバック URL 応答フォーマット
 Unity Ads インストールトラッキングサーバーからの応答は JSON として出力されます。メッセージを正常に受信した場合、このサーバーは*ステータスフィールド*に「*ok*」の値を入れて返します。また、このサーバーは常に HTTP レスポンスコードを出力します。
@@ -148,30 +160,6 @@ http://control.kochava.com/v1/cpi/click?campaign_id=YOUR_KOCHAVA_CAMPAIGN_ID&net
 ##### ポストバック URL:
 1. Kochava に依頼して、あなたの Unity Ads Game ID を Kochava のシステムに登録してもらいます。
 1. Postback Conversion レポートで、統合パートナーのリストから Applifier を選択します。
-
-#### Ad-X
-[Ad-X][5] を使用して Unity Ads のキャンペーン トラッキングを設定する場合の手順は以下のとおりです。
-
-トラッキング URL:
-
-1. Ad-X トラッキング URL の「NET/」の後に、iOS の場合は `{ifa_md5}/Applifier?idfa={ifa_md5}&redirect=off` を追記します。Android の場合は代わりに
-```
-{ifa}{android_id_md5}/Applifier?idfa={ifa}&android_id={android_id_md5}&ipaddress={ip}&redirect=off
-```
-を追記します。結果は例えば以下のようになります。
-```
-http://ad-x.co.uk/API/click/abc1234/abc9876/NET/{ifa_md5}/Applifier?idfa={ifa_md5}&redirect=off
-```
-これをカスタムトラッキング URL フィールドに入力します。
-1. ボックス「This URL redirects to AppStore / Google Play Store（この URL を App Store/Google Play Store にリダイレクトする）」のチェックを外します。
-
-##### ポストバック URL:
-Ad-X admin panel の Postback URL に以下を入力します。
-```
-https://impact.applifier.com/games/GAME_ID/install?advertisingTrackingId={idfa}&androidId={android_id}
-```
-GAME_ID のところは、あなたの Unity Ads gameId で置き換えてください。
-
 
 ### ブランケット トランスミッション インストールトラッキングの説明
 今までにサードパーティのインストールトラッキングサービスを利用したことがない場合、 "ウィナーオンリー" トランスミッション方式の代わりに "ブランケット" トランスミッション方式を使うのも良い方法です。これは、新しいインストールをすべて Unity Ads のポストバック URL にレポートし、どれが Unity Ads に起因するインストールかの判別は Unity Ads に任せるというものです。具体的に言えば、今まであなたのアプリケーションをインストールしたことがないユーザーが、Unity Ads のキャンペーン動画を視聴した後、72 時間以内にあなたのゲームをインストールし起動した場合、これはあなたのキャンペーンに課金対象のインストールとしてカウントされます。
