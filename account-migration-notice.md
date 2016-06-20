@@ -1,4 +1,4 @@
-# Unity Developer Network アカウントへの移行
+# UDN アカウントへの移行
 
 Unity Ads ではこれまで **Unity Ads アカウント** と **Unity Developer Network (UDN)** アカウント の2種類をお使いいただいておりましたが、**UDN アカウント一つに移行**される形となりました。
 
