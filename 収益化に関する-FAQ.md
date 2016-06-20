@@ -68,11 +68,11 @@ Ads 使うことを強く推奨します。
 
 Unity Adsでマネタイズに成功したゲームはたくさんあります。以下に示すのはほんの一例です。
 
-- Crossy Road (iOS, Android) -- Made with Unity.
-- Temple Run 2 (iOS, Android) -- Made with Unity.
-- Sonic Dash (iOS, Android) -- Made with Unity.
-- 4 Pics 1 Word (iOS, Android) -- Native SDK integration.
-- Dumb Ways to Die (iOS, Android -- Native SDK integration with Adobe AIR.
+- Crossy Road ([iOS](https://itunes.apple.com/en/app/crossy-road-endless-arcade/id924373886?mt=8), [Android](https://play.google.com/store/apps/details?id=com.yodo1.crossyroad)) -- [Made with Unity](http://madewith.unity.com/games/crossy-road).
+- Temple Run 2 ([iOS](https://itunes.apple.com/us/app/temple-run-2/id572395608?mt=8), [Android](https://play.google.com/store/apps/details?id=com.imangi.templerun2)) -- [Made with Unity](http://madewith.unity.com/games/temple-run-2).
+- Sonic Dash ([iOS](https://itunes.apple.com/us/app/sonic-dash/id582654048?mt=8), [Android](https://play.google.com/store/apps/details?id=com.sega.sonicdash)) -- Made with Unity.
+- 4 Pics 1 Word ([iOS](https://itunes.apple.com/us/app/4-pics-1-word/id595558452?mt=8), [Android](https://play.google.com/store/apps/details?id=de.lotum.whatsinthefoto.us)) -- Native SDK integration.
+- Dumb Ways to Die ([iOS](https://itunes.apple.com/fi/app/dumb-ways-to-die/id639930688?mt=8), [Android](https://play.google.com/store/apps/details?id=air.au.com.metro.DumbWaysToDie) -- Native SDK integration with Adobe AIR.
 
 ##ジャンルを指定して表示される広告をブロックできますか？
 
@@ -185,5 +185,3 @@ VATナンバーはEU域内での経済活動において必要となるもので
 ##アカウントの収支から収益が減っています。これは送金されたということなのでしょうか？
 
 収益が確認され、支払い手続き中です。これは支払われたことを意味するわけではありません。支払日は請求書の送信から 30 日後、請求書が受理された時点となります。請求書を送信した後の残高は、必ずしもすぐに変更されません。
-
-
