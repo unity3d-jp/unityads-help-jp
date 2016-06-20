@@ -1,6 +1,6 @@
-#Monetization FAQs
+#収益化に関するFAQ
 
-##Integration FAQs
+##統合について
 
 - [どのバージョンの Unity が使えるの？](https://github.com/unity3d-jp/unityads-help-jp/wiki/%E5%8F%8E%E7%9B%8A%E5%8C%96%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B-FAQ#%E3%81%A9%E3%81%AE%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E3%81%AE-unity-%E3%81%8C%E4%BD%BF%E3%81%88%E3%82%8B%E3%81%AE)
 - [Unity Ads の対応プラットフォームは？](https://github.com/unity3d-jp/unityads-help-jp/wiki/%E5%8F%8E%E7%9B%8A%E5%8C%96%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B-FAQ#unity-ads-%E3%81%AE%E5%AF%BE%E5%BF%9C%E3%83%97%E3%83%A9%E3%83%83%E3%83%88%E3%83%95%E3%82%A9%E3%83%BC%E3%83%A0%E3%81%AF)
@@ -11,20 +11,20 @@
 - [広告の視聴可能数を制限できますか？](https://github.com/unity3d-jp/unityads-help-jp/wiki/%E5%8F%8E%E7%9B%8A%E5%8C%96%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B-FAQ#%E5%BA%83%E5%91%8A%E3%81%AE%E8%A6%96%E8%81%B4%E5%8F%AF%E8%83%BD%E6%95%B0%E3%82%92%E5%88%B6%E9%99%90%E3%81%A7%E3%81%8D%E3%81%BE%E3%81%99%E3%81%8B)
 - [メディエーションツールを使いたいのですが？](https://github.com/unity3d-jp/unityads-help-jp/wiki/%E5%8F%8E%E7%9B%8A%E5%8C%96%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B-FAQ#%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A8%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%84%E3%83%BC%E3%83%AB%E3%82%92%E4%BD%BF%E3%81%84%E3%81%9F%E3%81%84%E3%81%AE%E3%81%A7%E3%81%99%E3%81%8C)
 
-##Stats FAQs
+##統計情報について
 
 - [Monetization stat reports の項目はそれぞれ何を表していますか？](https://github.com/unity3d-jp/unityads-help-jp/wiki/%E5%8F%8E%E7%9B%8A%E5%8C%96%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B-FAQ#monetization-stat-reports-%E3%81%AE%E9%A0%85%E7%9B%AE%E3%81%AF%E3%81%9D%E3%82%8C%E3%81%9E%E3%82%8C%E4%BD%95%E3%82%92%E8%A1%A8%E3%81%97%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99%E3%81%8B)
 - [ad request が 0 なのにインプレッション（ started ）が記録されている日があるのはなぜですか？](https://github.com/unity3d-jp/unityads-help-jp/wiki/%E5%8F%8E%E7%9B%8A%E5%8C%96%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B-FAQ#ad-request-%E3%81%8C-0-%E3%81%AA%E3%81%AE%E3%81%AB%E3%82%A4%E3%83%B3%E3%83%97%E3%83%AC%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3-started-%E3%81%8C%E8%A8%98%E9%8C%B2%E3%81%95%E3%82%8C%E3%81%A6%E3%81%84%E3%82%8B%E6%97%A5%E3%81%8C%E3%81%82%E3%82%8B%E3%81%AE%E3%81%AF%E3%81%AA%E3%81%9C%E3%81%A7%E3%81%99%E3%81%8B)
 - [レポートを定期的に取得したいです。自動化する方法はありますか？](https://github.com/unity3d-jp/unityads-help-jp/wiki/%E5%8F%8E%E7%9B%8A%E5%8C%96%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B-FAQ#%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88%E3%82%92%E5%AE%9A%E6%9C%9F%E7%9A%84%E3%81%AB%E5%8F%96%E5%BE%97%E3%81%97%E3%81%9F%E3%81%84%E3%81%A7%E3%81%99%E8%87%AA%E5%8B%95%E5%8C%96%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95%E3%81%AF%E3%81%82%E3%82%8A%E3%81%BE%E3%81%99%E3%81%8B)
 - [統計が更新される頻度は？](https://github.com/unity3d-jp/unityads-help-jp/wiki/%E5%8F%8E%E7%9B%8A%E5%8C%96%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B-FAQ#%E7%B5%B1%E8%A8%88%E3%81%8C%E6%9B%B4%E6%96%B0%E3%81%95%E3%82%8C%E3%82%8B%E9%A0%BB%E5%BA%A6%E3%81%AF)
 
-##Revenue FAQs
+##収益について
 
 - [Unity Ads を組み込み、100 インプレッション（ started ）を記録したのに、まだ収益がありません。なぜですか？](https://github.com/unity3d-jp/unityads-help-jp/wiki/%E5%8F%8E%E7%9B%8A%E5%8C%96%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B-FAQ#unity-ads-%E3%82%92%E7%B5%84%E3%81%BF%E8%BE%BC%E3%81%BF100-%E3%82%A4%E3%83%B3%E3%83%97%E3%83%AC%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3-started-%E3%82%92%E8%A8%98%E9%8C%B2%E3%81%97%E3%81%9F%E3%81%AE%E3%81%AB%E3%81%BE%E3%81%A0%E5%8F%8E%E7%9B%8A%E3%81%8C%E3%81%82%E3%82%8A%E3%81%BE%E3%81%9B%E3%82%93%E3%81%AA%E3%81%9C%E3%81%A7%E3%81%99%E3%81%8B)
 - [報酬は動画再生完了数ベースですか、それともインストール数ベースですか？](https://github.com/unity3d-jp/unityads-help-jp/wiki/%E5%8F%8E%E7%9B%8A%E5%8C%96%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B-FAQ#%E5%A0%B1%E9%85%AC%E3%81%AF%E5%8B%95%E7%94%BB%E5%86%8D%E7%94%9F%E5%AE%8C%E4%BA%86%E6%95%B0%E3%83%99%E3%83%BC%E3%82%B9%E3%81%A7%E3%81%99%E3%81%8B%E3%81%9D%E3%82%8C%E3%81%A8%E3%82%82%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E6%95%B0%E3%83%99%E3%83%BC%E3%82%B9%E3%81%A7%E3%81%99%E3%81%8B)
 - [金額的にはいくらぐらい儲かりますか？](https://github.com/unity3d-jp/unityads-help-jp/wiki/%E5%8F%8E%E7%9B%8A%E5%8C%96%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B-FAQ#%E9%87%91%E9%A1%8D%E7%9A%84%E3%81%AB%E3%81%AF%E3%81%84%E3%81%8F%E3%82%89%E3%81%90%E3%82%89%E3%81%84%E5%84%B2%E3%81%8B%E3%82%8A%E3%81%BE%E3%81%99%E3%81%8B)
 
-##Payment FAQs
+##支払いについて
 
 - [収益を受け取るプロセスは？](https://github.com/unity3d-jp/unityads-help-jp/wiki/%E5%8F%8E%E7%9B%8A%E5%8C%96%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B-FAQ#%E5%8F%8E%E7%9B%8A%E3%82%92%E5%8F%97%E3%81%91%E5%8F%96%E3%82%8B%E3%83%97%E3%83%AD%E3%82%BB%E3%82%B9%E3%81%AF)
 - [PayPalを使って送金してもらえますか？](https://github.com/unity3d-jp/unityads-help-jp/wiki/%E5%8F%8E%E7%9B%8A%E5%8C%96%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B-FAQ#paypal%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%A6%E9%80%81%E9%87%91%E3%81%97%E3%81%A6%E3%82%82%E3%82%89%E3%81%88%E3%81%BE%E3%81%99%E3%81%8B)
