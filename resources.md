@@ -1,7 +1,7 @@
 #Unity Ads に関するリソース
 
 
-##Unity Ads に関するご意見
+##Unity Ads に関するフォーラム
 
 - [Unity Ads Forum](http://forum.unity3d.com/forums/unity-ads.67/)
 - [Unity Ads Feedback & Feature Requests](https://feedback.unity3d.com/forums/unity/suggestions?utf8=%E2%9C%93&status=0&category=ads&view=hottest)
