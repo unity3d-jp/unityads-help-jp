@@ -39,6 +39,7 @@
 
 
 ## その他
+* [Unity Ads に関するリソース](https://github.com/unity3d-jp/unityads-help-jp/wiki/resources)
 * [Unity Developer Network アカウントへの移行](https://github.com/unity3d-jp/unityads-help-jp/wiki/account-migration-notice)
 
 
