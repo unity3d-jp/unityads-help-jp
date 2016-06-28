@@ -9,7 +9,5 @@ Unity Ads の ad placements では、リワード動画もノンリワード動�
 以下の記事では Unity Ads エヴァンジェリストである Oscar Clark が、いくつかのゲームにおける Unity Ads 導入の成功例をレビューしています。
 >#####http://blogs.unity3d.com/2015/04/15/a-designers-guide-to-using-video-ads/
 
-To get an idea of just how much rewarded video ads can impact your game, check out the following blog post. The info graphics within are the distillation of results from the more than 2,000 mobile game developer surveyed.
-
 以下の記事では、リワード動画広告があなたのゲームにどのような良い影響を与えるのかのレポートや、2000以上のモバイルゲームデベロッパーへの調査結果を報告しています。
 >#####http://blogs.unity3d.com/2016/04/20/best-practices-for-rewarded-video-ads-2/
