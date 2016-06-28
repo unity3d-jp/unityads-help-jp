@@ -12,7 +12,7 @@
 
 * [マネタイズを始める](https://github.com/unity3d-jp/unityads-help-jp/wiki/start-monetizetion)
 * [Unity Ads導入の成功例](https://github.com/unity3d-jp/unityads-help-jp/wiki/Designing-for-Video-Ads)
-* [広告表示について](https://github.com/unity3d-jp/unityads-help-jp/wiki/Intro-to-Ad-Placements)
+* [Ad Placementsについて](https://github.com/unity3d-jp/unityads-help-jp/wiki/Intro-to-Ad-Placements)
 * [iOSのゲームに組み込む](https://github.com/unity3d-jp/unityads-help-jp/wiki/Integration-Guide-for-iOS)
 * [Androidのゲームに組み込む](https://github.com/unity3d-jp/unityads-help-jp/wiki/Integration-Guide-for-Android)
 * [Unity製のゲームに組み込む](https://github.com/unity3d-jp/unityads-help-jp/wiki/Integration-Guide-for-Unity)
