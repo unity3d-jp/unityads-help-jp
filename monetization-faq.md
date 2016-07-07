@@ -40,8 +40,8 @@
 ##どのバージョンの Unity が使えるの？
 Unity Ads は Unity の全てバージョンをサポートしていますが、基本的には最新バージョンのご使用を推奨します。また、ゲームのベータ版リリースの際には、不安定さを避けるために Unity Ads は組み込まないことをお勧めします。
 
-Unity 5.2 以降をお使いの場合、Services window を通して Unity
-Ads 使うことを強く推奨します。
+Unity 5.2 以降をお使いの場合、Services window を通した Unity
+Ads のご使用を強く推奨します。
 
 何らかの理由で Services window を使用しない場合、Unity Ads asset package を使うこともできます。Unity Asset Store から無料で利用可能です。Unity Ads asset package は Unity 4.3 以降をサポートしています。
 
@@ -107,7 +107,7 @@ Unity Ads dashboard より、ジャンルフィルターをかけることがで
 
 4. イニシャライズの後は、10 started 後に次の ad request が利用可能な広告のリストに送られます。
 
-また、impressions は started 視聴完了は views で表されます。started や views はサンプリング値ではありません。
+また、impressions は started 、視聴完了は views で表されます。started や views はサンプリング値ではありません。
 
 ##Ad request が 0 なのにインプレッション（ started ）が記録されている日があるのはなぜですか？
 Ad request はサンプリング値のため、23 回ごとにしか記録されません。1 日に受け取る ad request が 13 回に満たない場合、その日の統計には反映されません。
