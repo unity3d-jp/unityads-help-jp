@@ -1,7 +1,7 @@
 # よくあるご質問
 ## アカウントに関するFAQ
 
-- Unity Ads アカウントの作り方は？
+- [Unity Ads アカウントの作り方は？](https://github.com/unity3d-jp/unityads-help-jp/wiki/general-faq#unity-ads-%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88%E3%81%AE%E4%BD%9C%E3%82%8A%E6%96%B9%E3%81%AF)
 - アカウントのパスワードをリセットしたいのですが？
 
 ## 端末に関するFAQ
