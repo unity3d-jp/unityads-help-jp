@@ -21,7 +21,7 @@
 
 ## Unity Ads に広告を出す
 
-* <a href="https://oc.unity3d.com/index.php/s/ocI17JeNycP68Ll" target="_blank">広告出稿を始める</a>
+* <a href="https://oc.unity3d.com/index.php/s/ocI17JeNycP68Ll" target="_blank">広告出稿マニュアル(PDF)</a>
 * [必要なキャンペーン素材](https://github.com/unity3d-jp/unityads-help-jp/wiki/campaign-design-guide)
 * [キャンペーンを改善しよう](https://github.com/unity3d-jp/unityads-help-jp/wiki/campaign-optomization)
 * [SDK によるインストールトラッキング](https://github.com/unity3d-jp/unityads-help-jp/wiki/sdk-install-tracking)
