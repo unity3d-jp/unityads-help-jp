@@ -205,14 +205,14 @@ Unity Ads での広告出稿には、外部トラッキングツールとの連�
 
 #### iOS
 ```
-https://impact.applifier.com/games/GAME_ID/install?advertisingTrackingId=[YOUR_MACRO_FOR_IDFA]
+https://postback.unityads.unity3d.com/games/[GAME_ID]/install?advertisingTrackingId=[YOUR_MACRO_FOR_IDFA]
 ```
 
 #### Android
-```
-https://impact.applifier.com/games/GAME_ID/install?advertisingTrackingId=[YOUR_MACRO_FOR_GOOGLE_AD_ID]&androidId=[YOUR_MACRO_FOR_ANDROID_ID_MD5_HASH]
-```
 
+```
+https://postback.unityads.unity3d.com/games/[GAME_ID]/install?advertisingTrackingId=[YOUR_MACRO_FOR_GOOGLE_AD_ID]
+```
 >※[ ] 内に対応する情報を挿入してご設定下さい。
 
 ## どんなトラッキングツールが使えるの？
