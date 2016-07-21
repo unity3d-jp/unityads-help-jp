@@ -77,7 +77,7 @@
 Finland との契約、発注をして頂く形となります。
 
 IOにて予算, 単価（ CPI ）, 開始 / 終了日時などをご指定いただきます。
-[こちら](https://github.com/unity3d-jp/unityads-help-jp/wiki/IO)を参考にご記入いただき、サインを加えて PDF ファイルにてご送付ください。
+[発注書（ IO ）の書き方](https://github.com/unity3d-jp/unityads-help-jp/wiki/IO)を参考にご記入いただき、サインを加えて PDF ファイルにてご送付ください。
 
 ## 日本円は使える？
 
