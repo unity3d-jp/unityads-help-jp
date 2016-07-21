@@ -34,7 +34,7 @@
 - [Unity Ads SDK が原因でリジェクトされることはない?](https://github.com/unity3d-jp/unityads-help-jp/wiki/general-faq-jp#unity-ads-sdk-%E3%81%8B%E3%82%99%E5%8E%9F%E5%9B%A0%E3%81%A6%E3%82%99%E3%83%AA%E3%82%B7%E3%82%99%E3%82%A7%E3%82%AF%E3%83%88%E3%81%95%E3%82%8C%E3%82%8B%E3%81%93%E3%81%A8%E3%81%AF%E3%81%AA%E3%81%84)
 
 ## 出稿時の見積もりは出してもらえるの？
-はい。[こちら](mailto:ads-support@unity3d.co.jp)のメールアドレスにその旨をご連絡下さい。
+はい。 ads-support@unity3d.co.jp にその旨をご連絡下さい。
 
 お見積りのご案内をお送りさせていただきます。
 
