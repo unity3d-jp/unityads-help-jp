@@ -20,7 +20,7 @@ Unity Ads で外部インストールトラッキングを行う方法は、大�
 
 ### ウィナーオンリー トランスミッションのインストールトラッキング
 
-すでに外部のモバイル インストールトラッキング サービス（例: *Tune*、*Kochava*、*Ad-X* などによる Mobile App Tracking）を利用している場合、インストールトラッキングの手法としては**ウィナーオンリー トランスミッション**が適しています。Unity Ads からインストールトラッキングサービスにビュー（またはクリック）を通知するトラッキング URL と、インストールトラッキングサービスから Unity Ads にインストールコンバージョンを通知する ポストバック URL は、容易に構成できます。
+すでに外部のモバイル インストールトラッキング サービス（例: *Tune*、*Kochava*、*Adjust* などによる Mobile App Tracking）を利用している場合、インストールトラッキングの手法としては**ウィナーオンリー トランスミッション**が適しています。Unity Ads からインストールトラッキングサービスにビュー（またはクリック）を通知するトラッキング URL と、インストールトラッキングサービスから Unity Ads にインストールコンバージョンを通知する ポストバック URL は、容易に構成できます。
 
 ### トラッキング URL
 [Unity Ads 管理パネル][2] を使ってキャンペーン用のカスタムトラッキング URL を定義することができます。この URL はキャンペーンのインプレッション（ started ）またはクリック時に、そのユーザーの識別情報をインストールトラッキングサービスにレポートします。サービスはこの情報を使って、その後のインストールとそれに寄与した広告ネットワークを関連付け、そのネットワークに当該ユーザーの詳細をコールバックします。
@@ -176,7 +176,7 @@ http://control.kochava.com/v1/cpi/click?campaign_id=YOUR_KOCHAVA_CAMPAIGN_ID&net
 [2]: https://unityads.unity3d.com/admin
 [3]: http://www.hasoffers.com/
 [4]: http://www.kochava.com/
-[5]: http://www.ad-x.co.uk/
+[5]: https://www.adjust.com/
 [6]: http://developer.apple.com/library/ios/#documentation/AdSupport/Reference/ASIdentifierManager_Ref/ASIdentifierManager.html
 [7]: https://developer.android.com/google/play-services/id.html
 [8]: https://developer.android.com/reference/android/provider/Settings.Secure.html#ANDROID_ID
