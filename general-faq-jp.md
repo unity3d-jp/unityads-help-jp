@@ -192,7 +192,7 @@ Unity Ads は下記のトラッキングツールとの連携実績がありま�
 + MobileAppTracking ( MAT )
 + metaps
 + Kochava
-+ Ad-X
++ Adjust
 + Partytrack
 + Adstore Tracking
 
