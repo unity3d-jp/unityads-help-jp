@@ -1,6 +1,6 @@
 # 広告出稿時に関する FAQ（Japan）
 
-## ご出稿までについて
+## お申し込みについて
 - [出稿時の見積もりは出してもらえるの？](https://github.com/unity3d-jp/unityads-help-jp/wiki/general-faq-jp#%E5%87%BA%E7%A8%BF%E6%99%82%E3%81%AE%E8%A6%8B%E7%A9%8D%E3%82%82%E3%82%8A%E3%81%AF%E5%87%BA%E3%81%97%E3%81%A6%E3%82%82%E3%82%89%E3%81%88%E3%82%8B%E3%81%AE)
 - [広告出稿に必要なものは？](https://github.com/unity3d-jp/unityads-help-jp/wiki/general-faq-jp#%E5%BA%83%E5%91%8A%E5%87%BA%E7%A8%BF%E3%81%AB%E5%BF%85%E8%A6%81%E3%81%AA%E3%82%82%E3%81%AE%E3%81%AF)
 - [UDNアカウントって？](https://github.com/unity3d-jp/unityads-help-jp/wiki/general-faq-jp#udn-%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88%E3%81%A3%E3%81%A6)
