@@ -2,7 +2,7 @@
 
 以下の **3 Step** で出稿が可能です。
 
->※ ご出稿の前にお見積りをお勧め致します。
+>※ ご出稿の前に[お見積り](https://github.com/unity3d-jp/unityads-help-jp/wiki/general-faq-jp#%E5%87%BA%E7%A8%BF%E6%99%82%E3%81%AE%E8%A6%8B%E7%A9%8D%E3%82%82%E3%82%8A%E3%81%AF%E5%87%BA%E3%81%97%E3%81%A6%E3%82%82%E3%82%89%E3%81%88%E3%82%8B%E3%81%AE)をお勧め致します。
 
 ##Step 1
 
