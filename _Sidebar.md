@@ -20,6 +20,7 @@
 * [収益化のための統計 API](https://github.com/unity3d-jp/unityads-help-jp/wiki/stats-api)
 
 ## Unity Ads に広告を出す
+* [広告出稿の流れ](https://github.com/unity3d-jp/unityads-help-jp/wiki/general-faq-jp#%E5%BA%83%E5%91%8A%E5%87%BA%E7%A8%BF%E3%81%AE%E6%B5%81%E3%82%8C%E3%82%92%E6%95%99%E3%81%88%E3%81%A6)
 * <a href="https://oc.unity3d.com/index.php/s/ocI17JeNycP68Ll" target="_blank">広告出稿マニュアル（PDF）</a>
 * [必要なキャンペーン素材](https://github.com/unity3d-jp/unityads-help-jp/wiki/campaign-design-guide)
 * [キャンペーンを改善しよう](https://github.com/unity3d-jp/unityads-help-jp/wiki/campaign-optomization)
