@@ -1,11 +1,11 @@
 # 広告出稿時に関する FAQ（Japan）
 
 ## お申し込みについて
+- [広告出稿の流れを教えて？](https://github.com/unity3d-jp/unityads-help-jp/wiki/general-faq-jp#%E5%BA%83%E5%91%8A%E5%87%BA%E7%A8%BF%E3%81%AE%E6%B5%81%E3%82%8C%E3%82%92%E6%95%99%E3%81%88%E3%81%A6)
+- [発注書（ IO ）って何？](https://github.com/unity3d-jp/unityads-help-jp/wiki/general-faq-jp#%E7%99%BA%E6%B3%A8%E6%9B%B8-io-%E3%81%A3%E3%81%A6%E4%BD%95)
 - [出稿時の見積もりは出してもらえるの？](https://github.com/unity3d-jp/unityads-help-jp/wiki/general-faq-jp#%E5%87%BA%E7%A8%BF%E6%99%82%E3%81%AE%E8%A6%8B%E7%A9%8D%E3%82%82%E3%82%8A%E3%81%AF%E5%87%BA%E3%81%97%E3%81%A6%E3%82%82%E3%82%89%E3%81%88%E3%82%8B%E3%81%AE)
 - [広告出稿に必要なものは？](https://github.com/unity3d-jp/unityads-help-jp/wiki/general-faq-jp#%E5%BA%83%E5%91%8A%E5%87%BA%E7%A8%BF%E3%81%AB%E5%BF%85%E8%A6%81%E3%81%AA%E3%82%82%E3%81%AE%E3%81%AF)
 - [UDNアカウントって？](https://github.com/unity3d-jp/unityads-help-jp/wiki/general-faq-jp#udn-%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88%E3%81%A3%E3%81%A6)
-- [広告出稿の流れを教えて？](https://github.com/unity3d-jp/unityads-help-jp/wiki/general-faq-jp#%E5%BA%83%E5%91%8A%E5%87%BA%E7%A8%BF%E3%81%AE%E6%B5%81%E3%82%8C%E3%82%92%E6%95%99%E3%81%88%E3%81%A6)
-- [発注書（ IO ）って何？](https://github.com/unity3d-jp/unityads-help-jp/wiki/general-faq-jp#%E7%99%BA%E6%B3%A8%E6%9B%B8-io-%E3%81%A3%E3%81%A6%E4%BD%95)
 
 ## 料金形態について
 - [日本円は使える？](https://github.com/unity3d-jp/unityads-help-jp/wiki/general-faq-jp#%E6%97%A5%E6%9C%AC%E5%86%86%E3%81%AF%E4%BD%BF%E3%81%88%E3%82%8B)
@@ -33,24 +33,6 @@
 ## その他
 - [Unity Ads SDK が原因でリジェクトされることはない?](https://github.com/unity3d-jp/unityads-help-jp/wiki/general-faq-jp#unity-ads-sdk-%E3%81%8B%E3%82%99%E5%8E%9F%E5%9B%A0%E3%81%A6%E3%82%99%E3%83%AA%E3%82%B7%E3%82%99%E3%82%A7%E3%82%AF%E3%83%88%E3%81%95%E3%82%8C%E3%82%8B%E3%81%93%E3%81%A8%E3%81%AF%E3%81%AA%E3%81%84)
 
-## 出稿時の見積もりは出してもらえるの？
-はい。 ads-support@unity3d.co.jp にその旨をご連絡下さい。お見積りのご案内をお送りさせていただきます。
-
-## 広告出稿に必要なものは？
-広告出稿時には下記事項が必要となります。
-
-- UDN アカウントの作成
-- クリエイティブ（動画 1 種類, 静止画 2 種類）
-- 発注書（ IO )
-- トラッキング URL
-- ポストバック URL の設定
-- トラッキングツール連携テスト 
-
-## UDN アカウントって？
-広告出稿とそのコントロールには Unity Developer Network ( UDN ) アカウントにご登録頂く必要があります。
-
-登録完了後は Unity Ads 管理画面にログインすることができます。広告予算の管理や CPI の設定変更など様々なことを行うことができます。
-
 ## 広告出稿の流れを教えて？
 以下の 3 Step で出稿が可能です。
 
@@ -76,6 +58,24 @@ Finland との契約、発注をして頂く形となります。
 
 IOにて予算, 単価（ CPI ）, 開始 / 終了日時などをご指定いただきます。
 [発注書（ IO ）の書き方](https://github.com/unity3d-jp/unityads-help-jp/wiki/IO)を参考にご記入いただき、サインを加えて PDF ファイルにてご送付ください。
+
+## 出稿時の見積もりは出してもらえるの？
+はい。 ads-support@unity3d.co.jp にその旨をご連絡下さい。お見積りのご案内をお送りさせていただきます。
+
+## 広告出稿に必要なものは？
+広告出稿時には下記事項が必要となります。
+
+- UDN アカウントの作成
+- クリエイティブ（動画 1 種類, 静止画 2 種類）
+- 発注書（ IO )
+- トラッキング URL
+- ポストバック URL の設定
+- トラッキングツール連携テスト 
+
+## UDN アカウントって？
+広告出稿とそのコントロールには Unity Developer Network ( UDN ) アカウントにご登録頂く必要があります。
+
+登録完了後は Unity Ads 管理画面にログインすることができます。広告予算の管理や CPI の設定変更など様々なことを行うことができます。
 
 ## 日本円は使える？
 
