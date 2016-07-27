@@ -51,4 +51,4 @@
 
 ## お問い合わせ
 
-* [お問い合わせ先](お問い合わせ先)
+* [お問い合わせ先](https://github.com/unity3d-jp/unityads-help-jp/wiki/contact-us)
