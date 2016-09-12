@@ -47,7 +47,7 @@
 
 * [Privacy policy](Privacy policy)
 * [Terms of service - Advertisers](TOS Advertisers)
-* [Terms of service - Ads publishers](TOS Ads publishers)
+* [Terms of service - Ads publishers](https://unity3d.com/jp/legal/ads-publishers-terms-of-service)
 
 ## お問い合わせ
 
