@@ -45,7 +45,7 @@
 
 ## リーガル情報
 
-* [Privacy policy](Privacy policy)
+* [Privacy policy](https://unity3d.com/jp/legal/privacy-policy)
 * [Terms of service - Advertisers](https://unity3d.com/jp/legal/ads-advertisers-terms-of-service)
 * [Terms of service - Ads publishers](https://unity3d.com/jp/legal/ads-publishers-terms-of-service)
 
