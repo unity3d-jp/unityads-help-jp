@@ -24,7 +24,7 @@ Unity 5.2 のリリースに伴って、Unity Ads の API は Unity エンジン
 
 Unity 5.2 より前のバージョンをお使いの場合は、Asset Package より Unity Ads を組み込んで下さい。Asset Package は Unity 4.3 以降が対応しています。
 
-### Unity の Ads SDK アップデート
+### Ads SDK のアップデート
 
 Unity で制作されているゲーム内の Unity Ads SDK をアップデートするには、以下を参照して下さい。
 
