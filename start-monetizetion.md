@@ -23,3 +23,9 @@ Unity でモバイルゲームを制作されている場合には、お使い�
 Unity 5.2 のリリースに伴って、Unity Ads の API は Unity エンジンに組み込まれました。これにより、セットアップが非常に簡単になりました。もちろん、Unity 5.2 以降でも Service window を使わずに Asset Package から Unity Ads を組み込むことも可能です。
 
 Unity 5.2 より前のバージョンをお使いの場合は、Asset Package より Unity Ads を組み込んで下さい。Asset Package は Unity 4.3 以降が対応しています。
+
+### Unity の Ads SDK アップデート
+
+Unity で制作されているゲーム内の Unity Ads SDK をアップデートするには、以下を参照して下さい。
+
+[アップデートガイド - Ads SDK 2.0]()
