@@ -5,9 +5,8 @@ Unity Ads は既存のユーザー層を簡単に収益化できる、モバイ�
 ## サインアップ
 Unity Ads でマネタイズを始めるには、UDN アカウントが必要となります。お持ちでない場合、[こちら](https://accounts.unity3d.com/)からサインアップして下さい。
 
->注意：Unity Ads ユーザーのアカウントは、Unity Developer Network（UDN) アカウントに統合されました。2016 年 1 月 25 日以降も旧ダッシュボードを使い続ける場合には、UDNアカウントが必要となります。
->
->アカウントの詳細については[こちら]()を参照下さい。
+>注意：Unity Ads ユーザーのアカウントは、Unity Developer Network（UDN) アカウントに統合されました。
+>アカウントの詳細については[こちら](https://github.com/unity3d-jp/unityads-help-jp/wiki/account-migration-notice)を参照下さい。
 
 ## Unity Ads SDKs
 Unity 以外のフレームワークを使ってモバイルゲームを制作されている場合は、以下を参照して下さい。
