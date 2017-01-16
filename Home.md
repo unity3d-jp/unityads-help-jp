@@ -1,18 +1,3 @@
-![](https://t.gyazo.com/teams/unity/cc72ecbb6fd9e32ede0e4936c9003713.png)
-
-## 年末年始の営業に関しまして
-年末年始は下記日程にて営業いたします。
-
-| 日付 | 内容 |
-|:------------:|:------------:|
-| 2016年12月21日|年内受注最終日| 
-|2016年12月28日|年末最終営業日|
-|2017年1月4日|年始最初営業日|
-※12月22日～12月28日にご連絡頂きました新規IOは、翌年にご返送させていただきます。
-
-## 最近更新のあったページ
-* [年末年始の営業に関しまして](https://github.com/unity3d-jp/unityads-help-jp/wiki#%E5%B9%B4%E6%9C%AB%E5%B9%B4%E5%A7%8B%E3%81%AE%E5%96%B6%E6%A5%AD%E3%81%AB%E9%96%A2%E3%81%97%E3%81%BE%E3%81%97%E3%81%A6)
-
 ## ようこそ Unity Ads へ！
 * [ようこそ Unity Ads へ！](https://github.com/unity3d-jp/unityads-help-jp/wiki/Welcome-to-Unity-Ads)
 
