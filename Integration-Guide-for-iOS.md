@@ -14,9 +14,9 @@ Video tutorials available here
 
 ##目次
 - [Unity Ads ダッシュボードを設定する](https://github.com/unity3d-jp/unityads-help-jp/wiki/Integration-Guide-for-iOS#unity-ads-%E3%83%80%E3%83%83%E3%82%B7%E3%83%A5%E3%83%9C%E3%83%BC%E3%83%89%E3%82%92%E8%A8%AD%E5%AE%9A%E3%81%99%E3%82%8B)
-- Swift を使用して Unity Ads を組み込む
-- Objective-C を使って Unity Ads を組み込む
-- Advanced Guides
+- [Swift を使用して Unity Ads を組み込む](https://github.com/unity3d-jp/unityads-help-jp/wiki/Integration-Guide-for-iOS#swift-%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%97%E3%81%A6-unity-ads-%E3%82%92%E7%B5%84%E3%81%BF%E8%BE%BC%E3%82%80)
+- [Objective-C を使って Unity Ads を組み込む](https://github.com/unity3d-jp/unityads-help-jp/wiki/Integration-Guide-for-iOS#objective-c-%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%A6-unity-ads-%E3%82%92%E7%B5%84%E3%81%BF%E8%BE%BC%E3%82%80)
+- [Advanced Guides](https://github.com/unity3d-jp/unityads-help-jp/wiki/Integration-Guide-for-iOS#unity-ads-ios-advanced-guides)
 
 ##Unity Ads ダッシュボードを設定する
 
