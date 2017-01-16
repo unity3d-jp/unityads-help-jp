@@ -1,143 +1,210 @@
-#iOSのゲームに組み込む
+# iOSのゲームに組み込む
 
-Unity Ads は収益化ツールです。他のゲームのトレイラー動画をあなたのゲームのユーザーに表示することで、再生 1 回ごとにあなたは報酬を受け取り、ユーザーはゲーム内アイテムを受け取ります。Unity Ads でユーザー層の収益化を始めるには、まずこの製品をあなたのゲームに組み込む必要があります。本ドキュメントではその方法を手順を追って説明します。
+このガイドでは、Unity Ads を iOS のプロジェクト（Objective-C, Swift）に組み込む方法を説明します。
 
->注意：このインストラクションは、Unity Ads を Unity 製でないゲームに統合するためのものです。 Unity をお使いの場合はこちらを参照してください。
+Unity Ads Framework は[こちら](https://github.com/Unity-Technologies/unity-ads-ios)からダウンロードして下さい。
 
-iOS のクイックスタートガイドとサンプルが以下よりダウンロードできます。
->#####https://github.com/Applifier/unity-ads-quickstart-ios
+Video tutorials available here
+ビデオチュートリアルが以下でご覧いただけます。（英語）
 
-##Unity Ads 管理パネル で設定する
-Unity Ads をあなたの iOS ゲーム用に設定するには、Unity Ads 管理パネルにログインします。
+- Objective-C: [YouTube](https://www.youtube.com/watch?v=T6VIC5E_Wt0&p=OBJECTIVEC) (5:41)
+- Swift: [YouTube](https://www.youtube.com/watch?v=Dhxivc9wWZ8&p=SWIFT) (6:34)
 
-###ゲームを追加する
+サンプルプロジェクトは [GitHub](https://github.com/Unity-Technologies/unity-ads-ios/tree/master/UnityAdsExample) を参照して下さい。 
 
-1. Unity Ads 管理パネル から `+Add new project`をクリックし、ゲームを追加します。
+##目次
+- Unity Ads ダッシュボードを設定する
+- Swift を使用して Unity Ads を組み込む
+- Objective-C を使って Unity Ads を組み込む
+- Advanced Guides
 
-2. 登録には iOS App ID か iTunes URL が必要です。
+##Unity Ads ダッシュボードを設定する
 
->例：
->
->https://itunes.apple.com/us/app/fatcat-rush/id457251993?mt=8
+###Unity Ads ダッシュボードに Game Project を作成する
 
->or
+1. UDN アカウントをつかって Unity Ads ダッシュボードにログイン（アカウントをお持ちでない場合、[こちら](https://id.unity.com/)からサインアップして下さい。）
 
->457251993
+2. ダッシュボードから、新しい game project を作成
 
-追加したゲームは一覧に表示されます。ゲームをクリックすると詳細オプションにアクセスできます。このページに記載されている`GAME ID`が、`startWithGameId`呼び出しに必要となります。
+>注意: あなたのゲームがアメリカの子供のために特別に設計されていない限り、「13歳未満の子供を対象にする」オプションはオフのままにしてください。全年齢向けのゲームでは、COPPAへの準拠をオンにする必要はありません。
 
-対象のOSをクリック > `Ad placements` にて、ゲーム内での広告配置を変更することも可能です。配置枠を追加作成して動画と画像の広告コンテナを別々に配置したり、広告にインセンティブを設定したり、様々な組み合わせを試行したりできます。各配置の設定は個別に変更可能です。
+###アプリIDと広告枠IDを確認する
 
-##Unity Ads を自分の iOS ゲームに統合する
+3. 作成したゲームプロジェクトをクリック > アプリID の欄に番号が表示されます。Unity Ads を有効にする際、この番号を使用します。
 
-1. 下記GitHub より、Unity Ads SDKをダウンロードします。
->#####https://github.com/Applifier/unity-ads-sdk
+4. アプリID (iOS もしくは Android）をクリック > 広告枠タブをクリック > 広告枠IDが表示されます。設定開始時には、以下二つの広告枠が設定されています。
 
-2. SDK フォルダのルートディレクトリから`UnityAds.framework`と `UnityAds.bundle`を Xcode プロジェクトへインポート（ドラッグアンドドロップ）
+- video (デフォルト / 5秒後にスキップ可能)
+- rewardedVideo (スキップ不可)
 
-3. 以下の手順でフレームワークをプロジェクトに加えます。
+### テストモードを利用する
 
-① `Project Settings` > `Build Phases`
+以下の手順でテストモードが利用可能です。
 
-②`Link Binary with Libraries`セクションを開く
+アプリIDをクリック > 設定タブをクリック > テストモードのスイッチをオンにする
 
-③ `+`をクリックしてそれぞれのフレームワークをプロジェクトに加えます
+##Swift を使用して Unity Ads を組み込む
 
-※下記フレームワークが含まれる必要があります。
+###Unity Ads のインポート
 
-`AdSupport.framework`, `AVFoundation.framework`, `CFNetwork.framework`, `CoreFoundation.framework`
+1. [こちら](https://github.com/Unity-Technologies/unity-ads-ios)から最新の Unity Ads Framework をダウンロードします。
 
-`CoreMedia.framework`, `CoreTelephony.framework`, `StoreKit.framework`, `SystemConfiguration.framework`
+2. Framework をプロジェクトにドラッグアンドドロップし、コピーします。
 
-##Unity Ads を初期化する
-
-最初のステップは UnityAds クラスを AppDelegate に追加することです。
-
-In AppDelegate.h:
+3. ViewController に Unity Ads をインポートし、Unity Ads delegate をセットします。
 
 ```
-#import <UnityAds/UnityAds.h>
-```
-この時、Unity Ads に gameId とルートビューコントローラを渡して初期化するコードを追加します
+import UnityAds
 
-```
-// Initialize Unity Ads
-UIViewController* vc = self.window.rootViewController;
-[[UnityAds sharedInstance] startWithGameId:@"YOUR_GAME_ID_HERE" andViewController:vc];
+class GameViewController: UIViewController, UnityAdsDelegate {
 ```
 
->※上の`YOUR_GAME_ID_HERE`の部分は、対象ゲームの Unity Ads gameId に置き換えてください。
->
->####gameIdの確認方法
->
->① Unity Ads 管理パネルの`PROJECT` > 対象のゲームをクリック
->
->② `GAME ID`の欄にて確認できます。
+※以下の UnityAds callbacks を UnityAdsDelegate に加えます。
 
-##ViewController をデリゲートとして設定する
-
-ViewController は UnityAds のデリゲートとして働く必要があります。まず ViewController を以下のようにデリゲートとして登録します
+- unityAdsReady
+- unityAdsDidStart
+- unityAdsDidError
+- unityAdsDidFinish
 
 ```
-[[UnityAds sharedInstance] setDelegate:self];
+func unityAdsReady(_ placementId: String) { }
+
+func unityAdsDidStart(_ placementId: String) { }
+
+func unityAdsDidError(_ error: UnityAdsError, withMessage message: String) { }
+
+func unityAdsDidFinish(_ placementId: String, with state: UnityAdsFinishState) { }
 ```
 
-このデリゲートは最低限、以下のメソッドを実装しなければなりません。
+ここでプロジェクトをコンパイルします。
+
+###Unity Ads のイニシャライズと動画の表示
+
+1. `UnityAds.initialize()`を使ってSDKをイニシャライズします。
+
+2. アプリIDを管理画面からコピーし、UnityAdsDelegate に入力します。
 
 ```
-- (void)unityAdsVideoCompleted:(NSString *)rewardItemKey skipped:(BOOL)skipped
-```
-このデリゲートメソッドはユーザーが Unity Ads で動画を見終わったときに呼び出されます。さらなる詳細は次の項目をご覧ください。
-
-##Unity Ads で動画広告を表示する
-
-Unity Ads SDK を初期化し、ViewController を Unity Ads のデリゲートとして追加したら、アプリケーション内に広告を表示できるようになります。ただし、広告を表示する前には必ず、現在のユーザーに表示できる広告があるかどうかを確認してください。
-
-広告ユニットを表示できるかどうかを、`(bool)canShow`メソッド、placement IDが有効かどうかを`(bool)setZone`メソッドでチェックすることができます。
-
-###Ad Placement (Zones)を使用する
-この機能は、複数の広告セットアップを可能にします。
-
-①Unity Ads 管理パネル上の対象のゲーム > 対象のOSをクリック
-
-② `Ad placements` にて設定
-
-配置枠を追加作成して動画と画像の広告コンテナを別々に配置したり、広告にインセンティブを設定したり、様々な組み合わせを試行したりできます。各配置の設定は個別に変更可能です。例えば、1 つのゲームにインセンティブ型広告（動画を最後まで見たら 100 コイン獲得）とインターステイシャル広告の両方を表示させることができます。通常、広告スキップはインセンティブ型広告では無効、そうでない広告では有効にします。
-
-zoneId も`Ad placements`で確認することができます。
-
-```
-if ([[UnityAds sharedInstance] setZone:@"video"] && [[UnityAds sharedInstance]canShow]) {
-  //placement is valid, and ads are available!
-  [[UnityAds sharedInstance] show]; //Show an ad
+override func viewDidLoad() {
+  super.viewDidLoad()
+  UnityAds.initialize("1003843", delegate: self)
 }
 ```
 
-広告ビューは、閉じられると自身を ViewController から自動的に削除します。コードから広告ビューを閉じるには、`hide` メソッドを呼び出します。
+※動画の準備ができていることを確認し、有効な広告枠IDを使用して動画を表示してください
 
 ```
-[[UnityAds sharedInstance] hide]
+let placement = "rewardedVideo"
+if (UnityAds.isReady(placement)) {
+  //a video is ready & placement is valid
+  UnityAds.show(self, placementId: placement)
+}
 ```
 
->注意：このAPIが動作する方法は、setZoneを呼び出さず、デフォルトの広告配置の設定を使用します。showを呼び出す前には常にsetZoneで場所を明示してください。
+この時点で、あなたのゲームで動画広告を見ることができるはずです。
 
-##ユーザーに報酬を与える
+### 広告を視聴したプレイヤーにリワードを与える
 
-```
-注意：アイテムキーの機能はサポートが終了予定となっています。近い将来にリリースされるSDKでは、この機能は除外される見込みです。
-```
-ユーザーが動画広告を見終わると、Unity Ads SDK は `-unityAdsVideoCompleted:rewardItemKey:skipped: delegate` メソッドを呼び出します。この時点で、提示した報酬アイテムをユーザーに渡すことになります。
+プレイヤーにゲーム内リワードを与えることは、Unity Ads の広告収入を最大化するためにとても重要です。以下のようなリワードがよくある事例です。
 
->`unityAdsVideoCompleted:rewardItemKey:skipped:` これはユーザーが動画をスキップしたかどうかを示すブール値を持つようになりました。一般に、動画をスキップしたユーザーには報酬を渡さないものですが、最終的にはパブリッシャーの判断次第です。
+- ゲーム内通貨
+- 一時的な能力ブースト
+- ゲームオーバーの後のコンティニュー（広告を観たらコンティニューできる）
+- ゲーム内アイテムの付与、またはアンロック
 
->なお、`-unityAdsVideoCompleted:rewardItemKey:skipped:` メソッドの呼び出しは必ずしも Unity Ads adView が閉じられたことを保証しません。これをチェックするには `-unityAdsWillHide: delegate` メソッドを使います。
-
-##統合をテストする
-統合をテストするには、Unity Ads をテストモードで実行します。まず UnityAds クラスの `setTestMode:(BOOL)testModeEnabled`メソッドを呼び出してから、`startWithGameId`を呼び出します。
+`unityAdsDidFinish() ` callback method うとともにプレイヤーにリワードを与える時、動画がスキップできないようになっているか確認できます。
 
 ```
-[[UnityAds sharedInstance] setTestMode:YES];
-[[UnityAds sharedInstance] setDebugMode:YES];
-
-[[UnityAds sharedInstance] startWithGameId:@"YOUR_GAME_ID_HERE" andWithViewController:myViewController];
+func unityAdsDidFinish(_ placementId: String, with state: UnityAdsFinishState) {
+  if state != .skipped{
+    //Add code to reward the player here
+  }
+}
 ```
+
+## Objective-C を使って Unity Ads を組み込む
+
+###Unity Ads のインポート
+
+1. [こちら](https://github.com/Unity-Technologies/unity-ads-ios)から最新版の Unity Ads Framework をダウンロードします。
+
+2. Framework をプロジェクトにドラッグアンドドロップし、コピーします。
+
+3. ViewController header (.h) に Unity Ads をインポートし、Unity Ads delegate をセットします。
+
+```
+#import "UnityAds/UnityAds.h"
+
+@interface ViewController : UIViewController<UnityAdsDelegate>
+```
+
+Viewcontroller implementation (.m) に以下の *@required* methods を加えます。
+
+```
+- (void)unityAdsReady:(NSString *)placementId{
+}
+
+- (void)unityAdsDidError:(UnityAdsError)error withMessage:(NSString *)message{
+}
+
+- (void)unityAdsDidStart:(NSString *)placementId{
+}
+
+- (void)unityAdsDidFinish:(NSString *)placementId withFinishState:(UnityAdsFinishState)state{
+}
+```
+
+ここでプロジェクトをコンパイルします。
+
+###Unity Ads のイニシャライズと動画の表示
+
+1. `UnityAds.initialize():` を使ってSDKをイニシャライズします。
+
+2. アプリIDを入力。
+
+```
+- (void)viewDidLoad {
+  [super viewDidLoad];
+  [UnityAds initialize:@"1088169" delegate:self];
+}
+```
+
+初期化には10秒以上かかりますので、ゲームサイクルの早い段階でUnityAdsを初期化するようにしてください。
+
+※動画の準備ができていることを確認し、有効な広告枠IDを使用して動画を表示してください
+
+```
+if ([UnityAds isReady:@"rewardedVideo"]) {
+  [UnityAds show:self placementId:@"rewardedVideo"];
+}
+```
+
+この時点で、あなたのゲームで動画広告を見ることができるはずです。
+
+### 広告を視聴したプレイヤーにリワードを与える
+
+プレイヤーにゲーム内リワードを与えることは、Unity Ads の広告収入を最大化するためにとても重要です。以下のようなリワードがよくある事例です。
+
+- ゲーム内通貨
+- 一時的な能力ブースト
+- ゲームオーバーの後のコンティニュー（広告を観たらコンティニューできる）
+- ゲーム内アイテムの付与、またはアンロック
+
+`unityAdsDidFinish()` callback method を使うとともに、動画がスキップできないようになっているか確認して下さい。
+
+
+```
+func unityAdsDidFinish(_ placementId: String, with state: UnityAdsFinishState) {
+  if state != .skipped{
+    //reward the player!
+  }
+}
+```
+
+##Unity Ads iOS Advanced Guides
+- [API Reference](https://github.com/Unity-Technologies/unity-ads-ios/wiki/sdk_ios_api_reference)
+- [Errors](https://github.com/Unity-Technologies/unity-ads-ios/wiki/sdk_ios_api_errors)
+- [Finish States](https://github.com/Unity-Technologies/unity-ads-ios/wiki/sdk_ios_api_finishstates)
+- [Placement States](https://github.com/Unity-Technologies/unity-ads-ios/wiki/sdk_ios_api_placementstates)
+- [Mediation network guide](https://github.com/Unity-Technologies/unity-ads-ios/wiki/sdk_metadata_mediation)
+- [Server-to-Server callbacks](https://github.com/Unity-Technologies/unity-ads-ios/wiki/sdk_metadata_s2s_callbacks)
