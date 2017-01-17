@@ -4,7 +4,6 @@
 
 Unity Ads Framework は[こちら](https://github.com/Unity-Technologies/unity-ads-ios)からダウンロードして下さい。
 
-Video tutorials available here
 ビデオチュートリアルが以下でご覧いただけます。（英語）
 
 - Objective-C: [YouTube](https://www.youtube.com/watch?v=T6VIC5E_Wt0&p=OBJECTIVEC) (5:41)
