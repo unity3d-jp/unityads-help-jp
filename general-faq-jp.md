@@ -1,4 +1,4 @@
-# よくあるご質問
+# 広告出稿時によくあるご質問
 
 ## お申し込みについて
 - [広告出稿の流れを教えて？](https://github.com/unity3d-jp/unityads-help-jp/wiki/general-faq-jp#%E5%BA%83%E5%91%8A%E5%87%BA%E7%A8%BF%E3%81%AE%E6%B5%81%E3%82%8C%E3%82%92%E6%95%99%E3%81%88%E3%81%A6)
