@@ -26,12 +26,12 @@
 * [広告出稿時に関する FAQ（Japan）](https://github.com/unity3d-jp/unityads-help-jp/wiki/general-faq-jp)
 * [発注書（ IO ）の書き方](https://github.com/unity3d-jp/unityads-help-jp/wiki/IO)
 
-## よくあるご質問（FAQ）
+## FAQ
 
 * [統合に関する FAQ](https://github.com/unity3d-jp/unityads-help-jp/wiki/general-faq)
 * [収益化に関する FAQ](https://github.com/unity3d-jp/unityads-help-jp/wiki/monetization-faq)
 * [広告に関する FAQ](https://github.com/unity3d-jp/unityads-help-jp/wiki/advertising-faq)
-* [広告出稿時に関する FAQ（Japan）](https://github.com/unity3d-jp/unityads-help-jp/wiki/general-faq-jp)
+* [広告出稿時によくあるご質問](https://github.com/unity3d-jp/unityads-help-jp/wiki/general-faq-jp)
 
 
 ## その他
