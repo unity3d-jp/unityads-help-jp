@@ -12,6 +12,10 @@
 - [Windows Phone のサポート予定は？](https://github.com/unity3d-jp/unityads-help-jp/wiki/general-faq#windows-phone-%E3%81%AE%E3%82%B5%E3%83%9D%E3%83%BC%E3%83%88%E4%BA%88%E5%AE%9A%E3%81%AF)
 
 ##Unity Ads アカウントの作り方は？
+[Unity Ads 管理画面](https://dashboard.unityads.unity3d.com/) へアクセスし、 UDN アカウントでログイン、又は新規に UDN アカウントを作成してください。
+
+##自分のUDNアカウントのログイン情報を知るには？
+ログイン時に使用したメールアドレスが現在の UDN アカウントとなります。
 
 ##アカウントのパスワードをリセットしたいのですが？
 
