@@ -117,25 +117,25 @@ Unity Ads インストールトラッキングサーバーからの応答は JSO
 
 ### サードパーティのインストールトラッキングサービス向けガイド
 
-#### MobileAppTracking by Tune（旧 HasOffers）
-Unity Ads キャンペーン トラッキングを [MobileAppTracking by Tune][3] 経由で行う場合の設定方法
+####AppsFlyer
 
-1. HasOffers パネルで、利用可能な広告ネットワークから UnityAds を選択する
-1. Offer 一覧からオファーを選択する。Destination は Default のままにする
-1. Generate Link ボタンをクリックする
-1. Copy ボタンをクリックしてリンクをクリップボードにコピーする
-1. リンクを Unity Ads のトラッキング URL フィールドに貼り付ける
-1. ポストバック呼び出しを Unity Ads のポストバック URL に送信できるようにする
+詳細は AppsFlyer 公式サイトをご参照下さい。
 
-MobileAppTracking ポストバック URL は自動的に構成され、あなたの game ID がリンクによって自動的に MobileAppTracking. に送信されます。あなたはポストバック呼び出しの送信を有効にするだけで済みます。
+- [AppsFlyer サポートページ](https://support.appsflyer.com/hc/ja)
 
-> 注意: トラッキング URLを編集する場合、決して**既存のパラメータの変更や削除**はしないでください。
+####Adjust
 
-下の画像は MobileAppTracking パネルからトラッキングリンクを生成する方法を示したものです。
+詳細は Adjust 公式サイトをご参照下さい。
 
-![](http://docs-uploads.applifier.com/wp-content/uploads/2013/05/select_applifier_ad_network.png)
-![](http://docs-uploads.applifier.com/wp-content/uploads/2013/05/configure_offer_and_generate_link.png)
+- [Adjust Unity Ads](https://docs.adjust.com/ja/special-partners/unity-ads/)
+- [Adjust トラッカーの生成](https://docs.adjust.com/ja/tracker-generation/)
 
+####MobileAppTracking by Tune (previously HasOffers)
+
+詳細は Tune 公式サイトをご参照下さい。
+
+- [統合広告パートナーを設定する](https://help.tune.com/marketing-console/%E7%B5%B1%E5%90%88%E5%BA%83%E5%91%8A%E3%83%91%E3%83%BC%E3%83%88%E3%83%8A%E3%83%BC%E3%82%92%E8%A8%AD%E5%AE%9A%E3%81%99%E3%82%8B/?lang=ja)
+- [TUNE starting guide](https://help.tune.com/marketing-console/attribution-analytics-getting-started-guide/)
 
 #### Kochava
 [Kochava][4] を使用して Unity Ads のキャンペーントラッキングを設定する場合の手順は以下のとおりです。
