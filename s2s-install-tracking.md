@@ -83,6 +83,8 @@ https://postback.unityads.unity3d.com/games/[GAME_ID]/install?advertisingTrackin
 
 `GAME_ID` のところにあなたの Unity Ads Game ID が入ります。ID は[Unity Ads 管理パネル][2] にログインし、 "ゲーム" にある "登録済みゲーム" 内の "ゲームID" 欄で確認することが出来ます。この ID は現在、1000～20000 の範囲の整数となっています。なお現時点では、Unity Ads Game ID の代わりにあなたのゲームの iTunes ID/Google Play ID を使うべきではありません。
 
+>注意: 旧ポストバックの形式である `impact.applifier.com` のドメインもご利用いただけますが、新しい形式である `postback.unityads.unity3d.com`ドメインの使用をお勧めします。
+
 #### ポストバック URL パラメータ
 以下の識別パラメータは、ポストバック URL リクエストで渡す必要があるものです。サポートされているパラメータは以下のとおりです。
 
