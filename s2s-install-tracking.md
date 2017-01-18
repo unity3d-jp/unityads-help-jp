@@ -42,7 +42,11 @@ Unity Ads で外部インストールトラッキングを行う方法は、大�
 |`{game_id}`|宣伝されるゲームの Unity Ads gameId。例："11004"|
 |`{source_game_id}`|パブリッシャーがユーザーに広告を見せるゲームの Unity Ads gameId。例: "11017"|
 |`{device_type}`|端末情報。例えば "iPad4", "motorola XT1254" など。|
-|`{creative_pack}`|クリエイティブパックの名称。例えば "Video Creatives Pack - 15s" など|
+|`{device_make}`|端末のメーカー。例えば "iPad4", "motorola XT1254" など。|
+|`{device_model}`|端末のモデル。例えば "iPhone7,2" (iOS), "SM-G900F" (Android) など。|
+|`{creative_pack}`|クリエイティブパックの名称。例えば "Apple" (iOS), "samsung" (Android) など|
+|`{os}`| 端末のオペレーティングシステム。 例えば "9.2.1" (iOS), "4.4.0" (Android)|
+|`{user_agent}`| 端末ユーザーのエージェント。 例えば "Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_5 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G36" (iOS), "Mozilla/5.0 (Linux; Android 6.0.1; SM-G920V Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile Safari/537.36" (Android)| 
 
 ##Unity Ads トラッキングURLのルール
 
