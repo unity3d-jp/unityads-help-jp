@@ -51,7 +51,9 @@ http://gameads-admin.applifier.com/stats/monetization-api?apikey=<apikey>&fields
 curl -L "http://gameads-admin.applifier.com/stats/monetization-api?apikey=a0db655ac99b68cb4d1835e878e06473277dd061782dbeec813cb3b14cb723ee&splitBy=zone,country&fields=adrequests,available,views,revenue&start=2016-01-01&end=2016-10-01&scale=day&sourceIds=1003843" > ~/Desktop/UnityAdsMonetization.csv
 ```
 
-##以下のようなパラメータでデータを区切る事ができます
+##パラメータ
+
+以下のようなパラメータでデータを区切る事ができます。
 
 >  注意: 統計データを同時に複数のディメンションで分割すると、データサイズが飛躍的に増加します。その結果、処理時間が長くなりすぎてリクエストが失敗する場合があります。すべてのリクエストは、データ生成にかかる時間が 1 分を超える場合、60 秒で中止されます。
 
@@ -92,9 +94,9 @@ curl -L "http://gameads-admin.applifier.com/stats/monetization-api?apikey=a0db65
 
 > 注意: 開始時点と終了時点が時間単位の区切りと一致しない場合、直前の区切りに修正されます。例えば、時間単位が 1 日の場合、上記の `14:00:00.000Z` は `00:00:00.000Z` に修正されます。
 
-`<sourceIds>` – game id のカンマ区切りリストです。結果をフィルタするのに用います。デフォルトでは、デベロッパーのすべてのゲームが含まれます。
+- `<sourceIds>` – game id のカンマ区切りリストです。結果をフィルタするのに用います。デフォルトでは、デベロッパーのすべてのゲームが含まれます。
 
- - 例: sourceIds=1003843
+ - 例: `sourceIds=1003843`
 
 ---
 
