@@ -26,7 +26,9 @@ Unity Services window から Ads を無効化、もしくはこれまでの Unit
 `/Assets/Standard Assets/Editor/UnityAds/*`
 `/Assets/Standard Assets/UnityAds/*`
 
-##Step 2: [Unity Ads SDK プラグイン](https://www.assetstore.unity3d.com/en/#!/content/66123)のダウンロード、インポート
+##Step 2: Unity Ads SDK のダウンロード、インポート
+
+[Unity Ads SDK プラグイン](https://www.assetstore.unity3d.com/en/#!/content/66123)をダウンロード、インポートします。
 
 ##Step 3: スクリプトを追加
 
