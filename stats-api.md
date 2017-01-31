@@ -51,7 +51,7 @@ http://gameads-admin.applifier.com/stats/monetization-api?apikey=<apikey>&fields
 curl -L "http://gameads-admin.applifier.com/stats/monetization-api?apikey=a0db655ac99b68cb4d1835e878e06473277dd061782dbeec813cb3b14cb723ee&splitBy=zone,country&fields=adrequests,available,views,revenue&start=2016-01-01&end=2016-10-01&scale=day&sourceIds=1003843" > ~/Desktop/UnityAdsMonetization.csv
 ```
 
-##パラメータ
+###使用できるパラメータ
 
 以下のようなパラメータでデータを区切る事ができます。
 
