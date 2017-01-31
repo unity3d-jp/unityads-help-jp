@@ -28,9 +28,11 @@ Unity Services window から Ads を無効化、もしくはこれまでの Unit
 `/Assets/Standard Assets/Editor/UnityAds/*`
 `/Assets/Standard Assets/UnityAds/*`
 
-###Step 2: [Unity Ads SDK プラグイン](https://www.assetstore.unity3d.com/en/#!/content/66123)をダウンロード、インポートします。
+###Step 2: [Unity Ads SDK プラグイン](https://www.assetstore.unity3d.com/en/#!/content/66123)のダウンロード、インポート
 
-###Step 3: 以前に Ads サービスメニューの統合を使用していた場合は、ゲームが読み込まれたときに Unity Ads をイニシャライズするためのスクリプトを追加します。イニシャライズの API は、以前のバージョン [Unity Ads API](https://docs.unity3d.com/540/Documentation/ScriptReference/Advertisements.Advertisement.Initialize.html) と同様です。
+###Step 3: スクリプトを追加
+
+以前に Ads サービスメニューの統合を使用していた場合は、ゲームが読み込まれたときに Unity Ads をイニシャライズするためのスクリプトを追加します。イニシャライズの API は、以前のバージョン [Unity Ads API](https://docs.unity3d.com/540/Documentation/ScriptReference/Advertisements.Advertisement.Initialize.html) と同様です。
 
 1. ゲームの始めに読み込まれるシーンを開きます。
 2. 空の GameObject を作成します。
