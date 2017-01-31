@@ -1,7 +1,7 @@
 # 収益化のための統計 API
 Unity Ads では、パブリッシャーは収益化の、広告主はユーザー獲得の、統計データをそれぞれ CSV 形式で直接取得できる API を提供しています。この Unity Ads 統計 API を使うと、ゲームやキャンペーンのデータを取得して、定期的に提携レポートシステムに読み込ませることができます。実質、統計 API は [Unity Ads 管理パネル][1] で取得できるのと同じ統計ファイルを、自動的にフェッチするためのマシン間インターフェイスです。
 
-### 概要
+## 概要
 統計 API は以下の 2 段階で動作します。
 
 1. まず、ユーザーが認証サーバーに対して GET リクエストを実行します。認証に成功すれば、サーバーは 302 HTTP リダイレクトメッセージで応答します。この応答には統計サーバーへの最終的な URL が含まれています
@@ -17,7 +17,7 @@ Date,Country code,Country tier,adrequests,available,offers,started,views,revenue
 ...
 ```
 
-### 認証
+## 認証
 Unity Ads 統計 API を使用するには、[Unity Ads 管理パネル][1] から API キーを取得する必要があります。API は "アカウント" の "ユーザーアカウント" 下部で確認できます。
 
 この API キーを `apikey` HTTP GET パラメータへの認証リクエストに含めます。
@@ -37,9 +37,7 @@ Unity Ads 統計 API を使用するには、[Unity Ads 管理パネル][1] か�
 
 ---
 
-### リクエストフォーマット
-
-### 収益化統計（あなたのゲームによるマネタイズの統計データを得る API）
+## リクエストフォーマット
 
 収益化統計 API は以下のリクエストフォーマットをサポートしています。
 
@@ -53,7 +51,7 @@ http://gameads-admin.applifier.com/stats/monetization-api?apikey=<apikey>&fields
 curl -L "http://gameads-admin.applifier.com/stats/monetization-api?apikey=a0db655ac99b68cb4d1835e878e06473277dd061782dbeec813cb3b14cb723ee&splitBy=zone,country&fields=adrequests,available,views,revenue&start=2016-01-01&end=2016-10-01&scale=day&sourceIds=1003843" > ~/Desktop/UnityAdsMonetization.csv
 ```
 
-####以下のようなパラメータでデータを区切る事ができます
+##以下のようなパラメータでデータを区切る事ができます
 
 >  注意: 統計データを同時に複数のディメンションで分割すると、データサイズが飛躍的に増加します。その結果、処理時間が長くなりすぎてリクエストが失敗する場合があります。すべてのリクエストは、データ生成にかかる時間が 1 分を超える場合、60 秒で中止されます。
 
