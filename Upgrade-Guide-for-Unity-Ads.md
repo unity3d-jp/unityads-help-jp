@@ -70,4 +70,6 @@ public class UnityAdsInitializer : MonoBehaviour
 }
 ```
 
-##Step 4: プロジェクトをビルド、実行します。広告を表示するためのAPIは、以前の Unity Ads API と同様です。
+##Step 4: プロジェクトの実行
+
+プロジェクトをビルド、実行します。広告を表示するためのAPIは、以前の Unity Ads API と同様です。
