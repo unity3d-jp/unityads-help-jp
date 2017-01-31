@@ -47,7 +47,15 @@ Unity Ads 統計 API を使用するには、[Unity Ads 管理パネル][1] か�
 http://gameads-admin.applifier.com/stats/monetization-api?apikey=<apikey>&fields=<fields>[&splitBy=<splitbyfields>][&scale=<scale>][&start=<startDate>][&end=<endDate>][&sourceIds=<sourceIds>]
 ```
 
-where:
+例: 
+
+```
+curl -L "http://gameads-admin.applifier.com/stats/monetization-api?apikey=a0db655ac99b68cb4d1835e878e06473277dd061782dbeec813cb3b14cb723ee&splitBy=zone,country&fields=adrequests,available,views,revenue&start=2016-01-01&end=2016-10-01&scale=day&sourceIds=1003843" > ~/Desktop/UnityAdsMonetization.csv
+```
+
+####以下のようなパラメータでデータを区切る事ができます
+
+>  注意: 統計データを同時に複数のディメンションで分割すると、データサイズが飛躍的に増加します。その結果、処理時間が長くなりすぎてリクエストが失敗する場合があります。すべてのリクエストは、データ生成にかかる時間が 1 分を超える場合、60 秒で中止されます。
 
 - `<apikey>` は [Unity Ads 管理パネル][1] から取得した API キーです。 
 - `<fields>` には使用可能なフィールドのカンマ区切りリストが入ります。
@@ -66,8 +74,6 @@ where:
  - `country` – データはユーザーの国/地域別に分割されます
 
 デフォルト設定は `country` です。データを一切分割したくない場合は `splitBy=none` と記述します。ターゲットとキャンペーンの両方で同時に分割することもできます。どちらも国での分割あり/なしの両方で使用可能です。
-
->  注意: 統計データを同時に複数のディメンションで分割すると、データサイズが飛躍的に増加します。その結果、処理時間が長くなりすぎてリクエストが失敗する場合があります。すべてのリクエストは、データ生成にかかる時間が 1 分を超える場合、60 秒で中止されます。
 
 - `<scale>` – データの時間単位1 日の区切りは `UTC 00:00` 時となります。時間単位として指定できる値は以下のとおりです。
  - `all` –（時間単位で区切らず、指定期間内の総計を出力する）
@@ -90,15 +96,7 @@ where:
 
 `<sourceIds>` – game id のカンマ区切りリストです。結果をフィルタするのに用います。デフォルトでは、デベロッパーのすべてのゲームが含まれます。
 
-
-
-例:
-
-> 注意： sourceIds パラメータをあなたのゲームIDと入れ替えるとそのゲームの統計情報、URLから sourceIds パラメータを取り除くと、あなたの全てのゲームの統計情報を得ることができます。
-
-```
-curl -L "http://gameads-admin.applifier.com/stats/monetization-api?apikey=c4ca4238a0b923820dcc509a6f75849bc81e728d9d4c2f636f067f89cc14862c&splitBy=zone,country&fields=adrequests,available,offers,views&start=2013-02-01T00:00:00.000Z&end=2013-03-01T00:00:00.000Z&scale=day&sourceIds=7162"
-```
+ - 例: sourceIds=1003843
 
 ---
 
