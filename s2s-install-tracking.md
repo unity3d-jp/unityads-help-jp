@@ -47,6 +47,7 @@ Unity Ads で外部インストールトラッキングを行う方法は、大�
 |`{creative_pack}`|クリエイティブパックの名称。例えば "Apple" (iOS), "samsung" (Android) など|
 |`{os}`| 端末のオペレーティングシステム。 例えば "9.2.1" (iOS), "4.4.0" (Android)|
 |`{user_agent}`| 端末ユーザーのエージェント。 例えば "Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_5 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G36" (iOS), "Mozilla/5.0 (Linux; Android 6.0.1; SM-G920V Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile Safari/537.36" (Android)| 
+|`{cpi}`| インストールの単価（ $US ）。 例えば "2.85"|
 
 ##Unity Ads トラッキングURLのルール
 
