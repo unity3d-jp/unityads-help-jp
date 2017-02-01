@@ -80,3 +80,12 @@ API の詳細については、Unity Ads Android API reference を参照して�
 
 - `AndroidManifest.xml` から手動でマニフェストをマージします。 `AdUnitActivity` アクティビティと `AdUnitSoftwareActivity` アクティビティの両方を含めるようにしてください。また、`INTERNET` と `ACCESS_NETWORK_STATE` 権限を追加する必要があります。
 - ProGuardを使用している場合、proguard.txt のすべての行を ProGuard 構成に追加します。
+
+##Unity Ads Android Advanced Guides
+
+- [API Reference](https://github.com/Unity-Technologies/unity-ads-android/wiki/sdk_android_api_reference)
+- [Errors](https://github.com/Unity-Technologies/unity-ads-android/wiki/sdk_android_api_errors)
+- [Finish States](https://github.com/Unity-Technologies/unity-ads-android/wiki/sdk_android_api_finishstates)
+- [Placement States](https://github.com/Unity-Technologies/unity-ads-android/wiki/sdk_android_api_placementstates)
+- [Mediation network guide](https://github.com/Unity-Technologies/unity-ads-android/wiki/sdk_metadata_mediation)
+- [Server-to-Server callbacks](https://unityads.unity3d.com/help/monetization/s2s-redeem-callbacks)
