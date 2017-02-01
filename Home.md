@@ -11,6 +11,7 @@
 * [Unity製のゲームに組み込む](https://github.com/unity3d-jp/unityads-help-jp/wiki/Integration-Guide-for-Unity)
 * [サーバー間のアイテム授受コールバック](https://github.com/unity3d-jp/unityads-help-jp/wiki/s2s-redeem-callbacks)
 * [収益化のための統計 API](https://github.com/unity3d-jp/unityads-help-jp/wiki/stats-api)
+* [Unity Ads SDK 2.0 へのアップグレード](https://github.com/unity3d-jp/unityads-help-jp/wiki/Upgrade-Guide-for-Unity-Ads)
 
 ## Unity Ads に広告を出す
 
