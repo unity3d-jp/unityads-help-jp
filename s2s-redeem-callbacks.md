@@ -10,7 +10,7 @@ S2S コールバックは、ユーザーが動画を見終わった時にあな�
 
 S2S コールバックを使用するには、広告を見せる前に server ID (sid) をセットする必要があります。
 
-Unity サンプル:
+###Unity サンプル:
 
 ```
 using UnityEngine;
@@ -38,7 +38,7 @@ public class UnityAdsManager : MonoBehaviour
 
 ネイティブ Unity Ads SDK では、PlayerMetaData API クラスで行われます。
 
-Android サンプル:
+###Android サンプル:
 
 ```
     if(UnityAds.isReady()) {
@@ -50,7 +50,7 @@ Android サンプル:
     }
 ```
 
-iOS サンプル:
+###iOS サンプル:
 
 ```
     if([UnityAds isReady]) {
@@ -62,13 +62,13 @@ iOS サンプル:
     }
 ```
 
-#### コールバック発信元
+## コールバック発信元
 コールバックは下記のリストにある IP アドレス/ネットワークから発信されます。
 >http://static.applifier.com/public_ips.json
 
 リストは毎月1日にアップデートされます。こちらをご覧いただくことで、他からのコールバックを無視、あるいはブロックすることができます。
 
-#### コールバック URL のフォーマット
+## コールバック URL のフォーマット
 リクエストは HTTP/1.1 GET リクエストで以下のフォーマットの URL に送信されます。
 > 
 > [CALLBACK_URL][SEPARATOR1]sid=[SID][SEPARATOR]oid=[OID][SEPARATOR]hmac=[SIGNATURE]
@@ -108,7 +108,7 @@ https://developer.example.com/award.php?productid=1234&sid=1234567890&oid=098765
 >**注意:** コールバック URL に含まれるパラメータはすべて、署名の算出にアルファベット順で含まれる必要があります。これ以外の方法では署名が一致しません。
 
 
-#### コールバックへの応答
+## コールバックへの応答
 リクエストがすべてのチェックをパスし、ユーザーに報酬アイテムが渡されると、URL は HTTP/1.1 200 OK を返します。その HTTP リクエストの本文には「 1 」が含まれます。例えば次のようになります。
 
 
@@ -132,7 +132,7 @@ Content-Length: 12
 Duplicate order
 ```
 
-#### node.js でのコールバック サンプル
+### node.js でのコールバック サンプル
 以下のサンプルは、node.js + express で署名を検証する方法を示すものです。
 
 ```
@@ -193,7 +193,7 @@ app.get('/', function (req, res) {
 });
 ```
 
-#### PHP でのコールバック サンプル
+### PHP でのコールバック サンプル
 以下のサンプルは、PHP で署名を検証する方法を示すものです。
 
 
