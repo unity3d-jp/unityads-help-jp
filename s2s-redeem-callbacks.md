@@ -1,5 +1,7 @@
 # サーバー間のアイテム授受コールバック
 
+[![https://unity.gyazo.com/cadb751d232d7a8096fb5fbd891fec62](https://t.gyazo.com/teams/unity/cadb751d232d7a8096fb5fbd891fec62.png)](https://unity.gyazo.com/cadb751d232d7a8096fb5fbd891fec62)
+
 S2S コールバックは、ユーザーが動画を見終わった時にあなたのサーバーへ送信されます。例えば、これを使うことでチートとの区別をつけつつ、ユーザーにリワードアイテムを付与することができます。
 
 >注意: デフォルトではサーバー間でのコールバックは利用できません。あなたのゲームでサーバー間のコールバックを可能にするには、[unityads-support@unity3d.com[英語]](mailto:unityads-support@unity3d.com) にメールでお問い合わせください。
