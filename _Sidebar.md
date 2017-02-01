@@ -3,29 +3,31 @@
 ## ようこそ Unity Ads へ！
 * [ようこそ Unity Ads へ！](https://github.com/unity3d-jp/unityads-help-jp/wiki/Welcome-to-Unity-Ads)
 * [UDN アカウントへの移行](https://github.com/unity3d-jp/unityads-help-jp/wiki/account-migration-notice)
+* [Unity Ads SDK 2.0 へのアップグレード](https://github.com/unity3d-jp/unityads-help-jp/wiki/Upgrade-Guide-for-Unity-Ads)
 
 ## Unity Ads を導入する
 
 * [マネタイズを始める](https://github.com/unity3d-jp/unityads-help-jp/wiki/start-monetizetion)
-* [Unity Ads導入の成功例](https://github.com/unity3d-jp/unityads-help-jp/wiki/Designing-for-Video-Ads)
-* [広告表示について](https://github.com/unity3d-jp/unityads-help-jp/wiki/Intro-to-Ad-Placements)
+* [Unity製のゲームに組み込む](https://github.com/unity3d-jp/unityads-help-jp/wiki/Integration-Guide-for-Unity)
 * [iOSのゲームに組み込む](https://github.com/unity3d-jp/unityads-help-jp/wiki/Integration-Guide-for-iOS)
 * [Androidのゲームに組み込む](https://github.com/unity3d-jp/unityads-help-jp/wiki/Integration-Guide-for-Android)
-* [Unity製のゲームに組み込む](https://github.com/unity3d-jp/unityads-help-jp/wiki/Integration-Guide-for-Unity)
+* [Unity Ads SDK 2.0 へのアップグレード](https://github.com/unity3d-jp/unityads-help-jp/wiki/Upgrade-Guide-for-Unity-Ads)
+* [広告表示について](https://github.com/unity3d-jp/unityads-help-jp/wiki/Intro-to-Ad-Placements)
+* [Unity Ads導入の成功例](https://github.com/unity3d-jp/unityads-help-jp/wiki/Designing-for-Video-Ads)
 * [サーバー間のアイテム授受コールバック](https://github.com/unity3d-jp/unityads-help-jp/wiki/s2s-redeem-callbacks)
 * [収益化のための統計 API](https://github.com/unity3d-jp/unityads-help-jp/wiki/stats-api)
-* [Unity Ads SDK 2.0 へのアップグレード](https://github.com/unity3d-jp/unityads-help-jp/wiki/Upgrade-Guide-for-Unity-Ads)
+
 
 ## Unity Ads に広告を出す
 * [広告出稿の流れ](https://github.com/unity3d-jp/unityads-help-jp/wiki/adv-flow)
 * <a href="https://oc.unity3d.com/index.php/s/ocI17JeNycP68Ll" target="_blank">広告出稿マニュアル（PDF）</a>
+* [広告出稿時によくあるご質問](https://github.com/unity3d-jp/unityads-help-jp/wiki/general-faq-jp)
+* [発注書（ IO ）の書き方](https://github.com/unity3d-jp/unityads-help-jp/wiki/IO)
 * [必要なキャンペーン素材](https://github.com/unity3d-jp/unityads-help-jp/wiki/campaign-design-guide)
 * [キャンペーンを改善しよう](https://github.com/unity3d-jp/unityads-help-jp/wiki/campaign-optomization)
 * [SDK によるインストールトラッキング](https://github.com/unity3d-jp/unityads-help-jp/wiki/sdk-install-tracking)
 * [サーバー間のインストールトラッキング](https://github.com/unity3d-jp/unityads-help-jp/wiki/s2s-install-tracking)
 * [広告の統計 API](https://github.com/unity3d-jp/unityads-help-jp/wiki/adv-stats-api)
-* [広告出稿時によくあるご質問](https://github.com/unity3d-jp/unityads-help-jp/wiki/general-faq-jp)
-* [発注書（ IO ）の書き方](https://github.com/unity3d-jp/unityads-help-jp/wiki/IO)
 
 ## FAQ
 
@@ -36,7 +38,6 @@
 ## その他
 * [Unity Ads に関するリソース](https://github.com/unity3d-jp/unityads-help-jp/wiki/resources)
 * [Unity Developer Network アカウントへの移行](https://github.com/unity3d-jp/unityads-help-jp/wiki/account-migration-notice)
-
 
 ## リーガル情報
 
