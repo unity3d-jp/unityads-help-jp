@@ -202,8 +202,8 @@ func unityAdsDidFinish(_ placementId: String, with state: UnityAdsFinishState) {
 
 ##Unity Ads iOS Advanced Guides
 - [API Reference](https://github.com/Unity-Technologies/unity-ads-ios/wiki/sdk_ios_api_reference)
-- [Errors](https://github.com/Unity-Technologies/unity-ads-ios/wiki/sdk_ios_api_errors)
-- [Finish States](https://github.com/Unity-Technologies/unity-ads-ios/wiki/sdk_ios_api_finishstates)
-- [Placement States](https://github.com/Unity-Technologies/unity-ads-ios/wiki/sdk_ios_api_placementstates)
+　- [Errors](https://github.com/Unity-Technologies/unity-ads-ios/wiki/sdk_ios_api_errors)
+　- [Finish States](https://github.com/Unity-Technologies/unity-ads-ios/wiki/sdk_ios_api_finishstates)
+　- [Placement States](https://github.com/Unity-Technologies/unity-ads-ios/wiki/sdk_ios_api_placementstates)
 - [Mediation network guide](https://github.com/Unity-Technologies/unity-ads-ios/wiki/sdk_metadata_mediation)
 - [Server-to-Server callbacks](https://github.com/Unity-Technologies/unity-ads-ios/wiki/sdk_metadata_s2s_callbacks)
