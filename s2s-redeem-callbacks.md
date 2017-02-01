@@ -10,7 +10,7 @@ S2S コールバックは、ユーザーが動画を見終わった時にあな�
 
 S2S コールバックを使用するには、広告を見せる前に server ID (sid) をセットする必要があります。
 
-###Unity サンプル:
+###Unity でのサンプル
 
 ```
 using UnityEngine;
@@ -38,7 +38,7 @@ public class UnityAdsManager : MonoBehaviour
 
 ネイティブ Unity Ads SDK では、PlayerMetaData API クラスで行われます。
 
-###Android サンプル:
+###Android でのサンプル
 
 ```
     if(UnityAds.isReady()) {
@@ -50,7 +50,7 @@ public class UnityAdsManager : MonoBehaviour
     }
 ```
 
-###iOS サンプル:
+###iOS でのサンプル
 
 ```
     if([UnityAds isReady]) {
@@ -93,7 +93,7 @@ public class UnityAdsManager : MonoBehaviour
 https://developer.example.com/award.php?productid=1234&sid=1234567890&oid=0987654321&hmac=106ed4300f91145aff6378a355fced73.
 ```
 
-### コールバック URL の署名
+## コールバック URL の署名
 コールバック URL リクエストの URL パラメータには署名が付きます。この署名は、（hmacを除いて）すべての URL パラメータを「キー=値」の形でカンマ区切りでアルファベット順に並べ連結して作ったパラメータ文字列の、HDMAC-MD5 ハッシュです。
 
 例えば、SID と OID を持つコールバック URL `https://developer.example.com/award.php?productid=1234&sid=1234567890&oid=0987654321` のパラメータ文字列は「`oid=0987654321,productid=1234,sid=1234567890`」となり、これがハッシュキー `xyzKEY`（共有ハッシュキーは Unity Ads 管理パネルで設定可能）でハッシュされて、「`106ed4300f91145aff6378a355fced73`」というハッシュが生成されます。この結果、報酬コールバックが送信される URL は以下のようになります。
