@@ -8,6 +8,60 @@ S2S コールバックは、ユーザーが動画を見終わった時にあな�
 
 トラフィックに依存するため、コールバックが届くまでに時間がかかる場合があります。スムースなゲームプレイとリワードの付与を確実にするため、チートとの区別をつけるために S2S コールバックを使うことは有用です。
 
+S2S コールバックを使用するには、広告を見せる前に server ID (sid) をセットする必要があります。
+
+Unity サンプル:
+
+```
+using UnityEngine;
+using System.Collections;
+using UnityEngine.Advertisements;
+
+public class UnityAdsManager : MonoBehaviour
+{
+    // an integer string of usually 5-7 digits, example: "12345"
+    public string gameId;
+    public string placement = "rewardedVideo"
+
+    // Call this function when Advertisement.IsReady == true
+    public void showAd() {
+
+        ShowOptions options = new ShowOptions();
+
+        // setting the server ID
+        options.gamerSid = "example";
+
+        Advertisement.Show (placement, options);
+    }
+}
+```
+
+ネイティブ Unity Ads SDK では、PlayerMetaData API クラスで行われます。
+
+Android サンプル:
+
+```
+    if(UnityAds.isReady()) {
+        PlayerMetaData playerMetaData = new PlayerMetaData(context);
+        playerMetaData.setServerId("example");
+        playerMetaData.commit();
+
+        UnityAds.show(activity);
+    }
+```
+
+iOS サンプル:
+
+```
+    if([UnityAds isReady]) {
+        id playerMetaData = [[UADSPlayerMetaData alloc] init];
+        [playerMetaData setServerId:@"example"];
+        [playerMetaData commit];
+
+        [UnityAds show:self];
+    }
+```
+
 #### コールバック発信元
 コールバックは下記のリストにある IP アドレス/ネットワークから発信されます。
 >http://static.applifier.com/public_ips.json
@@ -78,6 +132,66 @@ Content-Length: 12
 Duplicate order
 ```
 
+#### node.js でのコールバック サンプル
+以下のサンプルは、node.js + express で署名を検証する方法を示すものです。
+
+```
+The following example shows how to verify the signature using node.js + express.
+
+// NODE.js S2S callback endpoint sample implementation
+// Unity Ads
+
+var express = require('express');
+var crypto = require('crypto')
+var app = express();
+
+
+app.listen(process.env.PORT || 3412);
+
+function getHMAC(parameters, secret) {
+    var sortedParameterString = sortParams(parameters);
+    return crypto.createHmac('md5', secret).update(sortedParameterString).digest('hex');
+}
+
+function sortParams(parameters) {
+    var params = parameters || {};
+    return Object.keys(params)
+        .filter(key => key !== 'hmac')
+        .sort()
+        .map(key => params[key] === null ? `${key}=` : `${key}=${params[key]}`)
+        .join(',');
+}
+
+app.get('/', function (req, res) {
+
+    var sid = req.query.sid;
+    var oid = req.query.oid;
+    var hmac = req.query.hmac;
+
+    // Save the secret as an environment variable. If none is set, default to xyzKEY
+    var secret = process.env.UNITYADSSECRET || 'xyzKEY';
+
+    var newHmac = getHMAC(req.query, secret);
+
+    if (hmac === newHmac) {
+        // Signatures match
+
+        // Check for duplicate oid here (player already received reward) and return 403 if it exists
+
+        // If there's no duplicate - give virtual goods to player. Return 500 if it fails.
+
+        // Save the oid for duplicate checking. Return 500 if it fails.
+
+        // Callback passed, return 200 and include '1' in the message body
+        res.status(200).send('1');
+
+    } else {
+        // no match
+        res.sendStatus(403);
+    }
+
+});
+```
 
 #### PHP でのコールバック サンプル
 以下のサンプルは、PHP で署名を検証する方法を示すものです。
