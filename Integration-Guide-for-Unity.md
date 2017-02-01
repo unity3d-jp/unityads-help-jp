@@ -138,7 +138,7 @@ Step 2：Servises window を使って Unity Ads を利用可能にする
 
 Service window から Unity Ads が使用可能になると、ゲームスタート時に Unity Ads が自動的にイニシャライズされます。Game ID の確認も Service window より可能です。
 
-Service window　のより詳しい情報は、Unity Manual の Unity Ads セクションをご覧ください。組み込みの続きは、Showing an Ad Placement をご覧ください。また、Using Test Mode の章もご確認下さい。
+Service window　のより詳しい情報は、[Unity Manual](http://docs.unity3d.com/Manual/UnityAdsHowTo.html) の Unity Ads セクションをご覧ください。組み込みの続きは、Showing an Ad Placement をご覧ください。また、Using Test Mode の章もご確認下さい。
 
 ###ゲームスタート時のオートイニシャライズを無効化したい
 
