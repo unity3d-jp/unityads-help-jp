@@ -76,9 +76,7 @@ https://app.appsflyer.com/id1063631875?idfa=9C528B70-E96D-4590-8766-2A40ED2B3573
 ### ポストバック URL リクエスト
 ユーザーのコンバージョン、つまりキャンペーンで新しいインストールがあったことのレポートは、ポストバック URL を通して行います。インストールは HTTP GET リクエストで報告されます。URL は iOS の場合、以下のようになります。
 
-```
-https://postback.unityads.unity3d.com/games/12345（Unity Ads管理画面にて確認できる、対象案件のGameIDをご入力ください）/install?advertisingTrackingId=（お使いのトラッキングツールにおける、IDFAのマクロをご入力ください）
-```
+`https://postback.unityads.unity3d.com/games/12345（Unity Ads管理画面にて確認できる、対象案件のGameIDをご入力ください）/install?advertisingTrackingId=（お使いのトラッキングツールにおける、IDFAのマクロをご入力ください）`
 
 Android の場合は以下のようになります。
 
