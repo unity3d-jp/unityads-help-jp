@@ -11,15 +11,15 @@ Unity Ads Framework は[こちら](https://github.com/Unity-Technologies/unity-a
 
 サンプルプロジェクトは [GitHub](https://github.com/Unity-Technologies/unity-ads-ios/tree/master/UnityAdsExample) を参照して下さい。 
 
-##目次
+## 目次
 - [Unity Ads ダッシュボードを設定する](https://github.com/unity3d-jp/unityads-help-jp/wiki/Integration-Guide-for-iOS#unity-ads-%E3%83%80%E3%83%83%E3%82%B7%E3%83%A5%E3%83%9C%E3%83%BC%E3%83%89%E3%82%92%E8%A8%AD%E5%AE%9A%E3%81%99%E3%82%8B)
 - [Swift を使用して Unity Ads を組み込む](https://github.com/unity3d-jp/unityads-help-jp/wiki/Integration-Guide-for-iOS#swift-%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%97%E3%81%A6-unity-ads-%E3%82%92%E7%B5%84%E3%81%BF%E8%BE%BC%E3%82%80)
 - [Objective-C を使って Unity Ads を組み込む](https://github.com/unity3d-jp/unityads-help-jp/wiki/Integration-Guide-for-iOS#objective-c-%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%A6-unity-ads-%E3%82%92%E7%B5%84%E3%81%BF%E8%BE%BC%E3%82%80)
 - [Advanced Guides](https://github.com/unity3d-jp/unityads-help-jp/wiki/Integration-Guide-for-iOS#unity-ads-ios-advanced-guides)
 
-##Unity Ads ダッシュボードを設定する
+## Unity Ads ダッシュボードを設定する
 
-###Unity Ads ダッシュボードに Game Project を作成する
+### Unity Ads ダッシュボードに Game Project を作成する
 
 1. UDN アカウントをつかって Unity Ads ダッシュボードにログイン（アカウントをお持ちでない場合、[こちら](https://id.unity.com/)からサインアップして下さい。）
 
@@ -42,9 +42,9 @@ Unity Ads Framework は[こちら](https://github.com/Unity-Technologies/unity-a
 
 アプリIDをクリック > 設定タブをクリック > テストモードのスイッチをオンにする
 
-##Swift を使用して Unity Ads を組み込む
+## Swift を使用して Unity Ads を組み込む
 
-###Unity Ads のインポート
+### Unity Ads のインポート
 
 1. [こちら](https://github.com/Unity-Technologies/unity-ads-ios)から最新の Unity Ads Framework をダウンロードします。
 
@@ -77,7 +77,7 @@ func unityAdsDidFinish(_ placementId: String, with state: UnityAdsFinishState) {
 
 ここでプロジェクトをコンパイルします。
 
-###Unity Ads のイニシャライズと動画の表示
+### Unity Ads のイニシャライズと動画の表示
 
 1. `UnityAds.initialize()`を使ってSDKをイニシャライズします。
 
@@ -123,7 +123,7 @@ func unityAdsDidFinish(_ placementId: String, with state: UnityAdsFinishState) {
 
 ## Objective-C を使って Unity Ads を組み込む
 
-###Unity Ads のインポート
+### Unity Ads のインポート
 
 1. [こちら](https://github.com/Unity-Technologies/unity-ads-ios)から最新版の Unity Ads Framework をダウンロードします。
 
@@ -155,7 +155,7 @@ Viewcontroller implementation (.m) に以下の *@required* methods を加えま
 
 ここでプロジェクトをコンパイルします。
 
-###Unity Ads のイニシャライズと動画の表示
+### Unity Ads のイニシャライズと動画の表示
 
 1. `UnityAds.initialize():` を使ってSDKをイニシャライズします。
 
@@ -200,7 +200,7 @@ func unityAdsDidFinish(_ placementId: String, with state: UnityAdsFinishState) {
 }
 ```
 
-##Unity Ads iOS Advanced Guides
+## Unity Ads iOS Advanced Guides
 - [API Reference](https://github.com/Unity-Technologies/unity-ads-ios/wiki/sdk_ios_api_reference)
 - [Errors](https://github.com/Unity-Technologies/unity-ads-ios/wiki/sdk_ios_api_errors)
 - [Finish States](https://github.com/Unity-Technologies/unity-ads-ios/wiki/sdk_ios_api_finishstates)
