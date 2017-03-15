@@ -177,7 +177,7 @@ http://control.kochava.com/v1/cpi/click?campaign_id=YOUR_KOCHAVA_CAMPAIGN_ID&net
  
 > 注意: インストールトラッキングは iOS 6 以降のデバイスに対してのみ有効です。iOS 5 以前のデバイスはサポート対象外となりました。
 
-インストールしたユーザーをレポートする方法は***ウィナーオンリー トランスミッション***と同じです。詳細については前述の[ポストバック URL リクエスト](https://github.com/unity3d-jp/unityads-help-jp/wiki/%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E9%96%93%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%83%88%E3%83%A9%E3%83%83%E3%82%AD%E3%83%B3%E3%82%B0#%E3%83%9D%E3%82%B9%E3%83%88%E3%83%90%E3%83%83%E3%82%AF-url-%E3%83%AA%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88)セクションを参照してください。
+インストールしたユーザーをレポートする方法は ***ウィナーオンリー トランスミッション*** と同じです。詳細については前述の[ポストバック URL リクエスト](https://github.com/unity3d-jp/unityads-help-jp/wiki/%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E9%96%93%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%83%88%E3%83%A9%E3%83%83%E3%82%AD%E3%83%B3%E3%82%B0#%E3%83%9D%E3%82%B9%E3%83%88%E3%83%90%E3%83%83%E3%82%AF-url-%E3%83%AA%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88)セクションを参照してください。
 
 [1]: http://zencoder.com/en/formats
 [2]: https://unityads.unity3d.com/admin
