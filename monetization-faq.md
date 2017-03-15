@@ -1,6 +1,6 @@
-#収益化に関するFAQ
+# 収益化に関するFAQ
 
-##統合について
+## 統合について
 
 - [どのバージョンの Unity が使えるの？](https://github.com/unity3d-jp/unityads-help-jp/wiki/monetization-faq#%E3%81%A9%E3%81%AE%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E3%81%AE-unity-%E3%81%8C%E4%BD%BF%E3%81%88%E3%82%8B%E3%81%AE)
 - [Unity Ads の対応プラットフォームは？](https://github.com/unity3d-jp/unityads-help-jp/wiki/monetization-faq#unity-ads-%E3%81%AE%E5%AF%BE%E5%BF%9C%E3%83%97%E3%83%A9%E3%83%83%E3%83%88%E3%83%95%E3%82%A9%E3%83%BC%E3%83%A0%E3%81%AF)
