@@ -21,7 +21,7 @@
 [Unity Ads 管理パネル](https://unityads.unity3d.com/admin/)の "対象のプロジェクト" > "プラットフォームの選択" > "Ad placements" から設定することができます。
 
 参考として、有用な広告表示の例を下記のリンクよりご覧いただけます。
->#####https://github.com/Applifier/unity-ads-demo
+>https://github.com/Applifier/unity-ads-demo
 
 ## Unity Ads package のコード例
 
