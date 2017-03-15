@@ -49,7 +49,7 @@ Unity Ads で外部インストールトラッキングを行う方法は、大�
 |`{user_agent}`| 端末ユーザーのエージェント。 例えば "Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_5 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G36" (iOS), "Mozilla/5.0 (Linux; Android 6.0.1; SM-G920V Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile Safari/537.36" (Android)| 
 |`{cpi}`| インストールの単価（ $US ）。 例えば "2.85"|
 
-##Unity Ads トラッキングURLのルール
+## Unity Ads トラッキングURLのルール
 
 - HTTPS以外のURLは使用できません
 - URLには少なくとも{ifa}のダイナミックカスタムトークンが必要です
@@ -122,20 +122,20 @@ Unity Ads インストールトラッキングサーバーからの応答は JSO
 
 ### サードパーティのインストールトラッキングサービス向けガイド
 
-####AppsFlyer
+#### AppsFlyer
 
 詳細は AppsFlyer 公式サイトをご参照下さい。
 
 - [AppsFlyer サポートページ](https://support.appsflyer.com/hc/ja)
 
-####Adjust
+#### Adjust
 
 詳細は Adjust 公式サイトをご参照下さい。
 
 - [Adjust Unity Ads](https://docs.adjust.com/ja/special-partners/unity-ads/)
 - [Adjust トラッカーの生成](https://docs.adjust.com/ja/tracker-generation/)
 
-####MobileAppTracking by Tune (previously HasOffers)
+#### MobileAppTracking by Tune (previously HasOffers)
 
 詳細は Tune 公式サイトをご参照下さい。
 
