@@ -12,7 +12,7 @@ S2S コールバックは、ユーザーが動画を見終わった時にあな�
 
 S2S コールバックを使用するには、広告を見せる前に server ID (sid) をセットする必要があります。
 
-###Unity でのサンプル
+### Unity でのサンプル
 
 ```
 using UnityEngine;
@@ -40,7 +40,7 @@ public class UnityAdsManager : MonoBehaviour
 
 ネイティブ Unity Ads SDK では、PlayerMetaData API クラスで行われます。
 
-###Android でのサンプル
+### Android でのサンプル
 
 ```
     if(UnityAds.isReady()) {
@@ -52,7 +52,7 @@ public class UnityAdsManager : MonoBehaviour
     }
 ```
 
-###iOS でのサンプル
+### iOS でのサンプル
 
 ```
     if([UnityAds isReady]) {
