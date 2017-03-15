@@ -22,7 +22,7 @@
 * [広告出稿の流れ](https://github.com/unity3d-jp/unityads-help-jp/wiki/adv-flow)
 * <a href="https://oc.unity3d.com/index.php/s/ocI17JeNycP68Ll" target="_blank">広告出稿マニュアル（PDF）</a>
 * [広告出稿時によくあるご質問](https://github.com/unity3d-jp/unityads-help-jp/wiki/general-faq-jp)
-* [お申込み](https://github.com/unity3d-jp/unityads-help-jp/wiki/IO)
+* [お申込み手順](https://github.com/unity3d-jp/unityads-help-jp/wiki/IO)
 * [必要なキャンペーン素材](https://github.com/unity3d-jp/unityads-help-jp/wiki/campaign-design-guide)
 * [キャンペーンを改善しよう](https://github.com/unity3d-jp/unityads-help-jp/wiki/campaign-optomization)
 * [SDK によるインストールトラッキング](https://github.com/unity3d-jp/unityads-help-jp/wiki/sdk-install-tracking)
