@@ -2,7 +2,7 @@
 
 Unity Ads のご出稿は以下の手順にてお申込みいただけます。
 
-## Step 1 メールにて発注 
+## Step 1 メールで発注 
 
 ads-support@unity3d.co.jp に下記内容をお送りください。
 
