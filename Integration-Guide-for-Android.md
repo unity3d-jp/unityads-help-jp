@@ -10,16 +10,16 @@
 
 サンプルプロジェクトは [GitHub](https://github.com/Unity-Technologies/unity-ads-android/tree/master/app) を参照して下さい。
 
-##目次
+## 目次
 - Unity Ads ダッシュボードを設定する
 - Android Studio で Unity Ads を組み込む
 - Android Studio を使わずに組み込む
 
 Unity Ads 1.5.x からのアップグレードの場合、Android transition guide を参照して下さい。
 
-##Unity Ads ダッシュボードを設定する
+## Unity Ads ダッシュボードを設定する
 
-###Unity Ads ダッシュボードに Game Project を作成する
+### Unity Ads ダッシュボードに Game Project を作成する
 
 1. UDN アカウントをつかって Unity Ads ダッシュボードにログイン（アカウントをお持ちでない場合、[こちら](https://id.unity.com/)からサインアップして下さい。）
 
@@ -27,7 +27,7 @@ Unity Ads 1.5.x からのアップグレードの場合、Android transition gui
 
 >注意: あなたのゲームがアメリカの子供のために特別に設計されていない限り、「13歳未満の子供を対象にする」オプションはオフのままにしてください。全年齢向けのゲームでは、COPPAへの準拠をオンにする必要はありません。
 
-###アプリIDと広告枠IDを確認する
+### アプリIDと広告枠IDを確認する
 
 3. 作成したゲームプロジェクトをクリック > アプリID の欄に番号が表示されます。Unity Ads を有効にする際、この番号を使用します。
 
@@ -42,7 +42,7 @@ Unity Ads 1.5.x からのアップグレードの場合、Android transition gui
 
 アプリIDをクリック > 設定タブをクリック > テストモードのスイッチをオンにする
 
-##Android Studio で Unity Ads を組み込む
+## Android Studio で Unity Ads を組み込む
 
 1. 最新版のバイナリを [GitHub](https://github.com/Unity-Technologies/unity-ads-android/releases) よりダウンロードして下さい。
 
@@ -72,7 +72,7 @@ Unity Ads SDK 2.0 では、各 show メソッドの呼び出しでアクティ�
 
 API の詳細については、Unity Ads Android API reference を参照してください。また、さまざまな広告枠が表示されるような統合方法の例については、[サンプルアプリケーション](https://github.com/Unity-Technologies/unity-ads-android/blob/master/app/src/main/java/com/unity3d/ads/example/UnityAdsExample.java)を参照してください。
 
-##Android Studio を使わずに組み込む
+## Android Studio を使わずに組み込む
 
 お使いのビルドシステムにて、AAR パッケージをお使いいただけ無い場合、同様のリソースを unity-ads.zip として GitHub にて ZIP ファイルでも提供しています。以下の3点に注意して下さい。
 
@@ -81,7 +81,7 @@ API の詳細については、Unity Ads Android API reference を参照して�
 - `AndroidManifest.xml` から手動でマニフェストをマージします。 `AdUnitActivity` アクティビティと `AdUnitSoftwareActivity` アクティビティの両方を含めるようにしてください。また、`INTERNET` と `ACCESS_NETWORK_STATE` 権限を追加する必要があります。
 - ProGuardを使用している場合、proguard.txt のすべての行を ProGuard 構成に追加します。
 
-##Unity Ads Android Advanced Guides
+## Unity Ads Android Advanced Guides
 
 - [API Reference](https://github.com/Unity-Technologies/unity-ads-android/wiki/sdk_android_api_reference)
 - [Errors](https://github.com/Unity-Technologies/unity-ads-android/wiki/sdk_android_api_errors)
