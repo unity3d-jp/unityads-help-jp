@@ -1,4 +1,4 @@
-#Unity製のゲームに組み込む
+# Unity製のゲームに組み込む
 
 ## 概要
 - [組み込みの概要](https://github.com/unity3d-jp/unityads-help-jp/wiki/Integration-Guide-for-Unity#%E7%B5%84%E3%81%BF%E8%BE%BC%E3%81%BF%E3%81%AE%E6%A6%82%E8%A6%81)
@@ -11,7 +11,7 @@
 - [サーバー間のアイテム授受コールバックを使う](https://github.com/unity3d-jp/unityads-help-jp/wiki/Integration-Guide-for-Unity#%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E9%96%93%E3%81%AE%E3%82%A2%E3%82%A4%E3%83%86%E3%83%A0%E6%8E%88%E5%8F%97%E3%82%B3%E3%83%BC%E3%83%AB%E3%83%90%E3%83%83%E3%82%AF%E3%82%92%E4%BD%BF%E3%81%86)
 - [Unity Ads で使える Scripting API](https://github.com/unity3d-jp/unityads-help-jp/wiki/Integration-Guide-for-Unity#unity-ads-%E3%81%A7%E4%BD%BF%E3%81%88%E3%82%8B-scripting-api)
 
-##組み込みの概要
+## 組み込みの概要
 詳細な部分の前に、単純な組み込みの概要です。以下の 3 ステップで Unity Ads を組み込むことができます。
 
 1. セットアップとイニシャライズ
@@ -140,7 +140,7 @@ Service window から Unity Ads が使用可能になると、ゲームスター
 
 Service window　のより詳しい情報は、[Unity Manual](http://docs.unity3d.com/Manual/UnityAdsHowTo.html) の Unity Ads セクションをご覧ください。組み込みの続きは、[広告を見せる](https://github.com/unity3d-jp/unityads-help-jp/wiki/Integration-Guide-for-Unity#%E5%BA%83%E5%91%8A%E3%82%92%E8%A6%8B%E3%81%9B%E3%82%8B) をご覧ください。また、[テストモードで広告が表示されるか試す](https://github.com/unity3d-jp/unityads-help-jp/wiki/Integration-Guide-for-Unity#%E3%83%86%E3%82%B9%E3%83%88%E3%83%A2%E3%83%BC%E3%83%89%E3%81%A7%E5%BA%83%E5%91%8A%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%82%8B%E3%81%8B%E8%A9%A6%E3%81%99)の章もご確認下さい。
 
-###ゲームスタート時のオートイニシャライズを無効化したい
+### ゲームスタート時のオートイニシャライズを無効化したい
 
 Unity Ads のイニシャライズ時により多くの要求をしたい場合、editor script を使ってオートイニシャライズを無効化することができます。
 
@@ -230,7 +230,7 @@ Step 6：GameObject を選択し、Inspector window に Game ID を入力
 >Game ID がわからない場合、Unity Ads dashboard の プラットフォームリストよりご確認いただけます。
 >旧式の Unity Ads dashboard をお使いの場合には、左側メニューの "ゲーム" のリストよりご確認いただけます。 
 
-###UnityAdsExample の拡張
+### UnityAdsExample の拡張
 
 以下の項目にも対応できるように機能を拡張します。
 
@@ -278,7 +278,7 @@ public class UnityAdsExample : MonoBehaviour
 ```
 
 
-##テストモードで広告が表示されるか試す
+## テストモードで広告が表示されるか試す
 開発中に、Unity Ads のテストモードの使用を強く推奨します。テストモードが有効になっている間は、ゲームにテスト用広告のみが流れます。テスト広告は、通常のリミットである 1日に 25 広告、という制限がありません。また、クリックしても Revenue を生み出すことはありません。
 
 
@@ -292,7 +292,7 @@ Unity Ads のイニシャライズに `Advertisement.Initialize method` をお�
 
 旧管理画面をお使いの場合には、開発者用設定のタブよりテストモードの設定が行えます。
 
-##広告を見せる
+## 広告を見せる
 このセクションでは広告を見せる方法について紹介します。Unity Ads では広告の表示を `Ad placement` と呼びます。
 
 UnityAdsButton という C# スクリプトを新規に作成し、対象の scene の新規 GameObject に追加します。以下のコードをコピーして、ご利用ください。
@@ -318,7 +318,7 @@ public class UnityAdsButton : MonoBehaviour
 }
 ```
 
-##ゲーム内リワード広告を表示する
+## ゲーム内リワード広告を表示する
 このセクションでは、ゲーム内リワード広告についてを紹介します。
 
 UnityAdsRewardedButton という C# スクリプトを新規に作成し、対象の scene の新規 GameObject に追加します。以下のコードをコピーして、ご利用ください。
@@ -368,11 +368,11 @@ public class UnityAdsRewardedButton : MonoBehaviour
 }
 ```
 
-##サーバー間のアイテム授受コールバックを使う
+## サーバー間のアイテム授受コールバックを使う
 詳細は[こちら](https://github.com/unity3d-jp/unityads-help-jp/wiki/s2s-redeem-callbacks)をご覧ください。
 
 
-##Unity Ads で使える Scripting API
+## Unity Ads で使える Scripting API
 Unity Ads で使用できる Scripting API は以下となります。
 
 - Classes
