@@ -25,7 +25,6 @@
 * [お申込み手順](https://github.com/unity3d-jp/unityads-help-jp/wiki/IO)
 * [必要なキャンペーン素材](https://github.com/unity3d-jp/unityads-help-jp/wiki/campaign-design-guide)
 * [キャンペーンを改善しよう](https://github.com/unity3d-jp/unityads-help-jp/wiki/campaign-optomization)
-* [SDK によるインストールトラッキング](https://github.com/unity3d-jp/unityads-help-jp/wiki/sdk-install-tracking)
 * [サーバー間のインストールトラッキング](https://github.com/unity3d-jp/unityads-help-jp/wiki/s2s-install-tracking)
 * [広告の統計 API](https://github.com/unity3d-jp/unityads-help-jp/wiki/adv-stats-api)
 
