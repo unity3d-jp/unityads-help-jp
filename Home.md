@@ -17,6 +17,7 @@
 
 
 ## Unity Ads に広告を出す
+* [最新情報](https://github.com/unity3d-jp/unityads-help-jp/wiki/News)
 * [広告出稿の流れ](https://github.com/unity3d-jp/unityads-help-jp/wiki/adv-flow)
 * [お申込み手順](https://github.com/unity3d-jp/unityads-help-jp/wiki/IO)
 * [必要なキャンペーン素材](https://github.com/unity3d-jp/unityads-help-jp/wiki/campaign-design-guide)
