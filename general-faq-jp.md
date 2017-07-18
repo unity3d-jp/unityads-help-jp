@@ -256,12 +256,13 @@ https://postback.unityads.unity3d.com/games/[GAME_ID]/install?advertisingTrackin
 ## どんなトラッキングツールが使えるの？
 Unity Ads は下記のトラッキングツールとの連携実績があります。
 
-+ MobileAppTracking ( MAT )
++ Tune
 + metaps
 + Kochava
 + Adjust
 + Partytrack
 + Adstore Tracking
++ FOX
 
 >※その他のカスタムソリューションとも連携実績があります。御相談ください。
 
