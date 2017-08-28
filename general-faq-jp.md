@@ -10,6 +10,7 @@
 ## 料金形態について
 - [日本円は使える？](https://github.com/unity3d-jp/unityads-help-jp/wiki/general-faq-jp#%E6%97%A5%E6%9C%AC%E5%86%86%E3%81%AF%E4%BD%BF%E3%81%88%E3%82%8B)
 - [USD で支払う場合、どの時点のレートが使われるの？](https://github.com/unity3d-jp/unityads-help-jp/wiki/general-faq-jp#usd-%E3%81%A7%E6%94%AF%E6%89%95%E3%81%86%E5%A0%B4%E5%90%88%E3%81%A9%E3%81%AE%E6%99%82%E7%82%B9%E3%81%AE%E3%83%AC%E3%83%BC%E3%83%88%E3%81%8C%E4%BD%BF%E3%82%8F%E3%82%8C%E3%82%8B%E3%81%AE)
+- [月のご利用分が$300未満の場合](https://github.com/unity3d-jp/unityads-help-jp/wiki/general-faq-jp#%E6%9C%88%E3%81%AE%E3%81%94%E5%88%A9%E7%94%A8%E5%88%86%E3%81%8C300%E6%9C%AA%E6%BA%80%E3%81%AE%E5%A0%B4%E5%90%88)
 - [料金形態は？](https://github.com/unity3d-jp/unityads-help-jp/wiki/general-faq-jp#%E6%96%99%E9%87%91%E5%BD%A2%E6%85%8B%E3%81%AF)
 
 ## 広告形態について
