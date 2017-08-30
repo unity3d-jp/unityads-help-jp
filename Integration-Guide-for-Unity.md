@@ -49,10 +49,11 @@ Service window から Unity Ads が使用可能になると、ゲームスター
 
 Service window　のより詳しい情報は、[Unity Manual](http://docs.unity3d.com/Manual/UnityAdsHowTo.html) の Unity Ads セクションをご覧ください。組み込みの続きは、[広告を見せる](https://github.com/unity3d-jp/unityads-help-jp/wiki/Integration-Guide-for-Unity#%E5%BA%83%E5%91%8A%E3%82%92%E8%A6%8B%E3%81%9B%E3%82%8B) をご覧ください。また、[テストモードで広告が表示されるか試す](https://github.com/unity3d-jp/unityads-help-jp/wiki/Integration-Guide-for-Unity#%E3%83%86%E3%82%B9%E3%83%88%E3%83%A2%E3%83%BC%E3%83%89%E3%81%A7%E5%BA%83%E5%91%8A%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%82%8B%E3%81%8B%E8%A9%A6%E3%81%99)の章もご確認下さい。
 
-##Asset Package を使う (Unity 4.3 以降)
+## 導入済みのAsset Package について (Unity 4.3 以降)
 
 注意：Service window から Unity Ads が利用可能である場合に、
 Unity Ads asset package を使用されると、コンフリクトを起こす可能性があります。
+初回の導入フローについては、本ページの後半「Asset Package を使う」にて、ご紹介させていただきます・
 
 もし既に Unity Ads asset package より Unity Ads をプロジェクトに組み込んでいて、Unity 5.2 にアップグレードし、Service window から Unity Ads を使用されたい場合、今までの Unity Ads asset package は削除して下さい。
 
@@ -172,7 +173,6 @@ public class UnityAdsBuildProcessor : Editor
 
 ## Asset Package を使う
 このセクションでは、Unity 4.3 以降を対象とした Unity Ads asset package を使った Unity Ads の組み込みについてを説明します。
-
 >注意：Unity 5.2 以降をお使いの場合でも、 Unity Ads asset package から Unity Ads を組み込むことができまが、Service window を使った組み込みを強く推奨します。
 >Unity 5.2 以降において、Unity Ads asset package を使った組み込みをする場合には Service window は使用できなくなります。
 >
