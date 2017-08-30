@@ -26,11 +26,15 @@ Services window を使った Unity Ads の組み込みは、以下の Step で�
 
 Step 1：プラットフォームの選択( iOS, Android )
 
+![Build Settings](https://s3.amazonaws.com/ads-image-hosting/build-settings.png)
+
 1. Unity のメニューより Select File > Build Settings...
 2. プラットフォームリストより iOS もしくは Android を選択
 3. Switch Platform を選択
 
 Step 2：Servises window を使って Unity Ads を利用可能にする
+
+![Services Window](https://s3.amazonaws.com/ads-image-hosting/services.png)
 
 1. Select Window > Services から Services window を開く
 2. Ads service の configure settings を選択
