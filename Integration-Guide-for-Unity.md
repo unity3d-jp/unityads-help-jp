@@ -323,50 +323,95 @@ public class UnityAdsButton : MonoBehaviour
 ```
 
 ## ゲーム内リワード広告を表示する
+
 このセクションでは、ゲーム内リワード広告についてを紹介します。
 
-UnityAdsRewardedButton という C# スクリプトを新規に作成し、対象の scene の新規 GameObject に追加します。以下のコードをコピーして、ご利用ください。
+広告を視聴してくれたユーザに報酬を与えることで、ユーザーエンゲージメントが向上し、収益の増加が見込めます。 たとえば、ゲームでは、ゲーム内の通貨、消耗品、ライフ、経験値をプレイヤーに報酬として与えることができます。
 
-C# Example – UnityAdsRewardedButton.cs
+広告視聴後の報酬を成立させるためには、以下の例のHandleShowResultコールバックメソッドを使用します。これは視聴完了(終了)後、UnityAdsから自動的に呼ばれるメソッドになりますので、一字一句間違いのないようお気をつけください。
 
-```
+報酬をユーザーに渡すためには、引数内にキャッシュされている結果が `ShowResult.Finished`に等しいことを確認して、ユーザーが広告をスキップしていないことを確認してください。
+
+スキップしてしまった場合の処理は`result == ShowResult.Skipped`の部分に実装してください。
+
+動画の視聴が通信環境であったり、なんらかの理由で失敗してしまった場合は、`result == ShowResult.Failed`内に処理を実装するように実装してください。
+
+### サンプルコード
+
+UnityAdsButton という C# スクリプトを新規に作成し、対象の scene の新規 GameObject に追加します。
+以下のコードをコピーして、ご利用ください。
+
+注意：RequireComponentにてButtonクラスが自動的にAddComponentされる仕組みになっておりますので、uGUIのButtonオブジェクトにAddする事がテスト環境用の動作確認に向いています。
+
+C# Example – UnityAdsButton.cs
+
+``` cs
 using UnityEngine;
-using System.Collections;
+using UnityEngine.UI;
 using UnityEngine.Advertisements;
 
-public class UnityAdsRewardedButton : MonoBehaviour
+//---------- ONLY NECESSARY FOR ASSET PACKAGE INTEGRATION: ----------//
+
+#if UNITY_IOS
+private string gameId = "1486551";
+#elif UNITY_ANDROID
+private string gameId = "1486550";
+#endif
+
+//-------------------------------------------------------------------//
+
+ColorBlock newColorBlock = new ColorBlock();
+public Color green = new Color(0.1F, 0.8F, 0.1F, 1.0F);
+
+[RequireComponent(typeof(Button))]
+public class UnityAdsButton : MonoBehaviour
 {
-    public string zoneId;
-    public int rewardQty = 250;
+    Button m_Button;
 
-    void OnGUI ()
+    public string placementId = "rewardedVideo";
+
+    void Start ()
     {
-        if (string.IsNullOrEmpty (zoneId)) zoneId = null;
+        m_Button = GetComponent<Button>();
+        if (m_Button) m_Button.onClick.AddListener(ShowAd);
 
-        Rect buttonRect = new Rect (10, 10, 150, 50);
-        string buttonText = Advertisement.IsReady (zoneId) ? "Show Ad" : "Waiting...";
-
-        ShowOptions options = new ShowOptions();
-        options.resultCallback = HandleShowResult;
-
-        if (GUI.Button (buttonRect, buttonText)) {
-            Advertisement.Show (zoneId, options);
+        if (Advertisement.isSupported) {
+            Advertisement.Initialize (gameId, true);
         }
+
+        //---------- ONLY NECESSARY FOR ASSET PACKAGE INTEGRATION: ----------//
+
+        if (Advertisement.isSupported) {
+            Advertisement.Initialize (gameId, true);
+        }
+
+        //-------------------------------------------------------------------//
+
     }
 
-    private void HandleShowResult (ShowResult result)
+    void Update ()
     {
-        switch (result)
-        {
-        case ShowResult.Finished:
-            Debug.Log ("Video completed. User rewarded " + rewardQty + " credits.");
-            break;
-        case ShowResult.Skipped:
-            Debug.LogWarning ("Video was skipped.");
-            break;
-        case ShowResult.Failed:
-            Debug.LogError ("Video failed to show.");
-            break;
+        if (m_Button) m_Button.interactable = Advertisement.IsReady(placementId);
+    }
+
+    void ShowAd ()
+    {
+        var options = new ShowOptions();
+        options.resultCallback = HandleShowResult;
+
+        Advertisement.Show(placementId, options);
+    }
+
+    void HandleShowResult (ShowResult result)
+    {
+        if(result == ShowResult.Finished) {
+        Debug.Log("Video completed - Offer a reward to the player");
+
+        }else if(result == ShowResult.Skipped) {
+            Debug.LogWarning("Video was skipped - Do NOT reward the player");
+
+        }else if(result == ShowResult.Failed) {
+            Debug.LogError("Video failed to show");
         }
     }
 }
