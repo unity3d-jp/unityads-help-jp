@@ -390,3 +390,16 @@ UnityEngine.Advertisements.ShowResult
 下記のクラスで Unity Ads の Services window の設定ができます。
 
 - UnityEditor.Advertisements.AdvertisementSettings
+
+## ダッシュボードでの設定
+
+設定を使用して、プロジェクト内のプレースメントやその他のゲーム固有の設定を変更します。 (広告プレースメントはこちらをご確認ください [Unity Ads documentation](http://unityads.unity3d.com/help/monetization/placements) )
+
+1. Webブラウザで [UnityAdsのダッシュボード](https://dashboard.unityads.unity3d.com/)を開き、 [UDN](https://id.unity.com/account/new) UnityAdsを導入するゲームプロジェクトを確認します。 <br/> <br/>
+    ![Unity Ads Dashboard with project selection highlighted](https://docs.unity3d.com/uploads/Main/DashSelectProject.png "Unity Ads Dashboard with project selection highlighted")
+
+2. そこから、該当のプラットフォームを選択します。 (iOS or Android). <br/><br/>
+    ![Unity Ads Dashboard with platform selection highlighted](https://docs.unity3d.com/uploads/Main/DashSelectStore.png "Unity Ads Dashboard with platform selection highlighted")
+
+3. そこから、各プラットフォームに向けた設定が可能になります。 (See [Unity Ads documentation](http://unityads.unity3d.com/help/monetization/placements).) <br/><br/>
+    ![Unity Ads Dashboard showing placement information](https://docs.unity3d.com/uploads/Main/DashSelectPlacement.png "Unity Ads Dashboard showing placement information")
