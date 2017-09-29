@@ -11,6 +11,65 @@
 - [サーバー間のアイテム授受コールバックを使う](https://github.com/unity3d-jp/unityads-help-jp/wiki/Integration-Guide-for-Unity#%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E9%96%93%E3%81%AE%E3%82%A2%E3%82%A4%E3%83%86%E3%83%A0%E6%8E%88%E5%8F%97%E3%82%B3%E3%83%BC%E3%83%AB%E3%83%90%E3%83%83%E3%82%AF%E3%82%92%E4%BD%BF%E3%81%86)
 - [Unity Ads で使える Scripting API](https://github.com/unity3d-jp/unityads-help-jp/wiki/Integration-Guide-for-Unity#unity-ads-%E3%81%A7%E4%BD%BF%E3%81%88%E3%82%8B-scripting-api)
 
+## セットアップとイニシャライズ
+Unity に　Unity Ads を組み込むには、2 つの方法があります。
+
+Unity 5.2 以降では、Unity Ads API が既に Unity のエンジンに組み込まれています。これによって、セットアップとイニシャライズが非常に簡単になります。
+
+もちろん、Unity 5.2 以降でも Service window を使わず Unity Ads asset package を使うこともできます。Unity Ads asset package は Unity 4.3 以降に互換性があります。
+
+
+## Services Window を使う
+このセクションでは、Unity 5.2 以降に導入されている Services window を使った Unity Ads の組み込みについてを説明します。
+
+Services window を使った Unity Ads の組み込みは、以下の Step で行うことができます。
+
+Step 1：プラットフォームの選択( iOS, Android )
+
+![Build Settings](https://s3.amazonaws.com/ads-image-hosting/build-settings.png)
+
+1. Unity のメニューより Select File > Build Settings...
+2. プラットフォームリストより iOS もしくは Android を選択
+3. Switch Platform を選択
+
+Step 2：Servises window を使って Unity Ads を利用可能にする
+
+![Services Window](https://s3.amazonaws.com/ads-image-hosting/services.png)
+
+1. Select Window > Services から Services window を開く
+2. Ads service の configure settings を選択
+3. Ads のトグルスイッチを ONにする
+4. 組み込もうとしているゲームの対象年齢が13歳以上であるかどうかを選択
+5. Save Changes で保存
+
+>13歳以下を対象とするゲームの場合、Unity Ads は Behaviorally targeting を行いません。
+>Behavioral targeting は適切なユーザーを選んで広告を表示するため eCPM をより高めますが、COPPA レギュレーションによって 13歳以下のユーザーに Behavioral targeting を行うことは禁じられているためです。
+
+Service window から Unity Ads が使用可能になると、ゲームスタート時に Unity Ads が自動的にイニシャライズされます。Game ID の確認も Service window より可能です。
+
+Service window　のより詳しい情報は、[Unity Manual](http://docs.unity3d.com/Manual/UnityAdsHowTo.html) の Unity Ads セクションをご覧ください。組み込みの続きは、[広告を見せる](https://github.com/unity3d-jp/unityads-help-jp/wiki/Integration-Guide-for-Unity#%E5%BA%83%E5%91%8A%E3%82%92%E8%A6%8B%E3%81%9B%E3%82%8B) をご覧ください。また、[テストモードで広告が表示されるか試す](https://github.com/unity3d-jp/unityads-help-jp/wiki/Integration-Guide-for-Unity#%E3%83%86%E3%82%B9%E3%83%88%E3%83%A2%E3%83%BC%E3%83%89%E3%81%A7%E5%BA%83%E5%91%8A%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%82%8B%E3%81%8B%E8%A9%A6%E3%81%99)の章もご確認下さい。
+
+## 導入済みのAsset Package について (Unity 4.3 以降)
+
+注意：Service window から Unity Ads が利用可能である場合に、
+Unity Ads asset package を使用されると、コンフリクトを起こす可能性があります。
+初回の導入フローについては、本ページの後半「Asset Package を使う」にて、ご紹介させていただきます・
+
+もし既に Unity Ads asset package より Unity Ads をプロジェクトに組み込んでいて、Unity 5.2 にアップグレードし、Service window から Unity Ads を使用されたい場合、今までの Unity Ads asset package は削除して下さい。
+
+これらの asset は以下のロケーションにあります。
+
+- Plugins/Android/unityads
+- Plugins/iOS/UnityAds.bundle
+- Plugins/iOS/UnityAds.framework
+- Plugins/iOS/UnityAdsUnityWrapper.h
+- Plugins/iOS/UnityAdsUnityWrapper.mm
+- StandardAssets/Editor/UnityAds
+- StandardAssets/UnityAds
+
+Package Uninstaller を使うと簡単に削除することができます。Asset Store より無料でご利用になれます。
+
+
 ## 組み込みの概要
 詳細な部分の前に、単純な組み込みの概要です。以下の 3 ステップで Unity Ads を組み込むことができます。
 
@@ -86,60 +145,6 @@ function Start () : IEnumerator
 
 それでは Unity Ads 組み込みの詳細を見ていきましょう。
 
-## セットアップとイニシャライズ
-Unity に　Unity Ads を組み込むには、2 つの方法があります。
-
-- Services Window を使う (Unity 5.2 以降)
-- Asset Package を使う (Unity 4.3 以降)
-
-Unity 5.2 以降では、Unity Ads API が既に Unity のエンジンに組み込まれています。これによって、セットアップとイニシャライズが非常に簡単になります。
-
-もちろん、Unity 5.2 以降でも Service window を使わず Unity Ads asset package を使うこともできます。Unity Ads asset package は Unity 4.3 以降に互換性があります。
-
-
-## Services Window を使う
-このセクションでは、Unity 5.2 以降に導入されている Services window を使った Unity Ads の組み込みについてを説明します。
-
->注意：Service window から Unity Ads が利用可能である場合に、
-Unity Ads asset package を使用されると、コンフリクトを起こす可能性があります。
-
->もし既に Unity Ads asset package より Unity Ads をプロジェクトに組み込んでいて、Unity 5.2 にアップグレードし、Service window から Unity Ads を使用されたい場合、今までの Unity Ads asset package は削除して下さい。
-
->これらの asset は以下のロケーションにあります。
-
->- Plugins/Android/unityads
-- Plugins/iOS/UnityAds.bundle
-- Plugins/iOS/UnityAds.framework
-- Plugins/iOS/UnityAdsUnityWrapper.h
-- Plugins/iOS/UnityAdsUnityWrapper.mm
-- StandardAssets/Editor/UnityAds
-- StandardAssets/UnityAds
-
->Package Uninstaller を使うと簡単に削除することができます。Asset Store より無料でご利用になれます。
-
-Services window を使った Unity Ads の組み込みは、以下の Step で行うことができます。
-
-Step 1：プラットフォームの選択( iOS, Android )
-
-1. Unity のメニューより Select File > Build Settings... 
-2. プラットフォームリストより iOS もしくは Android を選択
-3. Switch Platform を選択
-
-Step 2：Servises window を使って Unity Ads を利用可能にする
-
-1. Select Window > Services から Services window を開く
-2. Ads service の configure settings を選択
-3. Ads のトグルスイッチを ONにする
-4. 組み込もうとしているゲームの対象年齢が13歳以上であるかどうかを選択
-5. Save Changes で保存
-
->13歳以下を対象とするゲームの場合、Unity Ads は Behaviorally targeting を行いません。
->Behavioral targeting は適切なユーザーを選んで広告を表示するため eCPM をより高めますが、COPPA レギュレーションによって 13歳以下のユーザーに Behavioral targeting を行うことは禁じられているためです。
-
-Service window から Unity Ads が使用可能になると、ゲームスタート時に Unity Ads が自動的にイニシャライズされます。Game ID の確認も Service window より可能です。
-
-Service window　のより詳しい情報は、[Unity Manual](http://docs.unity3d.com/Manual/UnityAdsHowTo.html) の Unity Ads セクションをご覧ください。組み込みの続きは、[広告を見せる](https://github.com/unity3d-jp/unityads-help-jp/wiki/Integration-Guide-for-Unity#%E5%BA%83%E5%91%8A%E3%82%92%E8%A6%8B%E3%81%9B%E3%82%8B) をご覧ください。また、[テストモードで広告が表示されるか試す](https://github.com/unity3d-jp/unityads-help-jp/wiki/Integration-Guide-for-Unity#%E3%83%86%E3%82%B9%E3%83%88%E3%83%A2%E3%83%BC%E3%83%89%E3%81%A7%E5%BA%83%E5%91%8A%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%82%8B%E3%81%8B%E8%A9%A6%E3%81%99)の章もご確認下さい。
-
 ### ゲームスタート時のオートイニシャライズを無効化したい
 
 Unity Ads のイニシャライズ時により多くの要求をしたい場合、editor script を使ってオートイニシャライズを無効化することができます。
@@ -168,7 +173,6 @@ public class UnityAdsBuildProcessor : Editor
 
 ## Asset Package を使う
 このセクションでは、Unity 4.3 以降を対象とした Unity Ads asset package を使った Unity Ads の組み込みについてを説明します。
-
 >注意：Unity 5.2 以降をお使いの場合でも、 Unity Ads asset package から Unity Ads を組み込むことができまが、Service window を使った組み込みを強く推奨します。
 >Unity 5.2 以降において、Unity Ads asset package を使った組み込みをする場合には Service window は使用できなくなります。
 >
@@ -177,7 +181,7 @@ Unity Ads asset package を使った Unity Ads の組み込みは以下のステ
 
 Step 1：プラットフォームの選択( iOS, Android )
 
-1. Unity のメニューより Select File > Build Settings... 
+1. Unity のメニューより Select File > Build Settings...
 2. プラットフォームリストより iOS もしくは Android を選択
 3. Switch Platform を選択
 
@@ -188,11 +192,11 @@ Step 3：UnityExample という GameObject を作成する
 1. Unity のメニューより GameObject を選択 > Create Empty
 2. 作成した GameObject を Hierarchy window で選択
 3. 右クリックで GameObject を選択し、名前を変更する
-4. UnityAdsExample と入力し、Enterキーを押して変更 
+4. UnityAdsExample と入力し、Enterキーを押して変更
 
 Step 4：UnityAdsExample という C# script を作成
 
-1. Unity メニューより Assets > Create > C# Script 
+1. Unity メニューより Assets > Create > C# Script
 2. 名前を UnityAdsExample と入力
 3. 右クリックで Open を選択し、エディトします
 4. 以下のスクリプトをコピー & ペーストして下さい
@@ -218,7 +222,7 @@ public class UnityAdsExample : MonoBehaviour
     }
 }
 ```
- 
+
 Step 5：UnityAdsExample GameObject にスクリプトを追加
 
 1. UnityAdsExample GameObject を Hierarchy window で選択
@@ -228,7 +232,7 @@ Step 6：GameObject を選択し、Inspector window に Game ID を入力
 
 
 >Game ID がわからない場合、Unity Ads dashboard の プラットフォームリストよりご確認いただけます。
->旧式の Unity Ads dashboard をお使いの場合には、左側メニューの "ゲーム" のリストよりご確認いただけます。 
+>旧式の Unity Ads dashboard をお使いの場合には、左側メニューの "ゲーム" のリストよりご確認いただけます。
 
 ### UnityAdsExample の拡張
 
@@ -319,50 +323,95 @@ public class UnityAdsButton : MonoBehaviour
 ```
 
 ## ゲーム内リワード広告を表示する
+
 このセクションでは、ゲーム内リワード広告についてを紹介します。
 
-UnityAdsRewardedButton という C# スクリプトを新規に作成し、対象の scene の新規 GameObject に追加します。以下のコードをコピーして、ご利用ください。
+広告を視聴してくれたユーザに報酬を与えることで、ユーザーエンゲージメントが向上し、収益の増加が見込めます。 たとえば、ゲームでは、ゲーム内の通貨、消耗品、ライフ、経験値をプレイヤーに報酬として与えることができます。
 
-C# Example – UnityAdsRewardedButton.cs
+広告視聴後の報酬を成立させるためには、以下の例のHandleShowResultコールバックメソッドを使用します。これは視聴完了(終了)後、UnityAdsから自動的に呼ばれるメソッドになりますので、一字一句間違いのないようお気をつけください。
 
-```
+報酬をユーザーに渡すためには、引数内にキャッシュされている結果が `ShowResult.Finished`に等しいことを確認して、ユーザーが広告をスキップしていないことを確認してください。
+
+スキップしてしまった場合の処理は`result == ShowResult.Skipped`の部分に実装してください。
+
+動画の視聴が通信環境であったり、なんらかの理由で失敗してしまった場合は、`result == ShowResult.Failed`内に処理を実装するように実装してください。
+
+### サンプルコード
+
+UnityAdsButton という C# スクリプトを新規に作成し、対象の scene の新規 GameObject に追加します。
+以下のコードをコピーして、ご利用ください。
+
+注意：RequireComponentにてButtonクラスが自動的にAddComponentされる仕組みになっておりますので、uGUIのButtonオブジェクトにAddする事がテスト環境用の動作確認に向いています。
+
+C# Example – UnityAdsButton.cs
+
+``` cs
 using UnityEngine;
-using System.Collections;
+using UnityEngine.UI;
 using UnityEngine.Advertisements;
 
-public class UnityAdsRewardedButton : MonoBehaviour
+//---------- ONLY NECESSARY FOR ASSET PACKAGE INTEGRATION: ----------//
+
+#if UNITY_IOS
+private string gameId = "1486551";
+#elif UNITY_ANDROID
+private string gameId = "1486550";
+#endif
+
+//-------------------------------------------------------------------//
+
+ColorBlock newColorBlock = new ColorBlock();
+public Color green = new Color(0.1F, 0.8F, 0.1F, 1.0F);
+
+[RequireComponent(typeof(Button))]
+public class UnityAdsButton : MonoBehaviour
 {
-    public string zoneId;
-    public int rewardQty = 250;
+    Button m_Button;
 
-    void OnGUI ()
+    public string placementId = "rewardedVideo";
+
+    void Start ()
     {
-        if (string.IsNullOrEmpty (zoneId)) zoneId = null;
+        m_Button = GetComponent<Button>();
+        if (m_Button) m_Button.onClick.AddListener(ShowAd);
 
-        Rect buttonRect = new Rect (10, 10, 150, 50);
-        string buttonText = Advertisement.IsReady (zoneId) ? "Show Ad" : "Waiting...";
-
-        ShowOptions options = new ShowOptions();
-        options.resultCallback = HandleShowResult;
-
-        if (GUI.Button (buttonRect, buttonText)) {
-            Advertisement.Show (zoneId, options);
+        if (Advertisement.isSupported) {
+            Advertisement.Initialize (gameId, true);
         }
+
+        //---------- ONLY NECESSARY FOR ASSET PACKAGE INTEGRATION: ----------//
+
+        if (Advertisement.isSupported) {
+            Advertisement.Initialize (gameId, true);
+        }
+
+        //-------------------------------------------------------------------//
+
     }
 
-    private void HandleShowResult (ShowResult result)
+    void Update ()
     {
-        switch (result)
-        {
-        case ShowResult.Finished:
-            Debug.Log ("Video completed. User rewarded " + rewardQty + " credits.");
-            break;
-        case ShowResult.Skipped:
-            Debug.LogWarning ("Video was skipped.");
-            break;
-        case ShowResult.Failed:
-            Debug.LogError ("Video failed to show.");
-            break;
+        if (m_Button) m_Button.interactable = Advertisement.IsReady(placementId);
+    }
+
+    void ShowAd ()
+    {
+        var options = new ShowOptions();
+        options.resultCallback = HandleShowResult;
+
+        Advertisement.Show(placementId, options);
+    }
+
+    void HandleShowResult (ShowResult result)
+    {
+        if(result == ShowResult.Finished) {
+        Debug.Log("Video completed - Offer a reward to the player");
+
+        }else if(result == ShowResult.Skipped) {
+            Debug.LogWarning("Video was skipped - Do NOT reward the player");
+
+        }else if(result == ShowResult.Failed) {
+            Debug.LogError("Video failed to show");
         }
     }
 }
@@ -386,3 +435,16 @@ UnityEngine.Advertisements.ShowResult
 下記のクラスで Unity Ads の Services window の設定ができます。
 
 - UnityEditor.Advertisements.AdvertisementSettings
+
+## ダッシュボードでの設定
+
+設定を使用して、プロジェクト内のプレースメントやその他のゲーム固有の設定を変更します。 (広告プレースメントはこちらをご確認ください [Unity Ads documentation](http://unityads.unity3d.com/help/monetization/placements) )
+
+1. Webブラウザで [UnityAdsのダッシュボード](https://dashboard.unityads.unity3d.com/)を開き、 [UDN](https://id.unity.com/account/new) UnityAdsを導入するゲームプロジェクトを確認します。 <br/> <br/>
+    ![Unity Ads Dashboard with project selection highlighted](https://docs.unity3d.com/uploads/Main/DashSelectProject.png "Unity Ads Dashboard with project selection highlighted")
+
+2. そこから、該当のプラットフォームを選択します。 (iOS or Android). <br/><br/>
+    ![Unity Ads Dashboard with platform selection highlighted](https://docs.unity3d.com/uploads/Main/DashSelectStore.png "Unity Ads Dashboard with platform selection highlighted")
+
+3. そこから、各プラットフォームに向けた設定が可能になります。 (See [Unity Ads documentation](http://unityads.unity3d.com/help/monetization/placements).) <br/><br/>
+    ![Unity Ads Dashboard showing placement information](https://docs.unity3d.com/uploads/Main/DashSelectPlacement.png "Unity Ads Dashboard showing placement information")
