@@ -68,8 +68,8 @@ Ads のご使用を強く推奨します。
 
 Unity Adsでマネタイズに成功したゲームはたくさんあります。以下に示すのはほんの一例です。
 
-- Crossy Road ([iOS](https://itunes.apple.com/en/app/crossy-road-endless-arcade/id924373886?mt=8), [Android](https://play.google.com/store/apps/details?id=com.yodo1.crossyroad)) -- [Made with Unity](http://madewith.unity.com/games/crossy-road).
-- Temple Run 2 ([iOS](https://itunes.apple.com/us/app/temple-run-2/id572395608?mt=8), [Android](https://play.google.com/store/apps/details?id=com.imangi.templerun2)) -- [Made with Unity](http://madewith.unity.com/games/temple-run-2).
+- Crossy Road ([iOS](https://itunes.apple.com/en/app/crossy-road-endless-arcade/id924373886?mt=8), [Android](https://play.google.com/store/apps/details?id=com.yodo1.crossyroad)) -- [Made with Unity](https://madewith.unity.com/games/crossy-road).
+- Temple Run 2 ([iOS](https://itunes.apple.com/us/app/temple-run-2/id572395608?mt=8), [Android](https://play.google.com/store/apps/details?id=com.imangi.templerun2)) -- [Made with Unity](https://madewith.unity.com/games/temple-run-2).
 - Sonic Dash ([iOS](https://itunes.apple.com/us/app/sonic-dash/id582654048?mt=8), [Android](https://play.google.com/store/apps/details?id=com.sega.sonicdash)) -- Made with Unity.
 - 4 Pics 1 Word ([iOS](https://itunes.apple.com/us/app/4-pics-1-word/id595558452?mt=8), [Android](https://play.google.com/store/apps/details?id=de.lotum.whatsinthefoto.us)) -- Native SDK integration.
 - Dumb Ways to Die ([iOS](https://itunes.apple.com/fi/app/dumb-ways-to-die/id639930688?mt=8), [Android](https://play.google.com/store/apps/details?id=air.au.com.metro.DumbWaysToDie) -- Native SDK integration with Adobe AIR.
@@ -93,17 +93,17 @@ Unity Ads dashboard より、ジャンルフィルターをかけることがで
 ## Monetization stat reports の項目はそれぞれ何を表していますか？
 
 ### Ad requests
-広告を呼び出した数です。 
+広告を呼び出した数です。
 
-### Fill rate 
+### Fill rate
 広告を呼び出した内の利用可能な広告の数の割合です。
 
 ### 注意点
 
 1. 利用可能な広告数は一日に 25 となっています
-2. 少なくとも一つ利用可能な広告があれば、利用可能な広告の ad request それぞれにつき 1 available がレスポンスされます。 
+2. 少なくとも一つ利用可能な広告があれば、利用可能な広告の ad request それぞれにつき 1 available がレスポンスされます。
 
-3. システムパフォーマンス上の理由から、ad request と available のレポートの値はサンプリング値となります。23 回ごとにカウントされ、23 の値が含まれます。ad request と available が23の倍数になるのはこのためです。 
+3. システムパフォーマンス上の理由から、ad request と available のレポートの値はサンプリング値となります。23 回ごとにカウントされ、23 の値が含まれます。ad request と available が23の倍数になるのはこのためです。
 
 4. イニシャライズの後は、10 started 後に次の ad request が利用可能な広告のリストに送られます。
 

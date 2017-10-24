@@ -1,2 +1,2 @@
 # unityads-help-translation
-in order to translate for http://unityads.unity3d.com/help/index 
+in order to translate for https://unityads.unity3d.com/help/index 

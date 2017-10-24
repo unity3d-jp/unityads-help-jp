@@ -47,7 +47,7 @@ Step 2：Servises window を使って Unity Ads を利用可能にする
 
 Service window から Unity Ads が使用可能になると、ゲームスタート時に Unity Ads が自動的にイニシャライズされます。Game ID の確認も Service window より可能です。
 
-Service window　のより詳しい情報は、[Unity Manual](http://docs.unity3d.com/Manual/UnityAdsHowTo.html) の Unity Ads セクションをご覧ください。組み込みの続きは、[広告を見せる](https://github.com/unity3d-jp/unityads-help-jp/wiki/Integration-Guide-for-Unity#%E5%BA%83%E5%91%8A%E3%82%92%E8%A6%8B%E3%81%9B%E3%82%8B) をご覧ください。また、[テストモードで広告が表示されるか試す](https://github.com/unity3d-jp/unityads-help-jp/wiki/Integration-Guide-for-Unity#%E3%83%86%E3%82%B9%E3%83%88%E3%83%A2%E3%83%BC%E3%83%89%E3%81%A7%E5%BA%83%E5%91%8A%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%82%8B%E3%81%8B%E8%A9%A6%E3%81%99)の章もご確認下さい。
+Service window　のより詳しい情報は、[Unity Manual](https://docs.unity3d.com/Manual/UnityAdsHowTo.html) の Unity Ads セクションをご覧ください。組み込みの続きは、[広告を見せる](https://github.com/unity3d-jp/unityads-help-jp/wiki/Integration-Guide-for-Unity#%E5%BA%83%E5%91%8A%E3%82%92%E8%A6%8B%E3%81%9B%E3%82%8B) をご覧ください。また、[テストモードで広告が表示されるか試す](https://github.com/unity3d-jp/unityads-help-jp/wiki/Integration-Guide-for-Unity#%E3%83%86%E3%82%B9%E3%83%88%E3%83%A2%E3%83%BC%E3%83%89%E3%81%A7%E5%BA%83%E5%91%8A%E3%81%8C%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%82%8B%E3%81%8B%E8%A9%A6%E3%81%99)の章もご確認下さい。
 
 ## 導入済みのAsset Package について (Unity 4.3 以降)
 
@@ -438,7 +438,7 @@ UnityEngine.Advertisements.ShowResult
 
 ## ダッシュボードでの設定
 
-設定を使用して、プロジェクト内のプレースメントやその他のゲーム固有の設定を変更します。 (広告プレースメントはこちらをご確認ください [Unity Ads documentation](http://unityads.unity3d.com/help/monetization/placements) )
+設定を使用して、プロジェクト内のプレースメントやその他のゲーム固有の設定を変更します。 (広告プレースメントはこちらをご確認ください [Unity Ads documentation](https://unityads.unity3d.com/help/monetization/placements) )
 
 1. Webブラウザで [UnityAdsのダッシュボード](https://dashboard.unityads.unity3d.com/)を開き、 [UDN](https://id.unity.com/account/new) UnityAdsを導入するゲームプロジェクトを確認します。 <br/> <br/>
     ![Unity Ads Dashboard with project selection highlighted](https://docs.unity3d.com/uploads/Main/DashSelectProject.png "Unity Ads Dashboard with project selection highlighted")
@@ -446,5 +446,5 @@ UnityEngine.Advertisements.ShowResult
 2. そこから、該当のプラットフォームを選択します。 (iOS or Android). <br/><br/>
     ![Unity Ads Dashboard with platform selection highlighted](https://docs.unity3d.com/uploads/Main/DashSelectStore.png "Unity Ads Dashboard with platform selection highlighted")
 
-3. そこから、各プラットフォームに向けた設定が可能になります。 (See [Unity Ads documentation](http://unityads.unity3d.com/help/monetization/placements).) <br/><br/>
+3. そこから、各プラットフォームに向けた設定が可能になります。 (See [Unity Ads documentation](https://unityads.unity3d.com/help/monetization/placements).) <br/><br/>
     ![Unity Ads Dashboard showing placement information](https://docs.unity3d.com/uploads/Main/DashSelectPlacement.png "Unity Ads Dashboard showing placement information")

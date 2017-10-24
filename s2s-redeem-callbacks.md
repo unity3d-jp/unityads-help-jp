@@ -66,21 +66,21 @@ public class UnityAdsManager : MonoBehaviour
 
 ## コールバック発信元
 コールバックは下記のリストにある IP アドレス/ネットワークから発信されます。
->http://static.applifier.com/public_ips.json
+>https://static.applifier.com/public_ips.json
 
 リストは毎月1日にアップデートされます。こちらをご覧いただくことで、他からのコールバックを無視、あるいはブロックすることができます。
 
 ## コールバック URL のフォーマット
 リクエストは HTTP/1.1 GET リクエストで以下のフォーマットの URL に送信されます。
-> 
+>
 > [CALLBACK_URL][SEPARATOR1]sid=[SID][SEPARATOR]oid=[OID][SEPARATOR]hmac=[SIGNATURE]
-> 
+>
 
 各パラメータとその内容を以下に説明します。
 
 |パラメータ|内容|
 |---------|-------|
-|CALLBACK_URL|コールバック URL のベース URL。例えば `http://developer.example.com/award.php?productid=1234` のようになる。これを変更する場合は [unityads-support@unity3d.com[英語]](unityads-support@unity3d.com) へお問い合わせください。 |
+|CALLBACK_URL|コールバック URL のベース URL。例えば `https://developer.example.com/award.php?productid=1234` のようになる。これを変更する場合は [unityads-support@unity3d.com[英語]](unityads-support@unity3d.com) へお問い合わせください。 |
 |SEPARATOR1|`&` または `?`。URL 内でこれより前に `?` が存在しない場合は `?` を使う。そうでない場合は `&` を使う。|
 |SID|Unity Ads ダイアログ初期化の際に与えられたユーザー ID。例: `1234567890`|
 |SEPARATOR|`&`|
