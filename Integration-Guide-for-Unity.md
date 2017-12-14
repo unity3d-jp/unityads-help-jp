@@ -39,7 +39,7 @@ Step 2：Servises window を使って Unity Ads を利用可能にする
 1. Select Window > Services から Services window を開く
 2. Ads service の configure settings を選択
 3. Ads のトグルスイッチを ONにする
-4. 組み込もうとしているゲームの対象年齢が13歳以上であるかどうかを選択
+4. 組み込もうとしているゲームが13歳以下を対象としているかどうかを選択
 5. Save Changes で保存
 
 >13歳以下を対象とするゲームの場合、Unity Ads は Behaviorally targeting を行いません。
@@ -74,7 +74,7 @@ Package Uninstaller を使うと簡単に削除することができます。Ass
 詳細な部分の前に、単純な組み込みの概要です。以下の 3 ステップで Unity Ads を組み込むことができます。
 
 1. セットアップとイニシャライズ
-2. Verify ads are ready. 広告の認証?
+2. 広告の準備ができているかの判定
 3. 広告をユーザーに見せる
 
 次の例は Unity Ads をイニシャライズし、デフォルトの広告表示で見せるまでを行うことができます。Unity Ads が Service window で利用可能となっている場合には、Unity が Unity Ads をイニシャライズしてくれています。残りの部分は、Service window と Unity Ads asset package どちらを使っていても違いありません。
