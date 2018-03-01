@@ -46,7 +46,7 @@ Unity Ads で外部インストールトラッキングを行う方法は、大�
 |`{device_model}`|端末のモデル。例えば "iPhone7,2" (iOS), "SM-G900F" (Android) など。|
 |`{creative_pack}`|クリエイティブパックの名称。例えば "Apple" (iOS), "samsung" (Android) など|
 |`{os}`| 端末のオペレーティングシステム。 例えば "9.2.1" (iOS), "4.4.0" (Android)|
-|`{user_agent}`| 端末ユーザーのエージェント。 例えば "Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_5 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G36" (iOS), "Mozilla/5.0 (Linux; Android 6.0.1; SM-G920V Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile Safari/537.36" (Android)| 
+|`{user_agent}`| 端末ユーザーのエージェント。 例えば "Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_5 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G36" (iOS), "Mozilla/5.0 (Linux; Android 6.0.1; SM-G920V Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile Safari/537.36" (Android)|
 |`{cpi}`| インストールの単価（ $US ）。 例えば "2.85"|
 
 ## Unity Ads トラッキングURLのルール
@@ -155,9 +155,9 @@ Unity Ads インストールトラッキングサーバーからの応答は JSO
 ```
 &device_id={android_id_md5}&site_id=1&device_hash_method=md5&device_id_is_hashed=true&device_id_type=android_id&adid={ifa}&pbr=1
 ```
-結果は例えば以下のようになります。	
+結果は例えば以下のようになります。
 ```
-http://control.kochava.com/v1/cpi/click?campaign_id=YOUR_KOCHAVA_CAMPAIGN_ID&network_id=KOCHAVA_NETWORK_ID&creative_id=1&device_id={ifa_md5}&site_id=1&device_id_hash_method=MD5&device_id_is_hashed=true&device_id_type=idfa&mac_md5={mac_address_md5}
+https://control.kochava.com/v1/cpi/click?campaign_id=YOUR_KOCHAVA_CAMPAIGN_ID&network_id=KOCHAVA_NETWORK_ID&creative_id=1&device_id={ifa_md5}&site_id=1&device_id_hash_method=MD5&device_id_is_hashed=true&device_id_type=idfa&mac_md5={mac_address_md5}
 ```
 これをカスタムトラッキング URL フィールドに入力します。
 
@@ -174,16 +174,16 @@ http://control.kochava.com/v1/cpi/click?campaign_id=YOUR_KOCHAVA_CAMPAIGN_ID&net
 サーバー間のインストールトラッキングを利用するには、ゲームがすでに広告識別子（ [Identifier for Advertising][6] ）をあなたのサーバーに送信している状態でなければいけません。新しいユーザーがアプリをインストールすると、あなたのサーバーはそのユーザーの広告識別子を Unity Ads サーバーに送信します。Unity Ads はその識別子を、あなたのアプリの広告を見たユーザーの広告識別子と照合します。もし一致すれば、そのユーザーは Unity Ads 経由でのインストール数に計上されます。
 
 なお、広告識別子というのは iOS の場合で、Android 8 では [Google Advertising ID][7] または [Android ID][8] となります。
- 
+
 > 注意: インストールトラッキングは iOS 6 以降のデバイスに対してのみ有効です。iOS 5 以前のデバイスはサポート対象外となりました。
 
 インストールしたユーザーをレポートする方法は ***ウィナーオンリー トランスミッション*** と同じです。詳細については前述の[ポストバック URL リクエスト](https://github.com/unity3d-jp/unityads-help-jp/wiki/%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E9%96%93%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%83%88%E3%83%A9%E3%83%83%E3%82%AD%E3%83%B3%E3%82%B0#%E3%83%9D%E3%82%B9%E3%83%88%E3%83%90%E3%83%83%E3%82%AF-url-%E3%83%AA%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88)セクションを参照してください。
 
-[1]: http://zencoder.com/en/formats
+[1]: https://zencoder.com/en/formats
 [2]: https://unityads.unity3d.com/admin
-[3]: http://www.hasoffers.com/
-[4]: http://www.kochava.com/
+[3]: https://www.hasoffers.com/
+[4]: https://www.kochava.com/
 [5]: https://www.adjust.com/
-[6]: http://developer.apple.com/library/ios/#documentation/AdSupport/Reference/ASIdentifierManager_Ref/ASIdentifierManager.html
+[6]: https://developer.apple.com/library/ios/#documentation/AdSupport/Reference/ASIdentifierManager_Ref/ASIdentifierManager.html
 [7]: https://developer.android.com/google/play-services/id.html
 [8]: https://developer.android.com/reference/android/provider/Settings.Secure.html#ANDROID_ID

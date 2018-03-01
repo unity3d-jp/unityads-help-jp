@@ -12,7 +12,7 @@ Unity Ads では、パブリッシャーは収益化の、広告主はユーザ�
 Date,Country code,Country tier,adrequests,available,offers,started,views,revenue
 2013-02-28 00:00:00, JP, 3, 0, 0, 0, 160242, 124254, 5678.91
 2013-02-28 00:00:00, JP, 3, 0, 0, 0, 55124, 30517, 1234.56
-2013-02-28 00:00:00, JP, 3, 0, 0, 0, 716582, 592829, 2345.67 
+2013-02-28 00:00:00, JP, 3, 0, 0, 0, 716582, 592829, 2345.67
 2013-02-28 00:00:00, JP, 3, 0, 0, 0, 84643, 77014, 3456.78
 ...
 ```
@@ -24,7 +24,7 @@ Unity Ads 統計 API を使用するには、[Unity Ads 管理パネル][1] か�
 
 認証に成功すれば、サーバーは 302 HTTP リダイレクトメッセージで応答します。この応答の Location HTTP ヘッダに、統計サーバーのデータへの URL が含まれています。実際のデータはこのリダイレクト URL から取得することになります。これは標準的な HTTP の動作であり、すべての HTTP クライアントでサポートされています。例えば
 
-`curl -L "http://gameads-admin.applifier.com/stats/monetization-api?apikey=APIKEY"` 
+`curl -L "https://gameads-admin.applifier.com/stats/monetization-api?apikey=APIKEY"`
 
 はファイルを直接コンソールに出力します。
 
@@ -42,13 +42,13 @@ Unity Ads 統計 API を使用するには、[Unity Ads 管理パネル][1] か�
 収益化統計 API は以下のリクエストフォーマットをサポートしています。
 
 ```
-http://gameads-admin.applifier.com/stats/monetization-api?apikey=<apikey>&fields=<fields>[&splitBy=<splitbyfields>][&scale=<scale>][&start=<startDate>][&end=<endDate>][&sourceIds=<sourceIds>]
+https://gameads-admin.applifier.com/stats/monetization-api?apikey=<apikey>&fields=<fields>[&splitBy=<splitbyfields>][&scale=<scale>][&start=<startDate>][&end=<endDate>][&sourceIds=<sourceIds>]
 ```
 
-例: 
+例:
 
 ```
-curl -L "http://gameads-admin.applifier.com/stats/monetization-api?apikey=a0db655ac99b68cb4d1835e878e06473277dd061782dbeec813cb3b14cb723ee&splitBy=zone,country&fields=adrequests,available,views,revenue&start=2016-01-01&end=2016-10-01&scale=day&sourceIds=1003843" > ~/Desktop/UnityAdsMonetization.csv
+curl -L "https://gameads-admin.applifier.com/stats/monetization-api?apikey=a0db655ac99b68cb4d1835e878e06473277dd061782dbeec813cb3b14cb723ee&splitBy=zone,country&fields=adrequests,available,views,revenue&start=2016-01-01&end=2016-10-01&scale=day&sourceIds=1003843" > ~/Desktop/UnityAdsMonetization.csv
 ```
 
 ### 使用できるパラメータ
@@ -57,7 +57,7 @@ curl -L "http://gameads-admin.applifier.com/stats/monetization-api?apikey=a0db65
 
 >  注意: 統計データを同時に複数のディメンションで分割すると、データサイズが飛躍的に増加します。その結果、処理時間が長くなりすぎてリクエストが失敗する場合があります。すべてのリクエストは、データ生成にかかる時間が 1 分を超える場合、60 秒で中止されます。
 
-- `<apikey>` は [Unity Ads 管理パネル][1] から取得した API キーです。 
+- `<apikey>` は [Unity Ads 管理パネル][1] から取得した API キーです。
 - `<fields>` には使用可能なフィールドのカンマ区切りリストが入ります。
   - adrequests – サーバに送られたキャンペーンクエリの数
   - available – どのくらいの回数在庫として表示されたか
@@ -65,7 +65,7 @@ curl -L "http://gameads-admin.applifier.com/stats/monetization-api?apikey=a0db65
   - started – どのくらいの回数ユーザーが動画を再生開始したか
   - views – どのくらいの回数ユーザーが動画を完全視聴したか
   - revenue – いくらの収益になったか
-  
+
 デフォルトのフィールドセットは上記すべてが含まれています。
 
 - `<splitbyfields>` には、データを分割するディメンションのカンマ区切りリストが入ります。

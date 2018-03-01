@@ -22,7 +22,7 @@ Unity Ads 統計 API を使用するには、[Unity Ads 管理パネル][1] か�
 
 認証に成功すれば、サーバーは 302 HTTP リダイレクトメッセージで応答します。この応答の Location HTTP ヘッダに、統計サーバーのデータへの URL が含まれています。実際のデータはこのリダイレクト URL から取得することになります。これは標準的な HTTP の動作であり、すべての HTTP クライアントでサポートされています。例えば
 
-`curl -L "http://gameads-admin.applifier.com/stats/acquisition-api?apikey=APIKEY"` 
+`curl -L "https://gameads-admin.applifier.com/stats/acquisition-api?apikey=APIKEY"`
 
 はファイルを直接コンソールに出力します
 
@@ -46,16 +46,16 @@ Unity Ads 統計 API を使用するには、[Unity Ads 管理パネル][1] か�
 ユーザー獲得統計 API は、基本的には収益化統計 API と共通で、以下のリクエストフォーマットをサポートします。
 
 ```
-http://gameads-admin.applifier.com/stats/acquisition-api?apikey=<apikey>&fields=<fields>[&splitBy=<splitbyfields>][&scale=<scale>][&start=<startDate>][&end=<endDate>]([&targetIds=<targetIds>]|[&campaigns=<campaignIds>]
+https://gameads-admin.applifier.com/stats/acquisition-api?apikey=<apikey>&fields=<fields>[&splitBy=<splitbyfields>][&scale=<scale>][&start=<startDate>][&end=<endDate>]([&targetIds=<targetIds>]|[&campaigns=<campaignIds>]
 ```
 このうち
 
-- `<apikey>` は [Unity Ads 管理パネル][1] から取得した API キーです。 
+- `<apikey>` は [Unity Ads 管理パネル][1] から取得した API キーです。
 - `<fields>` には使用可能なフィールドのカンマ区切りリストが入ります。
  - clicks – 記録されたクリック数
  - installs – 記録されたインストール数
  - spend – これまでに支払った金額
- 
+
 デフォルトのフィールドセットは上記すべてで、"`clicks`,`installs`,`spend`" となります。
 
 - `<splitbyfields>` には、データを分割するディメンションのカンマ区切りリストが入ります。
@@ -83,7 +83,7 @@ http://gameads-admin.applifier.com/stats/acquisition-api?apikey=<apikey>&fields=
  - 日付文字列は ISO 形式で `YYYY-MM-DDTHH:mm:SS:hhhZ` としてください。 例: `2013-02-01T14:00:00.000Z`
 
 デフォルトでは開始日 `-7`、終了日 `0` で、過去 1 週間のデータを取得します。
- 
+
 > 注意: 開始時点と終了時点が時間単位の区切りと一致しない場合、直前の区切りに修正されます。例えば、時間単位が 1 日の場合、上記の `14:00:00.000Z` は `00:00:00.000Z` に修正されます。
 
 - `<targetIds>` – game id のカンマ区切りリストです。結果をフィルタするのに用います。デフォルトでは、広告主のすべてのゲームが含まれます。
@@ -93,7 +93,7 @@ http://gameads-admin.applifier.com/stats/acquisition-api?apikey=<apikey>&fields=
 例:
 
 ```
-curl -L "http://gameads-admin.applifier.com/stats/acquisition-api?apikey=c4ca4238a0b923820dcc509a6f75849bc81e728d9d4c2f636f067f89cc14862c&splitBy=campaign,country&fields=views,clicks&start=-31&scale=all&targetIds=8234,7432"
+curl -L "https://gameads-admin.applifier.com/stats/acquisition-api?apikey=c4ca4238a0b923820dcc509a6f75849bc81e728d9d4c2f636f067f89cc14862c&splitBy=campaign,country&fields=views,clicks&start=-31&scale=all&targetIds=8234,7432"
 ```
 
 ### 応答フォーマット
@@ -115,7 +115,7 @@ curl -L "http://gameads-admin.applifier.com/stats/acquisition-api?apikey=c4ca423
 例:
 
 ```
-$ curl -L "http://gameads-admin.applifier.com/stats/acquisition-api?apikey=c4ca4238a0b923820dcc509a6f75849bc81e728d9d4c2f636f067f89cc14862c&splitBy=country,campaign"
+$ curl -L "https://gameads-admin.applifier.com/stats/acquisition-api?apikey=c4ca4238a0b923820dcc509a6f75849bc81e728d9d4c2f636f067f89cc14862c&splitBy=country,campaign"
 Date,Target campaign id,Target name,Country code,Country tier,clicks,installs,spend
 2013-03-01 00:00:00,"50ed569d57fe1f324a15fbf7","Campaign #5","AU",2,71,30,"45.00"
 2013-03-01 00:00:00,"50ed569d57fe1f324a15fbf7","Campaign #5","CA",2,129,88,"132.00"
